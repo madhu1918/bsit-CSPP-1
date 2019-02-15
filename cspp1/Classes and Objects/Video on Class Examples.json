@@ -1,0 +1,18 @@
+[{
+	"title":"In this Activity we will discuss class examples by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnClassesExamples.mp4",
+	"videoResources":"/ClassesExamples.zip"
+},
+ {
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Classes Examples"
+	}
+	]
+}
+
+
+]

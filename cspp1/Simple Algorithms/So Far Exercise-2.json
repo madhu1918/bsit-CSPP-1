@@ -1,0 +1,50 @@
+[{
+	"title":"So Far Exercise - 2",
+	"activityType":"quiz",
+	"quizDescription": [
+		{
+			"text" : "Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br>"
+		},
+		{
+			"code" : "cspp1.7.3.py"
+		}
+	],
+	"questions": [
+			{
+				"questionType": "fillintheblank",
+				"questionText": " What is the value of the variable count that is printed out (at the print statement) on iteration 0? ",
+				"points":"1",
+				"answer": "12"
+			},
+
+			{
+				"questionType": "fillintheblank",
+				"questionText": " What is the value of the variable count that is printed out (at the print statement) on iteration 1? ",
+				"points":"1",
+				"answer": "12"
+			},
+
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the variable count that is printed out (at the print statement) on iteration 2?",
+				"points":"1",
+				"answer": "12"
+
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the variable count that is printed out (at the print statement) on iteration 3?",
+				"points":"1",
+				"answer": "12"
+
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the variable count that is printed out (at the print statement) on iteration 4?",
+				"points":"1",
+				"answer": "12"
+
+			}
+	]
+}
+]

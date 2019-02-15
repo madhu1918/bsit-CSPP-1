@@ -1,0 +1,59 @@
+[
+	{
+		"activityType":"quiz",
+		"title":"Last activity we learned about simple operations in python. Let's answer few questions in this activity",
+		"quizDescription":"For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into an IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br><b>Note:The python 'None' keyword<br>In Python, the keyword <code>None</code> is frequently used to represent the absence of a value. None is the only value in Python of type <code>NoneType.</code></b> ",
+		"questions":[
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>3.14</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"float"
+				}
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>-34</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"int"
+				}
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>True</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"bool"
+				}
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>None</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"NoneType"
+				}
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>3.0</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"float"
+				}
+			}
+		]
+	}
+]

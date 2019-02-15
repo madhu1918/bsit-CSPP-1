@@ -1,0 +1,16 @@
+[{
+	"title":"In this activity we will discuss about generators by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnGenarators.mp4",
+	"videoResources":"/Generators.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Generators"
+	}
+	]
+}
+]

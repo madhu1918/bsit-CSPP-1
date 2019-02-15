@@ -1,0 +1,42 @@
+[{
+	"title":"So Far Exercise - 3",
+	"activityType":"quiz",
+	"quizDescription": [
+		{
+			"text" : "Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br>"
+		},
+		{
+			"code" : "cspp1.7.4.py"
+		}
+	],
+	"questions": [
+			{
+				"questionType": "fillintheblank",
+				"questionText": " How many times will the print statement be executed? ",
+				"points":"1",
+				"answer": "5"
+			},
+
+			{
+				"questionType": "fillintheblank",
+				"questionText": " What is the largest value of the variable iteration that will be printed out (at the print statement)? ",
+				"points":"1",
+				"answer": "4"
+			},
+
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the largest value of the variable count that will be printed out (at the print statement)?",
+				"points":"1",
+				"answer": "12"
+
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the smallest value of the variable count that will be printed out (at the print statement)?",
+				"points":"1",
+				"answer": "1"
+
+			}
+	]
+}]

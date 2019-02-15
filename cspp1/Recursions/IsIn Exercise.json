@@ -1,0 +1,20 @@
+[{
+	"activityType":"assignment",
+	"title":"Solve the following IsIn Excercise",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"We can use the idea of bisection search to determine if a character is in a string, so long as the string is sorted in alphabetical order.<br><br>First, test the middle character of a string against the character you're looking for (the \"test character\"). If they are the same, we are done - we've found the character we're looking for!<br><br>If they're not the same, check if the test character is \"smaller\" than the middle character. If so, we need only consider the lower half of the string; otherwise, we only consider the upper half of the string. (Note that you can compare characters using Python's < function.)<br><br><b>Note</b>: In programming there are many ways to solve a problem. For your code to check correctly here, though, you must write your recursive function such that you make a recursive call directly to the function isIn. Thank you for understanding.<br><br>Implement the function isIn(char, aStr) which implements the above idea recursively to test if char is in aStr. char will be a single character and aStr will be a string that is in alphabetical order. The function should return a boolean value.<br><br>As you design the function, think very carefully about what the base cases should be.<br><br><b>Hints</b>:Be very careful about how you slice the string in the recursive cases! Before you execute the recursive cases, you test the middle character - so if you reach the recursive cases, you know the middle character cannot be a match, right? So be careful to not include this character when you make your recursive call!<br><br>You should be thinking about 3 situations:<ul><li>What happens when the string is empty?</li><li>What happens when the string is of length 1?</li><li>What happens when the test character equals the middle character?</li></ul><br><br>You should be thinking about 2 situations:<ul><li>What happens when the test character is smaller than the middle character?</li><li>What happens when it is larger?</li></ul><br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Is In Exercise.zip"]
+				}
+			],
+			"points":"10",
+			"code":"isin.py"
+		}
+	]
+}]

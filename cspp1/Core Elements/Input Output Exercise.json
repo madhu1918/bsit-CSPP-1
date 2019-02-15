@@ -1,0 +1,38 @@
+[{
+	"title":"In the last activities we learnt input and output, In this excercise you have problems on input and output",
+	"activityType":"quiz",
+	"quizDescription": "For each of the following expressions, indicate the value that prints out when the expression is evaluated. If the evaluation would lead to an error, write the word 'error'; if nothing would print out, write the word 'blank'.<br><br>While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br>If the temperatures seem weird to you, like most of the world, you probably use the Celsius system. <br>",
+	"questions": [
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.6.1.py",
+				"points":"1",
+				"answer": "blank"
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.6.2.py",
+				"points":"1",
+				"answer": "Nope"
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.6.3.py",
+				"points":"1",
+				"answer": "Regal!"
+
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.6.4.py",
+				"points":"1",
+				"answer": "Hot"
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.6.5.py",
+				"points":"1",
+				"answer": "Cold"
+			}
+	]
+}]

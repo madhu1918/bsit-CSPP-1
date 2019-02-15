@@ -1,0 +1,27 @@
+[{
+	"activityType":"assignment",
+	"title":"Solve the following problem Is the word guessed",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":
+			[
+				{
+					"text":"Please read the Hangman Introduction before starting this problem. We'll start by writing 3 simple functions that will help us easily code the Hangman problem. First, implement the function <code>isWordGuessed</code> that takes in two parameters - a string, <code>secretWord</code>, and a list of letters, <code>lettersGuessed</code>. This function returns a boolean - True if <code>secretWord</code> has been guessed (ie, all the letters of secretWord are in <code>lettersGuessed</code>) and False otherwise.<br><br>Example Usage:"
+				},
+				{
+					"code":"pr1.py"
+				},
+				{
+					"text":"For this function, you may assume that all the letters in secretWord and lettersGuessed are lowercase.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Assignment-1.zip"]
+				}
+			],
+			"points":"20",
+			"code":"problem1.py"
+		}
+	]
+}]

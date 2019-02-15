@@ -1,0 +1,17 @@
+[
+	{
+		"activityType":"video",
+		"title":"In this activity we discussed about Variables in python by watching a video",
+		"videoURL":"/Variables.mp4",
+		"videoResources":"/Variables.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Variables"
+		}
+		]
+	}
+]

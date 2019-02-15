@@ -1,0 +1,9 @@
+[
+	{
+		"activityType":"quiz",
+		"questionType":"filesubmission",
+		"title" : " In the previous activity you learned how to draw a flowchart. In this activity there is a similar problem for you",
+		"questionText":"Draw the flow chart to convert temperature from Fahrenheit to Celcius",
+		"points":"5"
+	}
+]

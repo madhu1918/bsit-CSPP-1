@@ -1,0 +1,31 @@
+[{
+	"activityType":"assignment",
+	"title":"Problem 3 - Printing Out all Available Letters",
+	"questions":
+	[
+		{
+			"questionType":"filesubmissions",
+			"question":
+			[
+				{
+					"text":"Next, implement the function getAvailableLetters that takes in one parameter - a list of letters, lettersGuessed. This function returns a string that is comprised of lowercase English letters - all lowercase English letters that are not in lettersGuessed.<br>Example Usage:"
+				},
+				{
+					"code":"pr3.py"
+				},
+				{
+					"text":"Note that this function should return the letters in alphabetical order, as in the example above.<br>For this function, you may assume that all the letters in lettersGuessed are lowercase."
+				}
+			],
+			"hints":[
+				{
+					"text":"You might consider using string.ascii_lowercase, which is a string comprised of all lowercase letters:"
+				},
+				{
+					"code":"pr31.py"
+				}
+			],
+			"code":"problem3.py"
+		}
+	]
+}]

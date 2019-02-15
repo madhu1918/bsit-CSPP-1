@@ -1,0 +1,349 @@
+[{
+	"title" : "Last activity you solved few questions. In this activity we give you some questions, try to answer those questions",
+	"activityType":"quiz",
+	"quizDescription" : [
+	{"text":"For each of the expressions below, specify its type and value. If it generates an error, select type 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) in the box for the value. While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understand of basic Python expressions.<br><br>Assume we've made the following assignments:<br>"},
+	{"code":"coreelements4.py"},
+	{"attachment":["coreelements4.py"]},
+	{"file":"pythoninoperator.txt"}],
+	"questions": [		
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str1</code>",
+			"points":"1",
+			"answer": "hello"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str1[0]</code>",
+			"points":"1",
+			"answer": "h"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1[0]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str1[1]</code>",
+			"points":"1",
+			"answer": "e"
+
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1[1]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str1[-1]</code>",
+			"points":"1",
+			"answer": "o"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1[-1]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>len(str1)</code>",
+			"points":"1",
+			"answer": "5"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>len(str1)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str1[len(str1)]</code>",
+			"points":"1",
+			"answer": "error"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1[len(str1)]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"NoneType"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str1 + str2 + str3</code>",
+			"points":"1",
+			"answer": "hello,world"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1 + str2 + str3</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str1 + str2 + ' ' + str3</code>",
+			"points":"1",
+			"answer": "hello, world"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1 + str2 + ' ' + str3</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str3 * 3</code>",
+			"points":"1",
+			"answer": "worldworldworld"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str3 * 3</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>'hello' == str1</code>",
+			"points":"1",
+			"answer": "True"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>'hello' == str1</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"boolean"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>'HELLO' == str1</code>",
+			"points":"1",
+			"answer": "False"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>'HELLO' == str1</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"boolean"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>'a' in str3</code>",
+			"points":"1",
+			"answer": "False"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>'a' in str3</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"boolean"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str4 = str1 + str3<br>'low' in str4</code>",
+			"points":"1",
+			"answer": "True"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str4 = str1 + str3<br>'low' in str4</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"boolean"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str3[1:3]</code>",
+			"points":"1",
+			"answer": "or"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str3[1:3]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str3[:3]</code>",
+			"points":"1",
+			"answer": "wor"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str3[:3]</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str3[:-1]</code>",
+			"points":"1",
+			"answer": "worl"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str3[:-1]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str3[:-1]</code>",
+			"points":"1",
+			"answer": "worl"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str3[:-1]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str1[1:]</code>",
+			"points":"1",
+			"answer": "ello"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1[1:]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str4[1:9]</code>",
+			"points":"1",
+			"answer": "elloworl"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str4[1:9]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str4[1:9:2]</code>",
+			"points":"1",
+			"answer": "elwr"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str4[1:9:2]</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression?  <br> <code>str4[::-1]</code>",
+			"points":"1",
+			"answer": "dlrowolleh"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str4[::-1]</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"string"
+				}
+		}
+	]
+}]

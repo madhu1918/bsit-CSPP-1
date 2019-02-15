@@ -1,0 +1,18 @@
+[{
+	"activityType" : "quiz",
+	"questionType":"filesubmission",
+	"title" : "By the last activity, you got a better understanding of Loops, Trace the following problem",
+	"questionText":[
+		{
+			"text":"Trace the following flowchart "
+		},
+		{
+			"attachment":["Factors.rap"]
+		},
+		{
+			"text":"Submit the trace report."
+		}
+	],
+	"points":"10"
+}
+]

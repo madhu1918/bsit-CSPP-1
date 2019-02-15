@@ -1,0 +1,16 @@
+[
+	{
+		"activityType":"video",
+		"title":"Last video we discussed how to write data into a file. In this video, we will learn how to append data to a file",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions":[
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video on Appending Data to an Existing File"
+			}
+		]
+	}
+]

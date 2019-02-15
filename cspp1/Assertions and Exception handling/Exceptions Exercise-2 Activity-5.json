@@ -1,0 +1,24 @@
+[{
+	"title":"Answer the following questions",
+	"activityType":"quiz",
+	"quizDescription": [{"text":"Below are some short Python programs. For each program, answer the associated question.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br><br>These questions will ask you to write what the code prints out. If an exception is raised that is not handled by the code write \"error\" (no quotes), in addition to any other text that is output.<br><br>The function in the following questions takes a list of integers <code>numbers </code>and a position <code>index</code>, and divides each entry in the list of numbers by the value at entry <code>index</code>.<br><br>Write what it prints out, separating what appears on a new line by a comma and a space."},{"code":"ExceptionsExercise2Activity5.py"}],
+	"questions": [
+			{
+				"questionType":"mcq",
+				"questionText": " Does this code print 0 when you call <code>fancy_divide([0, 2, 4], 0)</code>? ",
+				"points":"1",
+				"options": [{
+						"option": "Yes",
+						"correct": "True"
+					},
+
+					{
+						"option": "No",
+						"correct": "False"
+					}
+				]
+			}
+
+	]
+}
+]

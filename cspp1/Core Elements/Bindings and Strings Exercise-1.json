@@ -1,0 +1,49 @@
+[{
+	"title": "In Last two activities we learnt strings and bindings, In this excercise you have problems on Bindings and Strings",
+	"activityType": "quiz",
+	"quizDescription": [{"text":"For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions."},{"file": "advancedstringslicing.txt"}],
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": "<code>\"a\" + \"bc\"</code>",
+			"points":"1",
+			"answer": "abc"
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": "<code>3 * \"bc\"</code>",
+			"points":"1",
+			"answer": "bcbcbc"
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": "<code>\"3\" * \"bc\"</code>",
+			"points":"1",
+			"answer": "error"
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": "<code>\"abcd\"[2]</code>",
+			"points":"1",
+			"answer": "c"
+
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": "<code>\"abcd\"[0:2]</code>",
+			"points":"1",
+			"answer": "ab"
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": "<code>\"abcd\"[:2]</code>",
+			"points":"1",
+			"answer": "ab"
+		},
+		{
+			"questionType": "fillintheblank",
+			"questionText": "<code>\"abcd\"[2:]</code>",
+			"points":"1",
+			"answer": "cd"
+		}
+	]
+}]

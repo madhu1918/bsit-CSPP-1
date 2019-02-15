@@ -1,0 +1,29 @@
+[{
+	"activityType":"quiz",
+	"title":"Last activity you solved few questions. In this activity we give you some questions on Runtime Errors, try to answer those questions",
+	"questions":[
+		{
+			"questionType":"mcq",
+			"questionText":"Which of the following is a run-time error?",
+			"points":"1",
+			"options":[
+				{
+					"option":"Attempting to divide by 0.",
+					"correct":"True",
+					"feedback":"Correct! Python cannot reliably tell if you are trying to divide by 0 until it is executing your program (e.g., you might be asking the user for a value and then dividing by that value - you cannot know what value the user will enter before you run the program)."
+				},
+				{
+					"option":"Forgetting a colon at the end of a statement where one is required.",
+					"correct":"False",
+					"feedback":"Incorrect. This is a problem with the formal structure of the program. Python knows where colons are required and can detect when one is missing simply by looking at the code without running it."
+				},
+				{
+					"option":"Forgetting to divide by 100 when printing a percentage amount.",
+					"correct":"False",
+					"feedback":"Incorrect. This will produce the wrong answer, but Python will not consider it an error at all. The programmer is the one who understands that the answer produced is wrong."
+				}
+			]
+		}
+	]
+}
+]

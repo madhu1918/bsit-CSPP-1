@@ -1,0 +1,17 @@
+[{
+	"title":"In this Activity we will discuss object oriented programing by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnObjectOrientedProgramming.mp4",
+	"videoResources":"/ObjectOrientedProgramming.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Object Oriented Programming"
+	}
+	]
+}
+
+]

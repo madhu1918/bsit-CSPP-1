@@ -1,0 +1,109 @@
+[{
+	"title" : "Answer the following Questions",
+	"activityType":"quiz",
+	"quizDescription" : "For each of the following functions, specify the type of its <b>return</b>. You can assume each function is called with an appropriate argument, as specified by its docstring.<br>If the output can be either an int or a float, select num, which isn't a real Python type, but which we'll use to indicate that either basic numeric type is legal.<br>In fact, in Python, booleans True and False can be operated on as if they were the integers 1 and 0; but it is ugly and confusing to take advantage of this fact, and we will resolutely pretend that it isn't true.<br>What are those line under the function definitions?",
+	"questions": [
+		{
+			"questionType" : "dropdown",
+			"questionText": [
+				{
+					"code" : "cspp1.8.3.1.py"
+				},
+				{
+					"text" : "Indicate the type of the output that the function a will yield."
+				}
+			],
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","num"],
+					"correct":"num"
+				}
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText":[
+				{
+					"code" : "cspp1.8.3.2.py"
+				},
+				{
+					"text" : "Indicate the type of the output that the function b will yield."
+				}
+			],
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"float"
+				}
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText":[
+				{
+					"code" : "cspp1.8.3.3.py"
+				},
+				{
+					"text" : "Indicate the type of the output that the function c will yield."
+				}
+			],
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","num","float","boolean"],
+					"correct":"num"
+				}
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText":[
+				{
+					"code" : "cspp1.8.3.4.py"
+				},
+				{
+					"text" : "Indicate the type of the output that the function d will yield."
+				}
+			],
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"boolean"
+				}
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": [
+				{
+					"code" : "cspp1.8.3.5.py"
+				},
+				{
+					"text" : "Indicate the type of the output that the function e will yield."
+				}
+			],
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","num","float","boolean"],
+					"correct":"boolean"
+				}
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": [
+				{
+					"code" : "cspp1.8.3.6.py"
+				},
+				{
+					"text" : "Indicate the type of the output that the function f will yield."
+				}
+			],
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","num","float","boolean"],
+					"correct":"NoneType"
+				}
+		}
+	]
+}]

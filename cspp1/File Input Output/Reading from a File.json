@@ -1,0 +1,16 @@
+[
+	{
+		"activityType":"video",
+		"title":"Last video we discussed all basic concepts of files. In this video, we will learn how to read data into a file",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions":[
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video on Reading from a File"
+			}
+		]
+	}
+]

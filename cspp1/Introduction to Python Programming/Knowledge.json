@@ -1,0 +1,17 @@
+[
+	{
+		"activityType":"video",
+		"title":"In this Activity you will learn the back ground knowledge required to start the python course",
+		"videoURL":"/Knowledge.mp4",
+		"videoResources":"/Knowledge.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Knowledge"
+		}
+		]
+	}
+]

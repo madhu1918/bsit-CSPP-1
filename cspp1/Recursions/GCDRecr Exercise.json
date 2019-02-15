@@ -1,0 +1,20 @@
+[{
+	"activityType":"assignment",
+	"title":"Solve the following problem on Recursion",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"The greatest common divisor of two positive integers is the largest integer that divides each of them without remainder. For example,<ul><li>gcd(2, 12) = 2</li><li>gcd(6, 12) = 6</li><li>gcd(9, 12) = 3</li><li>gcd(17, 12) = 1</li></ul>A clever mathematical trick (due to Euclid) makes it easy to find greatest common divisors. Suppose that a and b are two positive integers:<ul><li>If b = 0, then the answer is a</li><li>Otherwise, gcd(a, b) is the same as gcd(b, a % b)</li></ul><br>Note: In programming there are many ways to solve a problem. For your code to check correctly here, though, you must write your recursive function such that you make a recursive call directly to the function gcdRecur. Thank you for understanding.<br><a href=\"https://en.wikipedia.org/wiki/Euclidean_algorithm#Worked_example\">See this website for an example of Euclid's algorithm being used to find the gcd.</a><br>Write a function gcdRecur(a, b) that implements this idea recursively. This function takes in two positive integers and returns one integer.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["GCD using Recursion.zip"]
+				}
+			],
+			"points":"10",
+			"code":"gcdrecr.py"
+		}
+	]
+}]

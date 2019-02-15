@@ -1,0 +1,25 @@
+[
+	{
+		"title":"Answer the following questions on while loop",
+		"activityType":"quiz",
+		"quizDescription" : "In this problem you'll be given a chance to practice writing some while loops.<br>",
+		"questions":
+		[
+			{
+				"questionType": "filesubmission",
+				"questionText": "Convert the following into code that uses a while loop.<br><br>print 2<br>print 4<br>print 6<br>print 8<br>print 10<br>print Goodbye!<br>",
+				"points":"5"
+			},
+			{
+				"questionType": "filesubmission",
+				"questionText": "Convert the following into code that uses a while loop.<br><br>print Hello!<br>print 10<br>print 8<br>print 6<br>print 4<br>print 2<br>",
+				"points":"5"
+			},
+			{
+				"questionType": "filesubmission",
+				"questionText": "Write a while loop that sums the values 1 through end, inclusive. end is a variable that we define for you. So, for example, if we define end to be 6, your code should print out the result:<br><br>21<br><br>which is 1 + 2 + 3 + 4 + 5 + 6.<br><br>For problems such as these, do not include input statements or define variables we will provide for you. Our automating testing will provide values so write your code in the following box assuming these variables are already defined.<br>",
+				"points":"5"
+			}
+		]
+	}
+]

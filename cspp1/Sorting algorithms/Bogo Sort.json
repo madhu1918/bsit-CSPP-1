@@ -1,0 +1,16 @@
+[{
+	"title":"In this Activity we discuss about Bogo sort and its analysis by watching a video",
+	"activityType":"video",
+	"videoURL":"/Bogo Sort.mp4",
+	"videoResources":"/Bogo Sort.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Bogo Sort"
+	}
+	]
+}
+]

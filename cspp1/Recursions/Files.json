@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this activity we will discuss about files by watching a video",
+	"videoURL":"/Files.mp4",
+	"videoResources":"/Files.zip"
+},
+{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Files"
+		}
+		]
+	}
+]

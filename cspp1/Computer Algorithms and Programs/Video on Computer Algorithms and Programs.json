@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Video on Computer Algorithms and Programs",
+		"activityType":"video",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video on computer algorithms and programs"
+			}
+		]
+	}
+]

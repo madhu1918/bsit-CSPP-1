@@ -1,0 +1,94 @@
+[{
+	"activityType":"quiz",
+	"title":"In Last lecture we learnt about python dictionaries, in this excercise there are few problem on Dictionaries",
+	"quizDescription":[
+			{
+				"text":"Suppose we evaluate the following expressions:"
+			},
+			{
+				"code":"exercise1.py"
+			},
+			{
+				"attachment":["exercise1.py"]
+			},
+			{
+				"text":"We are now going to evaluate a set of expressions, resulting in the following sequence of interactions. Fill in each blank to show what the Python interpreter would print at that point. If an expression below would generate an error, enter 'error'."
+			}
+	],
+	"questions":
+	[
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>animals</code>",
+			"points":"1",
+			"answer":"{'a': 'aardvark', 'b': 'baboon', 'c': 'coati', 'd': 'donkey'}"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>animals['c']</code>",
+			"points":"1",
+			"answer":"'coati'"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>animals['donkey']</code>",
+			"points":"1",
+			"answer":"error"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>len(animals)</code>",
+			"points":"1",
+			"answer":"4"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>animals['a'] = 'anteater'<br>animals['a']</code>",
+			"points":"1",
+			"answer":"'anteater'"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>len(animals['a'])</code>",
+			"points":"1",
+			"answer":"8"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>'baboon' in animals</code>",
+			"points":"1",
+			"answer":"False"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>'donkey' in animals.values()</code>",
+			"points":"1",
+			"answer":"True"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>'b' in animals</code>",
+			"points":"1",
+			"answer":"True"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>animals.keys()</code>",
+			"points":"1",
+			"answer":"dict_keys(['a', 'b', 'c', 'd'])"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>del animals['b'] <br>len(animals)</code>",
+			"points":"1",
+			"answer":"3"
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"<code>animals.values()</code>",
+			"points":"1",
+			"answer":"dict_values(['anteater', 'coati', 'donkey'])"
+		}
+	]
+
+}]

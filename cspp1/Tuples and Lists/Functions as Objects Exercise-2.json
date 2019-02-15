@@ -1,0 +1,38 @@
+[{
+	"activityType":"assignment",
+	"title":"Solve the following problem",
+	"quizDescription":[
+				{
+					"text":"Here is the code for a function <code>applyToEach:</code>"
+				},
+				{
+					"code":"applytoeach.py"
+				},
+				{
+					"text":"Assume that"
+				},
+				{
+					"code":"applytoeach12.py"
+				},
+				{
+					"text":"For each of the following questions (which you may assume is evaluated independently of the previous questions, so that testList has the value indicated above), provide an expression using applyToEach, so that after evaluation testList has the indicated value. You may need to write a simple procedure in each question to help with this process.<br><br>Example Question"
+				},
+				{
+					"code":"applytoeach13.py"
+				},
+				{
+					"text":"Solution to Example Question"
+				},
+				{
+					"code":"applytoeach14.py"
+				}
+			],
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[{"code":"applytoeach16.py"},{"text":"Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"},{"attachment":["Functions and Objects Exercise-2.zip"]}],
+			"points":"10"
+		}
+	]
+}]

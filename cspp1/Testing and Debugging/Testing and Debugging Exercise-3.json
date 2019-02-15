@@ -1,0 +1,42 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following Question",
+	"quizDescription":
+	[
+		{
+			"text":"Consider the following function definition:"
+		},
+		{
+			"code":"Exercise3.py"
+		},
+		{
+			"text":"Assume that maxOfThree is called with numbers as arguments."
+		}
+	],
+	"questions":
+	[
+		{
+			"questionType":"mcq",
+			"questionText":"Which of the following test suites would make a path-complete glass box test suite for maxOfThree?<br><br><b>Review:Glass Box Test Suites</b><br>Recall from the lecture that a path-complete glass box test suite would find test cases that go through every possible path in the code. This is different from black-box testing, because in black-box testing you only have the function specification. For glass-box testing, you actually know how the function you are testing is defined. Thus you can use this definition to figure out how many different paths through the code exist, and then pick a test suite based on that knowledge.<br>Undoubtably many - if not all - of the listed tests look like they would be pretty good for testing the function maxOfThree. However, we want you to think critically about the way maxOfThree is defined - including possible boundary cases - and pick a set of tests that adequetly and fully tests all paths and boundary conditions. A good first step will be to look at the function definition and figure out what paths through the code exist. Then, look through the suggested test suites one test at a time and see if the suite tests every single path.",
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"Test Suite A: maxOfThree(2, -10, 100), maxOfThree(7, 9, 10), maxOfThree(6, 1, 5), maxOfThree(0, 40, 20)",
+					"correct":"True",
+					"feedback":"Correct<br>Recall from the lecture that a path-complete glass box test suite would find test cases that go through every possible path in the code. In this case, that means finding all possibilities for the conditional tests a > b and c > bigger. So, we end up with four possible paths that correspond to Test Suite A:<br><ul><li>Case 1: a > b and c > bigger - this corresponds to test maxOfThree(2, -10, 100).</li><li>Case 2: a > b and c <= bigger - this corresponds to test maxOfThree(6, 1, 5)</li><li>Case 3: a <= b and c > bigger - this corresponds to test maxOfThree(7, 9, 10).</li><li>Case 4: a <= b and c <= bigger - this corresponds to test maxOfThree(0, 40, 20)</li></ul>Test Suite B seems to explicitly test each of a, b, and c being the max of the three numbers, but this does not go through all possible paths in the code.<br>Test Suite C seems to be a good sampling of the space of input numbers, but it does not go through all possible paths in the code."
+				},
+				{
+					"option":"Test Suite B: maxOfThree(10, 100, -20), maxOfThree(99, 0, 20), maxOfThree(1, 60, 300)",
+					"correct":"False",
+					"feedback":"Incorrect<brRecall from the lecture that a path-complete glass box test suite would find test cases that go through every possible path in the code. In this case, that means finding all possibilities for the conditional tests a > b and c > bigger. So, we end up with four possible paths that correspond to Test Suite A:<br><ul><li>Case 1: a > b and c > bigger - this corresponds to test maxOfThree(2, -10, 100).</li><li>Case 2: a > b and c <= bigger - this corresponds to test maxOfThree(6, 1, 5)</li><li>Case 3: a <= b and c > bigger - this corresponds to test maxOfThree(7, 9, 10).</li><li>Case 4: a <= b and c <= bigger - this corresponds to test maxOfThree(0, 40, 20)</li></ul>Test Suite B seems to explicitly test each of a, b, and c being the max of the three numbers, but this does not go through all possible paths in the code.<br>Test Suite C seems to be a good sampling of the space of input numbers, but it does not go through all possible paths in the code."
+				},
+				{
+					"option":"Test Suite C: maxOfThree(0, 0, 0), maxOfThree(-3, -10, -1), maxOfThree(10, 30, 100), maxOfThree(0, -9, 11), maxOfThree(-10, 0, 30)",
+					"correct":"False",
+					"feedback":"Incorrect<brRecall from the lecture that a path-complete glass box test suite would find test cases that go through every possible path in the code. In this case, that means finding all possibilities for the conditional tests a > b and c > bigger. So, we end up with four possible paths that correspond to Test Suite A:<br><ul><li>Case 1: a > b and c > bigger - this corresponds to test maxOfThree(2, -10, 100).</li><li>Case 2: a > b and c <= bigger - this corresponds to test maxOfThree(6, 1, 5)</li><li>Case 3: a <= b and c > bigger - this corresponds to test maxOfThree(7, 9, 10).</li><li>Case 4: a <= b and c <= bigger - this corresponds to test maxOfThree(0, 40, 20)</li></ul>Test Suite B seems to explicitly test each of a, b, and c being the max of the three numbers, but this does not go through all possible paths in the code.<br>Test Suite C seems to be a good sampling of the space of input numbers, but it does not go through all possible paths in the code."
+				}
+			]
+		}
+	]
+}]

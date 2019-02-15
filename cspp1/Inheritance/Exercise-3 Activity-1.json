@@ -1,0 +1,229 @@
+[{
+	"title": "Solve the following questions on generators",
+	"activityType": "quiz",
+	"quizDescription": " This problem will ask a series of questions about generators. ",
+	"questions": [{
+			"questionType":"mcq",
+			"questionText": " Thinking about the <code>genPrimes</code> generator from the last problem, which of the following can be done only by using a generator, instead of defining a function (that uses any type of construct we've learned about, except generators)? ",
+			"points":"1",
+			"options": [{
+					"option": " Return 1000000 prime numbers ",
+					"correct": "False",
+					"feedback":[{
+						"text":"Incorrect<br>We could write a function that does any of the choices. However a generator is nice because we can ask the generator for the next item, one at a time, and we don't waste time computing values that we don't ultimately want (or won't want for a long time).Here are some examples of how one might code a function for each of the above options without a generator:"
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback1.py"
+						}
+					]
+				},
+
+				{
+					"option": " Print every 10th prime number, until you've printed 20 of them incorrect ",
+					"correct": "False",
+					"feedback":[{
+						"text":"Incorrect<br>We could write a function that does any of the choices. However a generator is nice because we can ask the generator for the next item, one at a time, and we don't waste time computing values that we don't ultimately want (or won't want for a long time).Here are some examples of how one might code a function for each of the above options without a generator:"
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback1.py"
+						}
+					]
+				},
+
+				{
+					"option": " Keep printing the prime number until the user stops the program ",
+					"correct": "False",
+					"feedback":[{
+						"text":"Incorrect<br>We could write a function that does any of the choices. However a generator is nice because we can ask the generator for the next item, one at a time, and we don't waste time computing values that we don't ultimately want (or won't want for a long time).Here are some examples of how one might code a function for each of the above options without a generator:"
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback1.py"
+						}
+					]
+				},
+
+				{
+					"option": " Everything that can be done with generator can be done with a function  ",
+					"correct": "True",
+					"feedback":[{
+						"text":"Correct<br>We could write a function that does any of the choices. However a generator is nice because we can ask the generator for the next item, one at a time, and we don't waste time computing values that we don't ultimately want (or won't want for a long time).Here are some examples of how one might code a function for each of the above options without a generator:"
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback1.py"
+						}
+					]
+				}
+
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " Every procedure that has a <code>yield</code> statement is a generator. ",
+			"points":"1",
+			"options": [{
+					"option": " True ",
+					"correct": "True",
+					"feedback":"Correct<br>See <a href=\"https://docs.python.org/3/reference/expressions.html?highlight=yield\">https://docs.python.org/3/reference/expressions.html?highlight=yield  </a>. The Python documentation is always your friend!"
+				},
+
+				{
+					"option": " False ",
+					"correct": "False",
+					"feedback":"Incorrect<br>See <a href=\"https://docs.python.org/3/reference/expressions.html?highlight=yield\">https://docs.python.org/3/reference/expressions.html?highlight=yield  </a>. The Python documentation is always your friend!"
+				}
+
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " If a procedure has only one yield statement, but that statement will never be executed, then the procedure is not a generator.",
+			"points":"1",
+			"options": [{
+					"option": " True ",
+					"correct": "False",
+					"feedback":[{
+						"text":"Incorrect<br>Examine the following code; play around with it in Python."
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback3.py"
+						}
+					]
+
+				},
+
+				{
+					"option": " False ",
+					"correct": "True",
+					"feedback":[{
+						"text":"Correct<br>Examine the following code; play around with it in Python."
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback3.py"
+						}
+					]
+				}
+
+			]
+
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " If we were to use a generator to iterate over a million numbers, how many numbers do we need to store in memory at once?",
+			"points":"1",
+			"options": [{
+					"option": " 1 ",
+					"correct": "False",
+					"feedback":[{
+						"text":"Incorrect<br>We need to store 2 numbers - one for the current value, and one for the max value."
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback4.py"
+						},
+
+						{
+							"text":"Python actually provides this! The range function is a generator."
+						}
+					]
+
+				},
+
+				{
+					"option": " 2 ",
+					"correct": "True",
+					"feedback":[{
+						"text":"Correct<br>We need to store 2 numbers - one for the current value, and one for the max value."
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback4.py"
+						},
+
+						{
+							"text":"Python actually provides this! The range function is a generator."
+						}
+					]
+				},
+
+				{
+					"option": " 1000 ",
+					"correct": "False",
+					"feedback":[{
+						"text":"Incorrect<br>We need to store 2 numbers - one for the current value, and one for the max value."
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback4.py"
+						},
+
+						{
+							"text":"Python actually provides this! The range function is a generator."
+						}
+					]
+				},
+
+				{
+					"option": " 1000000 ",
+					"correct": "False",
+					"feedback":[{
+						"text":"Incorrect<br>We need to store 2 numbers - one for the current value, and one for the max value."
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback4.py"
+						},
+
+						{
+							"text":"Python actually provides this! The range function is a generator."
+						}
+					]
+				},
+
+				{
+					"option": " Don't need to store anything in memory ",
+					"correct": "False",
+					"feedback":[{
+						"text":"Incorrect<br>We need to store 2 numbers - one for the current value, and one for the max value."
+
+						},
+
+						{
+							"code":"InheritanceExtendedExampleExercise2Feedback4.py"
+						},
+
+						{
+							"text":"Python actually provides this! The range function is a generator."
+						}
+					]
+				}
+
+
+
+			]
+
+		}
+
+
+
+
+	]
+}]

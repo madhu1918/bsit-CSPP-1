@@ -1,0 +1,39 @@
+[
+	{
+		"activityType":"quiz",
+		"title":"Last activity we learned about the aspect of language. Let's answer few questions in this activity",
+		"quizDescription":"Choose the term described by each of the following definitions.<br><br>Definitions:",
+		"questions":[
+			{
+				"questionType":"dropdown",
+				"questionText":"Determines whether a string is legal",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","Semantics","Static semantics","Syntax"],
+					"correct":"Syntax"
+				}
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"Determines whether a string has meaning",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","Semantics","Static semantics","Syntax"],
+					"correct":"Static semantics"
+				}
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"Assigns a meaning to a legal sentence",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","Semantics","Static semantics","Syntax"],
+					"correct":"Semantics"
+				}
+			}
+		]
+	}
+]

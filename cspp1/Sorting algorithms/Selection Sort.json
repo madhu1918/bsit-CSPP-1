@@ -1,0 +1,16 @@
+[{
+	"title":"In this Activity we discuss about Selection sort and its analysis by watching a video",
+	"activityType":"video",
+	"videoURL":"/Selection Sort.mp4",
+	"videoResources":"/Selection Sort.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Selection Sort"
+	}
+	]
+}
+]

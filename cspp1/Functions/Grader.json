@@ -1,0 +1,11 @@
+[{
+	"title":"Assignment-3",
+	"activityType":"assignment",
+	"questions":
+	{
+		"questionType": "filesubmission",
+		"questionText": "A regular polygon has <b>n</b> number of sides. Each side has length <b>s</b><ul><li></li><li>The area of a regular polygon is: (0.25*n*s<sup>2)</sup>/(tan(π/n))</li></ul>.<br>The perimeter of a polygon is: length of the boundary of the polygon<br>Write a function called <b>polysum</b> that takes 2 arguments, <b>n</b> and <b>s</b>. This function should sum the area and square of the perimeter of the regular polygon. The function returns the sum, rounded to 4 decimal places.",
+		"hint" : "Which library should you be importing at the beginning of your code in order to call the tan function and to get the pi constant?"
+	}
+}
+]

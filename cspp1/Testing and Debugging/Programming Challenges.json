@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this Activity we will discuss  Programming challenges by watching a video",
+	"videoURL":"/Programming Challenges.mp4",
+	"videoResources":"/Programming Challenges.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Programming Challenges"
+	}
+	]
+}
+]

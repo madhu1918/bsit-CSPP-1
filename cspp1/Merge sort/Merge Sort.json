@@ -1,0 +1,16 @@
+[{
+	"title":"In this activity we will learn how merge sort works and Analysis of the algorithm",
+	"activityType":"video",
+	"videoURL":"/Merge Sort.mp4",
+	"videoResources":"/Merge Sort.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Merge Sort"
+	}
+	]
+}
+]

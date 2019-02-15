@@ -1,0 +1,129 @@
+[{
+	"title":"Solve the following problems on guess and check method",
+	"activityType":"quiz",
+	"quizDescription": [
+		{
+			"text" : "Here is some code:<br><b>Code Sample</b>"
+		},
+		{
+			"code" : "cspp1.6.21.1.py"
+		},
+		{
+			"text" : "We wish to re-write the above code, but instead of nesting a for loop inside a while loop, we want to nest a while loop inside a for loop. Which of the following loops gives the same output as the Code Sample?<br><br>Try to answer the following questions by just reading the code. Reading code is a very good skill to have (and will help you both in your programming career and on your exams!). It is okay to check your answers that you obtain from just reading the code, then in your interpreter run the code for the ones you got wrong on your first attempt."
+		}
+	],
+	"questions": [
+			{
+				"questionType":"mcq",
+				"questionText" : [
+					{
+						"text":"<b>Test 1:</b><br>"
+					},
+					{
+						"code" : "cspp1.6.21.2.py"
+					}
+				],
+				"points":"1",
+				"options": [
+					{
+						"option": "Yes, Test 1 gives the same output as the Code Sample",
+						"correct": "False"
+					},
+					{
+						"option": "No, Test 1 does not give the same output as the Code Sample",
+						"correct": "True"
+					}
+				]
+			},
+			{
+				"questionType":"mcq",
+				"questionText" : [
+					{
+						"text":"<b>Test 2:</b><br>"
+					},
+					{
+						"code" : "cspp1.6.21.3.py"
+					}
+				],
+				"points":"1",
+				"options": [
+					{
+						"option": "Yes, Test 2 gives the same output as the Code Sample",
+						"correct": "False"
+					},
+					{
+						"option": "No, Test 2 does not give the same output as the Code Sample",
+						"correct": "True"
+					}
+				]
+			},
+			{
+				"questionType":"mcq",
+				"questionText" : [
+					{
+						"text":"<b>Test 3:</b><br>"
+					},
+					{
+						"code" : "cspp1.6.21.4.py"
+					}
+				],
+				
+				"points":"1",
+				"options": [
+					{
+						"option": "Yes, Test 3 gives the same output as the Code Sample",
+						"correct": "True"
+					},
+					{
+						"option": "No, Test 3 does not give the same output as the Code Sample",
+						"correct": "False"
+					}
+				]
+
+			},
+			{
+				"questionType":"mcq",
+				"questionText" : [
+					{
+						"text":"<b>Test 4:</b><br>"
+					},
+					{
+						"code" : "cspp1.6.21.5.py"
+					}
+				],
+				"points":"1",
+				"options": [
+					{
+						"option": "Yes, Test 4 gives the same output as the Code Sample correct",
+						"correct": "True"
+					},
+					{
+						"option": "No, Test 4 does not give the same output as the Code Sample",
+						"correct": "False"
+					}
+				]
+			},
+			{
+				"questionType":"mcq",
+				"questionText" : [
+					{
+						"text":"<b>Test 5:</b><br>"
+					},
+					{
+						"code" : "cspp1.6.21.6.py"
+					}
+				],
+				"points":"1",
+				"options": [
+					{
+						"option": "Yes, Test 5 gives the same output as the Code Sample correct",
+						"correct": "True"
+					},
+					{
+						"option": "No, Test 5 does not give the same output as the Code Sample incorrect",
+						"correct": "False"
+					}
+				]
+			}
+	]
+}]

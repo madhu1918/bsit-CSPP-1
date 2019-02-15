@@ -1,0 +1,16 @@
+[
+	{
+		"activityType":"video",
+		"title":"In this Activity we will discuss basic concepts of files by using a video",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions":[
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video on Introduction to Files"
+			}
+		]
+	}
+]

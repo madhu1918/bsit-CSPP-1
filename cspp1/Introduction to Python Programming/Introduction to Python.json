@@ -1,0 +1,17 @@
+[
+	{
+		"activityType":"video",
+		"title":"In this Activity you will learn about the introduction to python by watching a video",
+		"videoURL":"Introduction to Python.mp4",
+		"videoResources":"Introduction to Python.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Introduction to Python"
+		}
+		]
+	}
+]

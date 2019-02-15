@@ -1,0 +1,28 @@
+[{
+	"title":"Solve the following problem  paying debts off in a year part-1",
+	"activityType":"quiz",
+	"questions":[
+	{
+		"questionType": "filesubmission",
+		"questionText": [
+			{
+				"text":"Write a program to calculate the credit card balance after one year if a person only pays the minimum monthly payment required by the credit card company each month.<br><br>The following variables contain values as described below:<br><br><ol><li><b>balance</b> - the outstanding balance on the credit card</li>  <li><b>annualInterestRate</b> - annual interest rate as a decimal</li><li><b>monthlyPaymentRate</b> - minimum monthly payment rate as a decimal</li></ol><br><br>For each month, calculate statements on the monthly payment and remaining balance. At the end of 12 months, print out the remaining balance. Be sure to print out no more than two decimal digits of accuracy - so print<br><br><b>Remaining balance: 813.41</b><br><br>instead of<br><br><b>Remaining balance: 813.4141998135</b><br><br>So your program only prints out one thing: the remaining balance at the end of the year in the format:<b>Remaining balance: 4784.0</b><br><br>A summary of the required math is found below:<br><br><b>Monthly interest rate</b>= (Annual interest rate) / 12.0<br><br><b>Minimum monthly payment</b> = (Minimum monthly payment rate) x (Previous balance)<br><br><b>Monthly unpaid balance</b> = (Previous balance) - (Minimum monthly payment)<br><br><b>Updated balance each month</b> = (Monthly unpaid balance) + (Monthly interest rate x Monthly unpaid balance)<br><br><b>We provide sample test cases below.</b> We suggest you develop your code on your own machine, and make sure your code passes the sample test cases, before you paste it into the box below.<br><br>Note: Depending on where you round in this problem, your answers may be off by a few cents in either direction. Do not worry if your solution is within +/- 0.05 of the correct answer. Be sure to test these on your own machine - and that you get the same output! - before running your code on this webpage!"
+			},
+			{
+				"file":"assignment1testcase-1.txt"
+			},
+			{
+				"file":"assignment1testcase-2.txt"
+			},
+			{
+				"text":"<b>Hints</b>:Start with $10 payments per month and calculate whether the balance will be paid off in a year this way (be sure to take into account the interest accrued each month).<br><br>If $10 monthly payments are insufficient to pay off the debt within a year, increase the monthly payment by $10 and repeat.<br><br>If you are struggling with how to structure your code, think about the following:<br><br>If you are struggling with how to structure your code, think about the following:<br><br>Now imagine that we try our initial balance with a monthly payment of $10. If there is a balance remaining at the end of the year, how could we write code that would reset the balance to the initial balance, increase the payment by $10, and try again (using the same code!) to compute the balance at the end of the year, to see if this new payment value is large enough.<br><br>A good way to implement this problem will be to use a loop structure. You may want to refresh your understanding of <b>while</b> loops. Think hard about how the program will know when it has found a good minimum monthly payment value - when a good value is found, the loop can terminate.<br><br>Be careful - you don't want to overwrite the original value of <b>balance</b>. You'll need to save that value somehow for later reference!<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+			},
+			{
+				"attachment":["Functions - Assignment-1.zip"]
+			}
+		],
+		"points":"20"
+	}]
+}
+]
+

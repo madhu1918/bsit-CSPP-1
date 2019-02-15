@@ -1,0 +1,18 @@
+[{
+	"activityType":"quiz",
+	"questionType":"filesubmission",
+	"title" : "Last Activity we learned how Arithmetic Operators and Branching works now in this activity we will trace a flowchart and practice those concepts",
+	"questionText":[
+		{
+			"text":"Trace the following flowchart "
+		},
+		{
+			"attachment":["profitorloss.rap"]
+		},
+		{
+			"text":"Submit the trace report."
+		}
+	],
+	"points":"5"
+}
+]

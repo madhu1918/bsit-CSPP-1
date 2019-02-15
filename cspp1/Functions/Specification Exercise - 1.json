@@ -1,0 +1,31 @@
+[{
+	"activityType":"quiz",
+	"title" : "Answer the following Questions",
+	"quizDescription" : "Enter the value of the expressions below.<br><br>To get the most out of this problem, try to figure out the answers by reading the code, not running it. Run the code only after you've used up a few of your checks.<br><br><b>Hint</b>: If you are confused, you may find it helpful to draw out an environment diagram similar to what was presented in lecture.<br>",
+	"questions": [
+		{
+			"questionType" : "fillintheblank",
+			"code" : "cspp1.8.12.1.py",
+			"points":"1",
+			"answer": "11"
+		},
+		{
+			"questionType" : "fillintheblank",
+			"code" : "cspp1.8.12.2.py",
+			"points":"1",
+			"answer": "1"
+		},
+		{
+			"questionType" : "fillintheblank",
+			"code" : "cspp1.8.12.3.py",
+			"points":"1",
+			"answer": "5"
+		},
+		{
+			"questionType" : "fillintheblank",
+			"code" : "cspp1.8.12.4.py",
+			"points":"1",
+			"answer": "3"
+		}
+	]
+}]

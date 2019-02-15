@@ -1,0 +1,23 @@
+[{
+	"activityType":"quiz",
+	"title" : "In this activity you will install Raptor tool which is used to draw flowcharts. After installing answer the questions in the activity",
+	"questions": [
+		{
+			
+			"questionType" : "mcq",
+			"questionText": "Did you sucessfully install Raptor tool on your machine",
+			"points":"1",
+			"options": [
+				{
+					"option": "Yes",
+					"correct": "True"
+				},
+				{
+					"option": "No",
+					"correct": "False"
+				}
+			]
+		}
+	]
+}
+]

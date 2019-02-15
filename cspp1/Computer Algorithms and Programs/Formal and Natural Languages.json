@@ -1,0 +1,54 @@
+[{
+	"activityType":"quiz",
+	"title":"Last activity you solved few questions. In this activity we give you some questions on Formal and Natural Languages, try to answer those questions",
+	"questions":
+	[
+		{
+			"questionType":"mcq",
+			"questionText":"The differences between natural and formal languages include:",
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"natural languages can be parsed while formal languages cannot.",
+					"correct":"False",
+					"feedback":"Incorrect. Actually both languages can be parsed (determining the structure of the sentence), but formal languages can be parsed more easily in software."
+				},
+				{
+					"option":"ambiguity, redundancy, and literalness.",
+					"correct":"True",
+					"feedback":"Correct! All of these can be present in natural languages, but cannot exist in formal languages."
+				},
+				{
+					"option":"there are no differences between natural and formal languages.",
+					"correct":"False",
+					"feedback":"Incorrect. There are several differences between the two but they are also similar."
+				},
+				{
+					"option":"tokens, structure, syntax, and semantics.",
+					"correct":"False",
+					"feedback":"Incorrect. These are the similarities between the two."
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":"True or False: Reading a program is like reading other kinds of text.",
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"True",
+					"correct":"False",
+					"feedback":"Incorrect. It usually takes longer to read a program because the structure is as important as the content and must be interpreted in smaller pieces for understanding."
+				},
+				{
+					"option":"False",
+					"correct":"True",
+					"feedback":"Correct! It usually takes longer to read a program because the structure is as important as the content and must be interpreted in smaller pieces for understanding."
+				}
+			]
+		}
+	]
+}
+]

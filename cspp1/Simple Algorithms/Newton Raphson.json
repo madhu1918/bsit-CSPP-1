@@ -1,0 +1,17 @@
+[
+	{
+		"title":"Video on Newton-Raphson",
+		"activityType":"video",
+		"videoURL":"/5) Newton-Raphson.mp4",
+		"videoResources" : "/5) Newton-Raphson.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Newton-Raphson"
+		}
+		]
+	}
+]

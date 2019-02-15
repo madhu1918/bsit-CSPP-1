@@ -1,0 +1,16 @@
+[{
+	"title":"In this activity we will discuss about how to use the inherited methods by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnInheritedMethods.mp4",
+	"videoResources":"/InheritedMethods.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Using Inherited Methods"
+	}
+	]
+}
+]

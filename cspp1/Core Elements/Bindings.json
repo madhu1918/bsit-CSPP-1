@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity you will learn about bindings by watching a video",
+		"activityType":"video",
+		"videoURL":"/1) Bindings.mp4",
+		"videoResources" : "/1) Bindings.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Bindings"
+		}
+		]
+	}
+]

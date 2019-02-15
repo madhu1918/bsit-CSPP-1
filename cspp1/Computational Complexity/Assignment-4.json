@@ -1,0 +1,171 @@
+[{
+	"title":"This is the last Assignment in this Unit, Here is your Assignment-4",
+	"activityType":"quiz",
+	"questions": [
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.1.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"True"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n log(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^2)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.2.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log(len(n)))",
+						"correct":"False"
+					},
+					{
+						"option":"O(len(n))",
+						"correct":"True"
+					},
+					{
+						"option":"O(len(n) log(len(n)))",
+						"correct":"False"
+					},
+					{
+						"option":"O(len(n) ^2)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.3.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log(n))",
+						"correct":"True"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^2)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^23)",
+						"correct":"False"
+					},
+					{
+						"option":"O(2 ^n)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.4.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"True"
+					},
+					{
+						"option":"O(nlog(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^2)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^23)",
+						"correct":"False"
+					},
+					{
+						"option":"O(2 ^n)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.5.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^2)",
+						"correct":"True"
+					},
+					{
+						"option":"O(n ^23)",
+						"correct":"False"
+					},
+					{
+						"option":"O(2 ^n)",
+						"correct":"False"
+					}
+				]
+			}
+
+		]
+}]					

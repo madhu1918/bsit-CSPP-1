@@ -1,0 +1,178 @@
+[{
+	"title": "Answer the following questions",
+	"activityType": "quiz",
+	"quizDescription": "Try to answer the following questions by just reading the code. Reading code is a very good skill to have (and will help you both in your programming career and on your exams!). It is okay to check your answers that you obtain from just reading the code, then in your interpreter run the code for the ones you got wrong on your first attempt.<br><br>What error (if any) is raised when the following code snippets are attempted?",
+	"questions": [{
+			"questionType":"mcq",
+			"questionText": " '1' / '2' ",
+			"points":"1",
+			"options": [{
+					"option": "SyntaxError",
+					"correct": "False"
+				},
+
+				{
+					"option": "ValueError",
+					"correct": "False"
+				},
+
+				{
+					"option": "TypeError",
+					"correct": "True"
+				},
+
+				{
+					"option": "NameError",
+					"correct": "False"
+				},
+
+				{
+					"option": "No error is raised",
+					"correct": "False"
+				}
+
+
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " '1' / 2 ",
+			"points":"1",
+			"options": [{
+					"option": "SyntaxError",
+					"correct": "False"
+				},
+
+				{
+					"option": "ValueError",
+					"correct": "False"
+				},
+
+				{
+					"option": "TypeError",
+					"correct": "True"
+				},
+
+				{
+					"option": "NameError",
+					"correct": "False"
+				},
+
+				{
+					"option": "No error is raised",
+					"correct": "False"
+				}
+
+
+			]
+		},
+
+
+
+		{
+			"questionType":"mcq",
+			"questionText": " int('1') / 2.0 ",
+			"points":"1",
+			"options": [{
+					"option": "SyntaxError",
+					"correct": "False"
+				},
+
+				{
+					"option": "ValueError",
+					"correct": "False"
+				},
+
+				{
+					"option": "TypeError",
+					"correct": "False"
+				},
+
+				{
+					"option": "NameError",
+					"correct": "False"
+				},
+
+				{
+					"option": "No error is raised",
+					"correct": "True"
+				}
+
+
+			]
+		},
+
+
+
+		{
+			"questionType":"mcq",
+			"questionText": " mylist = [10, 20, 30]<br> mylist.index(11) ",
+			"points":"1",
+			"options": [{
+					"option": "SyntaxError",
+					"correct": "False"
+				},
+
+				{
+					"option": "ValueError",
+					"correct": "True"
+				},
+
+				{
+					"option": "TypeError",
+					"correct": "False"
+				},
+
+				{
+					"option": "NameError",
+					"correct": "False"
+				},
+
+				{
+					"option": "No error is raised",
+					"correct": "False"
+				}
+
+
+			]
+		},
+
+
+
+		{
+			"questionType":"mcq",
+			"questionText": " A=2 <br>3*a ",
+			"points":"1",
+			"options": [{
+					"option": "SyntaxError",
+					"correct": "False"
+				},
+
+				{
+					"option": "ValueError",
+					"correct": "False"
+				},
+
+				{
+					"option": "TypeError",
+					"correct": "False"
+				},
+
+				{
+					"option": "NameError",
+					"correct": "True"
+				},
+
+				{
+					"option": "No error is raised",
+					"correct": "False"
+				}
+
+
+			]
+		}
+
+	]
+}
+]

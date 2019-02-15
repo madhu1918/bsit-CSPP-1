@@ -1,0 +1,54 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following Question",
+	"quizDescription":
+	[
+		{
+			"text":"Consider the following code specification:"
+		},
+		{
+			"code":"Exercise1.py"
+		}
+	],
+	"questions":
+	[
+		{
+			"questionType":"checkbox",
+			"questionText":"Here is a set of possible test cases to include in a black box test suite. Indicate which of the following conditions would make a good black box test suite for the function size by clicking on the appropriate choice(s).<br><br><b>Review:Black box test Suites</b><br>Black-box testing is a method of software testing that tests the functionality of an application. Recall from the lecture that a way to think about black-box testing is to look at both:<ul><li>The possible paths through the specification.</li><li>The possible boundary cases.</li></ul><br>Undoubtably many - if not all - of the listed tests look like they would be pretty good for testing the function size. However, we want you to think critically about the way size is specified - including possible boundary cases - and pick a set of tests that adequately and fully tests all paths and boundary conditions. Be sure the set of tests you pick does not have extraneous, useless, or repetitive tests.",
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"Empty set correct",
+					"correct":"True",
+					"feedback":"A good black box test suite would contain tests for the following conditions: Empty set, Set of size 1, and Set of size greater than 1.Black-box testing is a method of software testing that tests the functionality of an application. Recall from the lecture that a way to think about black-box testing is to look at both the paths through the specification and the possible boundary cases. In this example, the boundary cases all have to do with the size of aSet. Specifically these boundary cases are when aSet contains zero, one, or many items.The remaining conditions would not further test the functionality of the size function because an odd, even, or prime sized set are all sets of size greater than 1. Nothing in the function specification suggests there is anything special or unique about odd, even, or prime sized sets, so testing those cases specifically simply repeats the test \"Set of size greater than 1\"."
+				},
+				{
+					"option":"Set of size 1 ",
+					"correct":"True",
+					"feedback":"A good black box test suite would contain tests for the following conditions: Empty set, Set of size 1, and Set of size greater than 1.Black-box testing is a method of software testing that tests the functionality of an application. Recall from the lecture that a way to think about black-box testing is to look at both the paths through the specification and the possible boundary cases. In this example, the boundary cases all have to do with the size of aSet. Specifically these boundary cases are when aSet contains zero, one, or many items.The remaining conditions would not further test the functionality of the size function because an odd, even, or prime sized set are all sets of size greater than 1. Nothing in the function specification suggests there is anything special or unique about odd, even, or prime sized sets, so testing those cases specifically simply repeats the test \"Set of size greater than 1\"."
+				},
+				{
+					"option":"Set of odd size",
+					"correct":"False",
+					"feedback":"A good black box test suite would contain tests for the following conditions: Empty set, Set of size 1, and Set of size greater than 1.Black-box testing is a method of software testing that tests the functionality of an application. Recall from the lecture that a way to think about black-box testing is to look at both the paths through the specification and the possible boundary cases. In this example, the boundary cases all have to do with the size of aSet. Specifically these boundary cases are when aSet contains zero, one, or many items.The remaining conditions would not further test the functionality of the size function because an odd, even, or prime sized set are all sets of size greater than 1. Nothing in the function specification suggests there is anything special or unique about odd, even, or prime sized sets, so testing those cases specifically simply repeats the test \"Set of size greater than 1\"."
+				},
+				{
+					"option":"Set of even size",
+					"correct":"False",
+					"feedback":"A good black box test suite would contain tests for the following conditions: Empty set, Set of size 1, and Set of size greater than 1.Black-box testing is a method of software testing that tests the functionality of an application. Recall from the lecture that a way to think about black-box testing is to look at both the paths through the specification and the possible boundary cases. In this example, the boundary cases all have to do with the size of aSet. Specifically these boundary cases are when aSet contains zero, one, or many items.The remaining conditions would not further test the functionality of the size function because an odd, even, or prime sized set are all sets of size greater than 1. Nothing in the function specification suggests there is anything special or unique about odd, even, or prime sized sets, so testing those cases specifically simply repeats the test \"Set of size greater than 1\"."
+				},
+				{
+					"option":"Set of size greater than 1",
+					"correct":"True",
+					"feedback":"A good black box test suite would contain tests for the following conditions: Empty set, Set of size 1, and Set of size greater than 1.Black-box testing is a method of software testing that tests the functionality of an application. Recall from the lecture that a way to think about black-box testing is to look at both the paths through the specification and the possible boundary cases. In this example, the boundary cases all have to do with the size of aSet. Specifically these boundary cases are when aSet contains zero, one, or many items.The remaining conditions would not further test the functionality of the size function because an odd, even, or prime sized set are all sets of size greater than 1. Nothing in the function specification suggests there is anything special or unique about odd, even, or prime sized sets, so testing those cases specifically simply repeats the test \"Set of size greater than 1\"."
+				},
+				{
+					"option":"Set whose size is a prime number",
+					"correct":"False",
+					"feedback":"A good black box test suite would contain tests for the following conditions: Empty set, Set of size 1, and Set of size greater than 1.Black-box testing is a method of software testing that tests the functionality of an application. Recall from the lecture that a way to think about black-box testing is to look at both the paths through the specification and the possible boundary cases. In this example, the boundary cases all have to do with the size of aSet. Specifically these boundary cases are when aSet contains zero, one, or many items.The remaining conditions would not further test the functionality of the size function because an odd, even, or prime sized set are all sets of size greater than 1. Nothing in the function specification suggests there is anything special or unique about odd, even, or prime sized sets, so testing those cases specifically simply repeats the test \"Set of size greater than 1\"."
+				}
+			]
+		}
+	]
+}]

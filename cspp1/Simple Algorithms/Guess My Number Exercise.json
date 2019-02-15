@@ -1,0 +1,27 @@
+[
+	{
+		"title":"Guess My Number Exercise",
+		"activityType":"quiz",
+		"questions":
+		[
+			{
+				"questionType": "filesubmission",
+				"questionText":[
+					{
+						"text" : "In this problem, you'll create a program that guesses a secret number!<br><br>The program works as follows: you (the user) thinks of an integer between 0 (inclusive) and 100 (not inclusive). The computer makes guesses, and you give it input - is its guess too high or too low? Using bisection search, the computer will guess the user's secret number!<br><br>Here is a transcript of an example session:"
+					},
+					{
+						"file" : "cspp1.7.8.1.txt"
+					},
+					{
+						"text" : "Note: your program should use input to obtain the user's input! Be sure to handle the case when the user's input is not one of h, l, or c.<br><br>When the user enters something invalid, you should print out a message to the user explaining you did not understand their input. Then, you should re-ask the question, and prompt again for input. For example:"
+					},
+					{
+						"file" : "cspp1.7.8.2.txt"
+					}
+				],
+				"points":"20"
+			}
+		]
+	}
+]

@@ -1,0 +1,17 @@
+[{
+	"activityType":"video",
+	"title":"In this activity we will discuss about List Operators by watching a video",
+	"videoURL":"/List Operations.mp4",
+	"videoResources":"/List Operations.zip"
+},
+ {
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on List Operations"
+		}
+		]
+	}
+
+]

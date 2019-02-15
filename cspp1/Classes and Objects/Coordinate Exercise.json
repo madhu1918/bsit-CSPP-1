@@ -1,0 +1,28 @@
+[{
+	"title":"Solve the following problem",
+	"activityType":"quiz",
+	"questions":
+	[
+		{
+			"questionType": "filesubmission",
+			"questionText":[
+				{
+					"text" : "Consider the following code from the last lecture video:"
+				},
+				{
+					"code" : "Exercise - coordinate.py"
+				},
+				{
+					"text" : "Your task is to define the following two methods for the Coordinate class:<br><br>1. Add an __eq__ method that returns True if coordinates refer to same point in the plane (i.e., have the same x and y coordinate).<br><br>2.Define __repr__, a special method that returns a string that looks like a valid Python expression that could be used to recreate an object with the same value. In other words, eval(repr(c)) == c given the definition of __eq__ from part 1.<br><br><a href=\"https://stackoverflow.com/questions/452300/python-object-repr-self-should-be-an-expression\"> this SO post.</a><br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Classes and Objects - Coordinate Exercise.zip"]
+				},
+				{
+					"code" : "Exercise - coordinate.py"
+				}
+			],
+			"points":"10"
+		}
+	]
+}]

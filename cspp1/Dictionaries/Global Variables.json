@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this Activity we will discuss Global variables by watching a video",
+	"videoURL":"/Global Variables.mp4",
+	"videoResources":"/Global Variables.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Global Variables"
+	}
+	]
+}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity we will discuss about Decomposition and abstraction by watching a video",
+		"activityType":"video",
+		"videoURL":"/1 Decomposition and Abstraction.mp4",
+		"videoResources" : "/1 Decomposition and Abstraction.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Decomposition and Abstraction"
+		}
+		]
+	}
+]

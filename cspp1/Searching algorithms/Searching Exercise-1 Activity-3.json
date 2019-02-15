@@ -1,0 +1,63 @@
+[{
+	"title":"In the previous activities you solved few problems on searching algorithms. In this activity  also there are few more questions please answer those questions",
+	"activityType":"quiz",
+	"quizDescription":[{"text": "Consider the following code:"},{"code":"searchingExercise1program3.py"}],
+	"questions": [
+			{
+				"questionType": "mcq",
+				"questionText": "What is the smallest value that num can be such that the number 3 is printed?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"0",
+						"correct":"False"
+					},
+					{
+						"option":"1",
+						"correct":"True"
+					},
+					{
+						"option":"3",
+						"correct":"False"
+					},
+					{
+						"option":"5",
+						"correct":"False"
+					},
+					{
+						"option":"Impossible",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "Now, we redefine L to be:<br> <code>L = [2, 0, 1, 5, 3, 4] </code> <br> What is the smallest value that num can be such that the number 3 is printed?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"0",
+						"correct":"False",
+						"feedback":"When L = [5, 0, 2, 4, 6, 3, 1], we need to set num = 1 to get 3 to print out.<br>When L = [2, 0, 1, 5, 3, 4], there is no way to get to the number 3 if we start from val = 0, because the indirection structure for L is (0->2->1->0, 3->5->4->3)."
+					},
+					{
+						"option":"3",
+						"correct":"False",
+						"feedback":"When L = [5, 0, 2, 4, 6, 3, 1], we need to set num = 1 to get 3 to print out.<br>When L = [2, 0, 1, 5, 3, 4], there is no way to get to the number 3 if we start from val = 0, because the indirection structure for L is (0->2->1->0, 3->5->4->3)."
+					},
+					{
+						"option":"5",
+						"correct":"False",
+						"feedback":"When L = [5, 0, 2, 4, 6, 3, 1], we need to set num = 1 to get 3 to print out.<br>When L = [2, 0, 1, 5, 3, 4], there is no way to get to the number 3 if we start from val = 0, because the indirection structure for L is (0->2->1->0, 3->5->4->3)."
+					},
+					{
+						"option":"Impossible",
+						"correct":"True",
+						"feedback":"When L = [5, 0, 2, 4, 6, 3, 1], we need to set num = 1 to get 3 to print out.<br>When L = [2, 0, 1, 5, 3, 4], there is no way to get to the number 3 if we start from val = 0, because the indirection structure for L is (0->2->1->0, 3->5->4->3)."
+					}
+				]
+			}
+		]
+}]					

@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this Activity we will discuss about python dictionaries by watching a video",
+	"videoURL":"/Dictionaries.mp4",
+	"videoResources":"/Dictionaries.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Dictionaries"
+	}
+	]
+}
+]

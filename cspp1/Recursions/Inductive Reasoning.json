@@ -1,0 +1,18 @@
+[
+	{
+		"activityType":"video",
+		"title":"In this activity we will discuss about inductive reasoning by watching a video",
+		"videoURL":"/Inductive Reasoning.mp4",
+		"videoResources":"/Inductive Reasoning.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Inductive Reasoning"
+		}
+		]
+	}
+		
+]

@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this activity we will discuss about Functions as objects by watching a video",
+	"videoURL":"/Functions as Objects.mp4",
+	"videoResources":"/Functions as Objects.zip"
+},
+{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Functions as Objects"
+		}
+		]
+	}
+]

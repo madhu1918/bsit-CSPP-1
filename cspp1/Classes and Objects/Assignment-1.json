@@ -1,0 +1,19 @@
+[{
+	"title":"Solve the following problem Build the shift dictionary and Apply shift",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"The <code>Message</code> class contains methods that could be used to apply a cipher to a string, either to encrypt or to decrypt a message (since for Caesar codes this is the same action).<br><br> In the next two questions, you will fill in the methods of the <code>Message</code> class found in <code>ps6.py</code> according to the specifications in the docstrings. The methods in the <code>Message</code> class already filled in are: <br><br> <ul> <li><code>__init__(self, text)</code></li>  <li>The getter method <code>get_message_text(self)</code></li>   <li>The getter method <code>get_valid_words(self)</code>, notice that this one returns a copy of <code>self.valid_words</code> to prevent someone from mutating the original list.</li>    </ul>  <br><br>  In this problem, you will fill in two methods:<br><br>  1.Fill in the <code>build_shift_dict(self, shift)</code> method of the <code>Message</code> class. Be sure that your dictionary includes both lower and upper case letters, but that the shifted character for a lower case letter and its uppercase version are lower and upper case instances of the same letter. What this means is that if the original letter is \"a\" and its shifted value is \"c\", the letter \"A\" should shift to the letter \"C\".<br><br> If you are unfamiliar with the ordering or characters of the English alphabet, we will be following the letter ordering displayed by <code>string.ascii_lowercase</code> and <code>string.ascii_uppercase:</code> <br><br> <code>>>> import string<br><br>>>> print(string.ascii_lowercase)<br><br>abcdefghijklmnopqrstuvwxyz<br><br>>>> print(string.ascii_uppercase)<br><br>ABCDEFGHIJKLMNOPQRSTUVWXYZ</code> <br><br>  A reminder from the introduction page - characters such as the space character, commas, periods, exclamation points, etc will not be encrypted by this cipher - basically, all the characters within <code>string.punctuation</code>, plus the space (<code>' '</code>) and all numerical characters (0 - 9) found in <code>string.digits</code>.  <br><br> 2.Fill in the <code>apply_shift(self, shift)</code> method of the <code>Message</code> class. You may find it easier to use <code>build_shift_dict(self, shift)</code>. Remember that spaces and punctuation should not be changed by the cipher. <br><br>  Paste your implementation of the <code>Message</code> class in the box below.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Classes and Objects - Assignment-1.zip"]
+				}
+			],
+			"points":"20"			
+		}
+	]
+}]

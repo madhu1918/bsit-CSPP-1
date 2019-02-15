@@ -1,0 +1,16 @@
+[{
+"title":"In this Activity we will discuss Assertions as control flow by watching a video",
+"activityType":"video",
+"videoURL":"/VideoOnAssertions.mp4",
+"videoResources":"Assertions.zip"
+},
+ {
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Assertions"
+		}
+		]
+	}
+]

@@ -1,0 +1,16 @@
+[{
+	"title":"In this activity we will discuss about visualizing the hierarchy by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnVisualizingtheHierarchy.mp4",
+	"videoResources":"/VisualizingtheHierarchy.zip"
+},
+ {
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Visualizing the Hierarchy"
+	}
+	]
+}
+]

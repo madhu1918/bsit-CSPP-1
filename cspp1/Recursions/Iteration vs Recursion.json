@@ -1,0 +1,17 @@
+[
+	{
+	"activityType":"video",
+	"title":"In this activity we will discuss about Iteration vs recursion by watching a video",
+	"videoURL":"/iterationvsrecursion.mp4",
+	"videoResources":"/iterationvsrecursion.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Iteration vs Recursion"
+		}
+		]	
+	}
+]

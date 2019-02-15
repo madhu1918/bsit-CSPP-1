@@ -1,0 +1,16 @@
+[
+	{
+		"activityType":"video",
+		"title":"Last video we discussed about Appending data to a file. In this video we will learn how to display all files in a directory",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions":[
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video on Displaying all the files from a Directory"
+			}
+		]
+	}
+]

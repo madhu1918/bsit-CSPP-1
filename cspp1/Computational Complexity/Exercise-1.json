@@ -1,0 +1,117 @@
+[{
+	"title":"Last activity we learned how to calculate complexity for a program, in this activity there are some questions, try to answer those questions",
+	"activityType":"quiz",
+	"quizDescription":[{"text": "Here is some code from lecture: Choose which of the following inputs to linearSearch would give the best case, average case, or worst case run time."},{"code":"programEfficiency.py"}],
+	"questions": [
+			{
+				"questionType": "mcq",
+				"questionText": " Best Case Run Time",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"linearSearch([14, 15, 6, 27, 13, 16, 25, 11, 7], 15)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([21, 1, 25, 22, 30, 13, 7, 24, 12], 24)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([20, 10, 1, 7, 4, 22, 25, 12, 31], 20)",
+						"correct":"True"
+					},
+					{
+						"option":"linearSearch([9, 3, 12, 24, 7, 8, 23, 11, 19], 8)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([4, 12, 20, 17, 9, 14, 7, 24, 6], 7)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([13, 9, 22, 3, 10, 17, 11, 2, 12], 26)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": " Worst Case Run Time",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"linearSearch([14, 15, 6, 27, 13, 16, 25, 11, 7], 15)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([21, 1, 25, 22, 30, 13, 7, 24, 12], 24)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([20, 10, 1, 7, 4, 22, 25, 12, 31], 20)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([9, 3, 12, 24, 7, 8, 23, 11, 19], 8)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([4, 12, 20, 17, 9, 14, 7, 24, 6], 7)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([13, 9, 22, 3, 10, 17, 11, 2, 12], 26)",
+						"correct":"True"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": " Average Case Run Time",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"linearSearch([14, 15, 6, 27, 13, 16, 25, 11, 7], 15)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([21, 1, 25, 22, 30, 13, 7, 24, 12], 24)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([20, 10, 1, 7, 4, 22, 25, 12, 31], 20)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([9, 3, 12, 24, 7, 8, 23, 11, 19], 8)",
+						"correct":"True"
+					},
+					{
+						"option":"linearSearch([4, 12, 20, 17, 9, 14, 7, 24, 6], 7)",
+						"correct":"False"
+					},
+					{
+						"option":"linearSearch([13, 9, 22, 3, 10, 17, 11, 2, 12], 26)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": " What is the number of steps it will take to run linearSearch in the best case? Express your answer in terms of n, the number of elements in the list L.<br>Indicate addition and multiplication explicitly, with + and * symbols. Indicate exponentiation with the caret (^) symbol.",
+				"points":"1",
+				"answer": "1",
+				"feedback":"In the best case scenario, L is an empty list. Thus one step is taken: return False."
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": " What is the number of steps it will take to run linearSearch in the worst case? Express your answer in terms of n, the number of elements in the list L.<br>Indicate addition and multiplication explicitly, with + and * symbols. Indicate exponentiation with the caret (^) symbol.",
+				"points":"1",
+				"answer": "2*n + 1",
+				"feedback":"In the worst case scenario, x is not present in L. Thus we go through the for loop n times. This means we execute assignment of e to each element of L (this takes place in the line for e in L) to enter the for loop, and also execute the check<br>    if e == x: <br> once each for every element. So this is 2*n steps. Finally at the end of the for loop, we execute the return statement one time."
+			}
+	]
+}]

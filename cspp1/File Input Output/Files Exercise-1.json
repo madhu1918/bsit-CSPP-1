@@ -1,0 +1,18 @@
+[{
+	"activityType":"assignment",
+	"title":"Now you all learned how to perform operations on files. Solve the following problem on files",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[{"text":"Given a file containing n lines, each line of the file contains name of product, quantity, price per unit, tax separated by commas. You need to calculate the final billing amount of each product by applying formula (quantity * price per unit) + ((quantity * price per product* tax)/100) and append it at the end of each line in the given file. Download the input file given below"
+			},
+			{
+				"attachment":["input.txt"]
+			}
+			],
+			"points":"10"
+		}
+	]
+}]
+	

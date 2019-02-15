@@ -1,0 +1,16 @@
+[{
+	"title":"Last activity we discussed Linear search and its analysis. In this activity we discuss Bisection algorithm",
+	"activityType":"video",
+	"videoURL":"/Bisection Search.mp4",
+	"videoResources":"/Bisection Search.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Bisection Search"
+	}
+	]
+}
+]

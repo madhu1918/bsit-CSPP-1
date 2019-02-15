@@ -1,0 +1,148 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following questions",
+	"quizDescription":"For the last expression in each question below, specify its type and value. If it generates an error, select type 'NoneType' and put the word 'error' in the box for the value.",
+	"questions":
+	[
+		{
+			"questionType" : "fillintheblank",
+			"questionText": [
+					{"text":"Value obtained after the below code is Executed? <br> "},
+					{"code":"Exercise4.py"}
+			],
+			"points":"1",
+			"answer": "True"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": [
+					{"text":"Type of the value obtained after the below code is Executed? <br> "},
+					{"code":"Exercise4.py"}
+			],
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"boolean"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>aList is bList</code>",
+			"points":"1",
+			"answer": "True"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>aList is bList</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"boolean"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>aList</code>",
+			"points":"1",
+			"answer": "[0, 1, 'hello', 3, 4, 5]"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>aList</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>bList</code>",
+			"points":"1",
+			"answer": "[0, 1, 'hello', 3, 4, 5]"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>bList</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": [
+				{"text":"Value obtained after the below code is Executed? <br> "},
+				{"code":"Exercise42.py"}
+			],
+			"points":"1",
+			"answer": "True"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": [
+				{"text":"Type of the value obtained after the below code is Executed? <br> "},
+				{"code":"Exercise42.py"}
+			],
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"boolean"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>List is dList</code>",
+			"points":"1",
+			"answer": "False"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>List is dList</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"boolean"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>cList[2] = 20<br>cList</code>",
+			"points":"1",
+			"answer": "[6, 5, 20, 3, 2]"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>cList[2] = 20<br>cList</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>dList</code>",
+			"points":"1",
+			"answer": "[6, 5, 4, 3, 2]"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>dList</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+		}
+	]
+}]

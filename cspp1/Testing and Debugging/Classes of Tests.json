@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this Activity we will discuss Classes of Tests by watching a video",
+	"videoURL":"/Classes of Tests.mp4",
+	"videoResources":"/Classes of Tests.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Classes of Tests"
+	}
+	]
+}
+]

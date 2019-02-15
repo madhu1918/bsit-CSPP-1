@@ -1,0 +1,33 @@
+[{
+	"activityType":"assignment",
+	"title":"Solve the following Excercise on Dictionaries",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":
+			[
+				{
+					"text":"Consider the following sequence of expressions:"
+				},
+				{
+					"code":"Biggest1.py"
+				},
+				{
+					"text":"We want to write some simple procedures that work on dictionaries to return information.<br>This time, write a procedure, called biggest, which returns the key corresponding to the entry with the largest number of values associated with it. If there is more than one such entry, return any one of the matching keys.<br><br>Example usage:"
+				},
+				{
+					"code":"Biggest2.py"
+				},
+				{
+					"text":"If there are no values in the dictionary, biggest should return None.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["biggest Exercise.zip"]
+				}
+			],
+			"points":"10",
+			"code":"biggest.py"
+		}
+	]
+}]

@@ -1,0 +1,27 @@
+[{
+	"title":"We designed you an Assignment please read the following and solve the Assignment",
+	"activityType":"reading",
+	"quizDescription": [
+		{
+
+			"text" : "Note: Do not be intimidated by this problem! It's actually easier than it looks. We will 'scaffold' this problem, guiding you through the creation of helper functions before you implement the actual game.<br><br>For this problem, you will implement a variation of the classic wordgame Hangman. For those of you who are unfamiliar with the rules, you may read all about it <a href=\"https://en.wikipedia.org/wiki/Hangman_(game)\">here</a>.In this problem, the second player will always be the computer, who will be picking a word at random.<br><br>In this problem, you will implement a <b>function</b>, called hangman, that will start up and carry out an interactive Hangman game between a player and the computer. Before we get to this function, we'll first implement a few helper functions to get you going.<br><br>For this problem, you will need the code files<a href=\"/ps3_hangman.py\" target=\"_blank\">ps3_hangman.py</a> and <a href=\"/words.txt\" target=\"_blank\">words.txt</a>. Right-click on each and hit <b>Save Link As</b>. <b>Be sure to save them in same directory</b>. Open and run the file <b>ps3_hangman.py</b> without making any modifications to it, in order to ensure that everything is set up correctly. By <b>open and run</b> we mean do the following:<br><br><ul>  <li>Go to your IDE. From the File menu, choose <b>Open</b>.</li>  <li>Find the file <b>ps3_hangman.py</b> and choose it.</li>  <li>The template <b>ps3_hangman.py</b> file should now be open. Run the file.</li></ul> <br><br>The code we have given you loads in a list of words from a file. If everything is working okay, after a small delay, you should see the following printed out:<br><br><b>Loading word list from file...</b><br><br><b>55909 words loaded.</b><br><br>If you see an IOError instead (e.g., \"No such file or directory\"), you should change the value of the WORDLIST_FILENAME constant (defined near the top of the file) to the <b>complete</b> pathname for the file words.txt (This will vary based on where you saved the file). Windows users, change the backslashes to forward slashes, like below.<br><br>For example, if you saved <b>ps3_hangman.py</b> and <b>words.txt</b> in the directory \"C:/Users/Ana/\" change the line: <br><br>WORDLIST_FILENAME = \"words.txt\"  to something like<br><br>WORDLIST_FILENAME = \"C:/Users/Ana/words.txt\"<br><br><b>This folder will vary depending on where you saved the files.</b><br><br>The file <b>ps3_hangman.py</b> has a number of already implemented functions you can use while writing up your solution. You can ignore the code between the following comments, though you should read and understand how to use each helper function by reading the docstrings:"
+		},
+		{
+			"file" : "docstrings.txt"
+		},
+		{
+			"text" : "You will want to do all of your coding for this problem within this file as well because you will be writing a program that depends on each function you write.<br><br><b>Requirements</b><br><br>Here are the requirements for your game:<br><br>1. The computer must select a word at random from the list of available words that was provided in <b>words.txt</b>. The functions for loading the word list and selecting a random word have already been provided for you in <b>ps3_hangman.py</b>.<br><br>2. The game must be interactive; the flow of the game should go as follows:<br><br><ul>  <li>At the start of the game, let the user know how many letters the computer's word contains.</li>  <li>Ask the user to supply one guess (i.e. letter) per round.</li>  <li>The user should receive feedback immediately after each guess about whether their guess appears in the computer's word.</li><li>After each round, you should also display to the user the partially guessed word so far, as well as letters that the user has not yet guessed.</li></ul> <br><br>3. Some additional rules of the game:<br><br><ul>  <li>A user is allowed 8 guesses. Make sure to remind the user of how many guesses s/he has left after each round. Assume that players will only ever submit one character at a time (A-Z).</li>  <li>A user loses a guess <b>only</b> when s/he guesses incorrectly.</li>  <li>If the user guesses the same letter twice, do not take away a guess - instead, print a message letting them know they've already guessed that letter and ask them to try again.</li><li>The game should end when the user constructs the full word or runs out of guesses. If the player runs out of guesses (s/he \"loses\"), reveal the word to the user when the game ends.</li></ul> <br><br><b>Sample Output</b><br><br>"
+		},
+		{
+			"file" :
+				"outputforwinninggame.txt"
+		},
+		{
+			"file":"outputforlossinggame.txt"
+		},
+		{
+			"text" : "On the next page, we'll break down the problem into logical subtasks, creating helper functions you will need to have in order for this game to work."
+		}
+	]
+}
+]

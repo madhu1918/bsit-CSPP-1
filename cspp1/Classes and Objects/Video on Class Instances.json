@@ -1,0 +1,18 @@
+[{
+	"title":"In this Activity we will discuss class instances by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnClassInstances.mp4",
+	"videoResources":"/ClassInstances.zip"
+},
+ {
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Class Instances"
+	}
+	]
+}
+
+
+]

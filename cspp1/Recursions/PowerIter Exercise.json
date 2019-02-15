@@ -1,0 +1,22 @@
+[{
+	"activityType":"assignment",
+	"title":"Solve the following problem on Iteration",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"Write an iterative function iterPower(base, exp) that calculates the exponential base<sup>exp</sup> by simply using successive multiplication. For example, iterPower(base, exp) should compute base<sup>exp</sup> by multiplying base times itself exp times. Write such a function below.<br>This function should take in two values - base can be a float or an integer; exp will be an integer >= 0. It should return one numerical value. Your code must be iterative - use of the ** operator is not allowed.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["power using Iteration.zip"]
+				}
+			]
+			,
+			"points":"5",
+			"code":"poweriter.py"
+		}
+	]
+
+}]

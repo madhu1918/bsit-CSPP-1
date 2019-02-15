@@ -1,0 +1,18 @@
+[{
+	"title":"In this Activity we will discuss building a class  by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnBuildingaClass.mp4",
+	"videoResources":"/BuildingaClass.zip"
+},
+ {
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Building a Class"
+	}
+	]
+}
+
+
+]

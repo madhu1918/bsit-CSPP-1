@@ -1,0 +1,16 @@
+[
+	{
+		"title":"In this activity, you will learn the overview of all the concepts which we are going to discuss in further units.",
+		"activityType":"video",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video on computer algorithms and programs"
+			}
+		]
+	}
+]

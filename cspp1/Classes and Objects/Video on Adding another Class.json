@@ -1,0 +1,16 @@
+[{
+	"title":"In this Activity we will discuss adding another class  by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnAddingAnotherClass.mp4",
+	"videoResources":"/AddingAnotherClass.zip"
+},
+ {
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Adding another Class"
+	}
+	]
+}
+]

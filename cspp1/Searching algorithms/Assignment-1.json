@@ -1,0 +1,49 @@
+[{
+	"title":" In the previous activities you solved few problems on searching algorithms. In this activity  also there are few more questions please answer those questions",
+	"activityType":"quiz",
+	"quizDescription": 
+		[
+			{
+				"text":"Here is code for linear search that uses the fact that a set of elements is sorted in increasing order:"
+			},
+			{
+				"code":"code 5.1.py"
+			},
+			{
+				"text":"Consider the following code, which is an alternative version of search."
+			},
+			{
+				"code":"code 5.2.py"
+			}
+		],
+	"questions": [
+		{
+				"questionType": "mcq",
+				"questionText": "Which of the following statements is correct? You may assume that each function is tested with a list L whose elements are sorted in increasing order; for simplicity, assume L is a list of positive integers.",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"search and newsearch return the same answers for all L and e.",
+						"correct":"False"
+					},
+					{
+						"option":"search and newsearch return the same answers provided L is non-empty.",
+						"correct":"False"
+					},
+					{
+						"option":"search and newsearch return the same answers provided L is non-empty and e is in L.",
+						"correct":"True"
+					},
+					{
+						"option":"search and newsearch never return the same answers.",
+						"correct":"False"
+					},
+					{
+						"option":"search and newsearch return the same answers for lists L of length 0, 1, or 2.",
+						"correct":"False"
+					}
+				]
+			}
+		]
+}]			

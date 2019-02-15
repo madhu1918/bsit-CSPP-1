@@ -1,0 +1,85 @@
+[{
+	"title" : "Last activity we learned about Hierarchies and introduction to inheritance. Let's answer few questions in this activity",
+	"activityType":"quiz",
+	"quizDescription" : [
+		{
+			"text":" Consider the following code: "
+		},
+		{
+			"code":"InheritanceExerciseSpell.py"
+		}
+	],
+	"questions": [
+		{
+			"questionType" : "checkbox",
+			"questionText": " What are the parent class(es)? Note that the term \"parent class\" is interchangable with the term \"superclass\". ",
+			"points":"1",
+			"options": [
+				{
+					"option":"<code>Spell</code>",
+					"correct":"True"
+				},
+
+				{
+					"option":"<code>Accio</code>",
+					"correct":"False"
+				},
+
+				{
+					"option":"<code>Confundo</code>",
+					"correct":"True"
+				}
+			]
+		},
+
+		{
+			"questionType" : "checkbox",
+			"questionText": " What are the child class(es)? Note that the term \"child class\" is interchangable with the term \"subclass\". ",
+			"points":"1",
+			"options": [
+				{
+					"option":"<code>Spell</code>",
+					"correct":"False"
+				},
+
+				{
+					"option":"<code>Accio</code>",
+					"correct":"True"
+				},
+
+				{
+					"option":"<code>Confundo</code>",
+					"correct":"True"
+				}
+			]
+		},
+
+		{
+			"questionType" : "mcq",
+			"questionText": " Which <code>getDescription</code> method is called when <code>studySpell(Confundo())</code> is executed? ",
+			"points":"1",
+			"options": [
+				{
+					"option":"The <code>getDescription</code> method defined within the <code>Spell</code> class",
+					"correct":"False",
+					"feedback":"Incorrect<br>The one inside the Confundo class is called. Why? Because methods in the child class override those in the parent class if they exist in both classes."
+				},
+
+				{
+					"option":"The <code>getDescription</code> method defined within the <code>Accio</code> class",
+					"correct":"False",
+					"feedback":"Incorrect<br>The one inside the Confundo class is called. Why? Because methods in the child class override those in the parent class if they exist in both classes."
+				},
+
+				{
+					"option":"The <code>getDescription</code> method defined within the <code>Confundo</code> class correct",
+					"correct":"True",
+					"feedback":"Correct<br>The one inside the Confundo class is called. Why? Because methods in the child class override those in the parent class if they exist in both classes."
+				}
+			]
+
+		}
+
+
+	]
+}]

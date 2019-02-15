@@ -1,0 +1,58 @@
+[{
+	"title": "Solve the following problem",
+	"activityType": "quiz",
+	"quizDescription": " This problem will ask some questions about the previous problem. You will want to refer to the <code>Hand</code> class from <a href=\"/hand.py\">hand.py</a> ",
+	"questions": [{
+			"questionType":"mcq",
+			"questionText": " There are two ways to write the <code>Hand.update</code> method: you could write this method in a way that gets rid of the key letter in the attribute <code>hand</code> dictionary when the frequency of the letter falls to 0, or write it in a way that leaves the key letter in the attribute <code>hand</code> dictionary even when the frequency of the letter falls to 0. <br><br> Will the two different implementations of the <code>Hand.update</code> method lead to <code>Hand</code> objects having different hand internal attributes? ",
+			"points":"1",
+			"options": [{
+					"option": " Yes, always ",
+					"correct": "False",
+					"feedback":"Incorrect<br>The internal representation of the <code>hand</code> attribute will be different once <code>update</code> removes the last of a given letter from the <code>hand</code>.In this case, the hand may go from something like <code>{'a': 2, 'z': 1}</code> to either <code>{'a': 1, 'z': 0}</code> or <code>{'a': 1}</code>."
+				},
+
+				{
+					"option": " Yes, depending on what happened during the <code>update</code> call ",
+					"correct": "True",
+					"feedback":"Correct<br>The internal representation of the <code>hand</code> attribute will be different once <code>update</code> removes the last of a given letter from the <code>hand</code>.In this case, the hand may go from something like <code>{'a': 2, 'z': 1}</code> to either <code>{'a': 1, 'z': 0}</code> or <code>{'a': 1}</code>."
+				},
+
+				{
+					"option": " No ",
+					"correct": "False",
+					"feedback":"Incorrect<br>The internal representation of the <code>hand</code> attribute will be different once <code>update</code> removes the last of a given letter from the <code>hand</code>.In this case, the hand may go from something like <code>{'a': 2, 'z': 1}</code> to either <code>{'a': 1, 'z': 0}</code> or <code>{'a': 1}</code>."
+				}
+
+			]
+
+
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " Which condition does the line assert(0.0 <= numbers[i] <= 1.0) correspond to? ",
+			"points":"1",
+			"options": [{
+					"option": " Yes, always ",
+					"correct": "False",
+					"feedback" : "Incorrect<br>The internal representation of the <code>hand</code> attribute has no bearing on the results of <code>calculateLen.</code>"
+				},
+
+				{
+					"option": " Yes, depending on what happened during the <code>update</code> call ",
+					"correct": "False",
+					"feedback" : "Incorrect<br>The internal representation of the <code>hand</code> attribute has no bearing on the results of <code>calculateLen.</code>"
+				},
+
+				{
+					"option": " No ",
+					"correct": "True",
+					"feedback" : "Correct<br>The internal representation of the <code>hand</code> attribute has no bearing on the results of <code>calculateLen.</code>"
+				}
+
+			]
+
+		}
+	]
+}]

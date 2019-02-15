@@ -1,0 +1,17 @@
+[
+	{
+		"activityType":"video",
+		"title":"In this activity, we discussed an aspect of language by watching a video",
+		"videoURL":"/Languages.mp4",
+		"videoResources":"/Languages.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Languages"
+		}
+		]
+	}
+]

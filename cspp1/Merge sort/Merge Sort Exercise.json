@@ -1,0 +1,212 @@
+[{
+	"title":"As you all learned Analysis of merge sort in previous activity here is some questions on Analysis of merge sort",
+	"activityType":"quiz",
+	"quizDescription": "This problem will walk through some applications of complexity analysis. Suppose you're asked to implement an application. One of the things it has to do is to report whether or not an item, x, is in a list L. L's contents do not change over time. Below are two possible ways to implement this functionality. Assume that mergeSort is implemented as per the lecture.<br> L is a list with n items. <br> <li> Application A:</li>  Every time it's asked to, it performs a linear search through list L to find whether it contains x. <br><br> <li> Application B: </li> Sort list L once before doing anything else (using mergeSort). Whenever it's asked to find x in L, it performs a binary search on L.<br>",
+	"questions": [
+		{
+				"questionType":"mcq",
+				"questionText": "If the application is asked to find x in L exactly one time, what is the worst case time complexity for Application A?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False",
+						"feedback":"Incorrect<br>Application A just performs one linear search through n elements. This is O(n) complexity."
+					},
+					{
+						"option":"O(log(n))",
+						"correct":"False",
+						"feedback":"Incorrect<br>Application A just performs one linear search through n elements. This is O(n) complexity."
+					},
+					{
+						"option":"O(n)",
+						"correct":"True",
+						"feedback":"Correct<br>Application A just performs one linear search through n elements. This is O(n) complexity."
+					},
+					{
+						"option":"O(n log(n))",
+						"correct":"False",
+						"feedback":"Incorrect<br>Application A just performs one linear search through n elements. This is O(n) complexity."
+					},
+					{
+						"option":"O(n^2)",
+						"correct":"False",
+						"feedback":"Incorrect<br>Application A just performs one linear search through n elements. This is O(n) complexity."
+					}
+				]
+		},
+		{
+			"questionType":"mcq",
+				"questionText": "If the application is asked to find x in L exactly one time, what is the worst case time complexity for Application B?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False",
+						"feedback":"Incorrect<br>The time complexity for Application B is how long it takes to do mergeSort once, plus how long it takes to do a binary search. That works out to O(log n+ n log n) , which is just O(n log n) "
+					},
+					{
+						"option":"O(log(n))",
+						"correct":"False",
+						"feedback":"Incorrect<br>The time complexity for Application B is how long it takes to do mergeSort once, plus how long it takes to do a binary search. That works out to O(log n+ n log n) , which is just O(n log n)"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False",
+						"feedback":"Incorrect<br>The time complexity for Application B is how long it takes to do mergeSort once, plus how long it takes to do a binary search. That works out to O(log n+ n log n) , which is just O(n log n)."
+					},
+					{
+						"option":"O(n log(n))",
+						"correct":"True",
+						"feedback":"Correct<br>The time complexity for Application B is how long it takes to do mergeSort once, plus how long it takes to do a binary search. That works out to O(log n+ n log n) , which is just O(n log n)."
+					},
+					{
+						"option":"O(n^2)",
+						"correct":"False",
+						"feedback":"Incorrect<br>The time complexity for Application B is how long it takes to do mergeSort once, plus how long it takes to do a binary search. That works out to O(log n+ n log n) , which is just O(n log n)."
+					}
+				]
+		},
+		{
+			"questionType":"mcq",
+				"questionText": "If the application is asked to find x in L k times, what is the worst case time complexity for Application A?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False",
+						"feedback":"Incorrect<br>We have to do k linear searches so the time complexity is . "
+					},
+					{
+						"option":"O(k+logn)",
+						"correct":"False",
+						"feedback":"Incorrect<br>We have to do k linear searches so the time complexity is . "
+					},
+					{
+						"option":"O(k+n)",
+						"correct":"False",
+						"feedback":"Incorrect<br>We have to do k linear searches so the time complexity is . "
+					},
+					{
+						"option":"O(kn)",
+						"correct":"True",
+						"feedback":"Correct<br>We have to do k linear searches so the time complexity is . "
+					},
+					{
+						"option":"O(n +klogn)",
+						"correct":"False",
+						"feedback":"Incorrect<br>We have to do k linear searches so the time complexity is . "
+					}
+				]
+		},
+		{
+			"questionType":"mcq",
+				"questionText": "If the application is asked to find x in L k times, what is the worst case time complexity for Application B?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(kn)",
+						"correct":"False",
+						"feedback":"Incorrect<br>Doing the search k times means that the time complexity is how long it takes to do mergeSort once, plus how long it takes to do a binary search k times. That works out to O(nlogn+klogn) . Since we don't know what the value of k is, we cannot simplify further. "
+					},
+					{
+						"option":"O(nlogn)",
+						"correct":"False",
+						"feedback":"Incorrect<br>Doing the search k times means that the time complexity is how long it takes to do mergeSort once, plus how long it takes to do a binary search k times. That works out to O(nlogn+klogn) . Since we don't know what the value of k is, we cannot simplify further. "
+					},
+					{
+						"option":"O(n+klogn)",
+						"correct":"False",
+						"feedback":"Incorrect<br>Doing the search k times means that the time complexity is how long it takes to do mergeSort once, plus how long it takes to do a binary search k times. That works out to O(nlogn+klogn) . Since we don't know what the value of k is, we cannot simplify further. "
+					},
+					{
+						"option":"O(nlogn+klogn)",
+						"correct":"True",
+						"feedback":"Correct<br>Doing the search k times means that the time complexity is how long it takes to do mergeSort once, plus how long it takes to do a binary search k times. That works out to O(nlogn+klogn) . Since we don't know what the value of k is, we cannot simplify further. "
+					},
+					{
+						"option":"O(knlogn +logn)",
+						"correct":"False",
+						"feedback":"Incorrect<br>Doing the search k times means that the time complexity is how long it takes to do mergeSort once, plus how long it takes to do a binary search k times. That works out to O(nlogn+klogn) . Since we don't know what the value of k is, we cannot simplify further. "
+					}
+				]
+		},
+		{
+				"questionType":"mcq",
+				"questionText": "What value(s) of k would make Application A be faster (i.e., asymptotically grow slower than) Application B?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"k = 1",
+						"correct":"True"
+					},
+					{
+						"option":"k = n",
+						"correct":"False"
+					},
+					{
+						"option":"k = log n",
+						"correct":"False"
+					},
+					{
+						"option":"k = n ^2",
+						"correct":"False"
+					},
+					{
+						"option":"k = 2 ^ n",
+						"correct":"False"
+					}
+				]
+		},
+		{
+				"questionType":"mcq",
+				"questionText": "What value(s) of k would make Application A grow at the same rate as Application B?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"k = 1",
+						"correct":"False"
+					},
+					{
+						"option":"k = n",
+						"correct":"False"
+					},
+					{
+						"option":"k = log n",
+						"correct":"True"
+					},
+					{
+						"option":"k = n ^2",
+						"correct":"False"
+					},
+					{
+						"option":"k = 2 ^ n",
+						"correct":"False"
+					}
+				]
+		},
+		{
+				"questionType":"mcq",
+				"questionText": "Which application should you choose if you know that there are going to be n ^3  requests to find x in L?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"Application A",
+						"correct":"False"
+					},
+					{
+						"option":"Application B",
+						"correct":"True"
+					}
+				]
+		}
+
+	]
+}					]

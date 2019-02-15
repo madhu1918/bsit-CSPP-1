@@ -1,0 +1,61 @@
+[{
+	"title":"In the previous activities you learned about analysis and working of searching algorithms. In this activity there are few questions please answer those questions",
+	"activityType":"quiz",
+	"quizDescription": [{"text":"In this problem, we'll examine how indirection works. Consider the following definitions:"},{"code":"searchingExercise1program1.py"}],
+	"questions": [
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the following expressions? If you think there will be an error, please type in 'error' (without quotes) in the input box <br> a[0]",
+				"points":"1",
+				"answer": "1"
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the following expressions? If you think there will be an error, please type in 'error' (without quotes) in the input box <br> b[1]",
+				"points":"1",
+				"answer": "0"
+				
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the following expressions? If you think there will be an error, please type in 'error' (without quotes) in the input box <br> a[a[1]]",
+				"points":"1",
+				"answer": "3"
+				
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the following expressions? If you think there will be an error, please type in 'error' (without quotes) in the input box <br> b[b[2]]",
+				"points":"1",
+				"answer": "2"
+				
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the following expressions? If you think there will be an error, please type in 'error' (without quotes) in the input box <br> a[b[2]]",
+				"points":"1",
+				"answer": "3"
+				
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the following expressions? If you think there will be an error, please type in 'error' (without quotes) in the input box <br> c[a[b[3]]]",
+				"points":"1",
+				"answer": "3"
+				
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the following expressions? If you think there will be an error, please type in 'error' (without quotes) in the input box <br> a[c[a[b[0]]]]",
+				"points":"1",
+				"answer": "error"
+				
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the value of the following expressions? If you think there will be an error, please type in 'error' (without quotes) in the input box <br> a[c[a[b[3]]]]",
+				"points":"1",
+				"answer": "4"
+			}
+		]
+}]			

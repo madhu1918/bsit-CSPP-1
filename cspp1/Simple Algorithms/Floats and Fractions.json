@@ -1,0 +1,17 @@
+[
+	{
+		"title":"Video on Floats and Fractions",
+		"activityType":"video",
+		"videoURL":"/4) Floats and Fractions.mp4",
+		"videoResources" : "/4) Floats and Fractions.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Floats and Fractions"
+		}
+		]
+	}
+]

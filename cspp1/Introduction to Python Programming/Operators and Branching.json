@@ -1,0 +1,17 @@
+[
+	{
+		"activityType":"video",
+		"title":"In this activity we discussed about Operators and branching in python by watching a video",
+		"videoURL":"/Operators and Branching.mp4",
+		"videoResources":"/Operators and Branching.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Operators and Branching"
+		}
+		]
+	}
+]

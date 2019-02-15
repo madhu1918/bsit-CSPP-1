@@ -1,0 +1,92 @@
+[{
+	"activityType":"quiz",
+	"title":"Last activity you solved few questions. In this activity we give you some questions on Algorithms-1, try to answer those questions.",
+	"quizDescription":"description Last activity you solved few questions. In this activity we give you some questions on Algorithms-1, try to answer those questions.",
+	"questions":[
+		{
+			"questionType":"mcq",
+			"questionText":"In many cases, an algorithm can be seen as a sequence of computational steps that transform some input to an output.",
+			"points":"1",
+			"hint":
+			[
+					"Many computational problems involve computing some function of a given input (data). Think of our example. We give the algorithm an integer n and it computes 1 + 2 + … + n.",
+					"An algorithm describes the sequence of steps to solve a problem."
+			],
+			"options":[
+				{
+					"option":"True",
+					"correct":"True",
+					"feedback":"Correct. This is an alternative definition for the notion of an algorithm, a sequence of steps that transform an input to an output."
+				},
+				{
+					"option":"False.",
+					"correct":"False",
+					"feedback":"Incorrect. In many interesting cases, an algorithm will involve processing of some data that is input to the algorithm."
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":"We cannot describe an algorithm without a programming language.",
+			"points":"1",
+			"hint":
+			[
+					"Algorithm is a computational recipe for solving a problem. We can describe it formally or informally using pseudo-code",
+					"Check how we described the algorithm in Example 1."
+			],
+			"options":[
+				{
+					"option":"True",
+					"correct":"False",
+					"feedback":"Incorrect. Algorithms are often described using pseudo-code, which is an informal language that uses the structural conventions of a programming language, but is intended for human reading rather than execution by a computer."
+				},
+				{
+					"option":"False.",
+					"correct":"True",
+					"feedback":"Correct. Algorithms are often described using pseudo-code, which is an informal language that uses the structural conventions of a programming language, but is intended for human reading rather than execution by a computer."
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":"A program expresses what instructions will be executed in what order by the computer.",
+			"points":"1",
+			"hint":
+			[
+					"Think of a program as an algorithm that has been described using a formal language.",
+					"Computational algorithms describe steps that are ultimately implementable using instructions from the instruction set of a computer.",
+					"Ultimately every program amounts to sequence of instructions."
+			],
+			"options":[
+				{
+					"option":"True",
+					"correct":"True",
+					"feedback":"Correct. Programming languages may provide convenience to express programs using a structure that is more complex than a simple sequence of instructions but ultimately every program amounts to a sequence of instructions."
+				},
+				{
+					"option":"False.",
+					"correct":"False",
+					"feedback":"Incorrect. We use the term program to mean the collection of instructions that we express using a programming language. Programming languages may provide convenience to express programs using a structure that is more complex than a simple sequence of instructions but ultimately every program amounts to a sequence of instructions."
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":"Programming languages offer a formal language for creating programs that can be executed by the computer. Programs can be executed by the computer if there are tools that translate programs to those consisting of the built-in instructions of a computer.",
+			"points":"1",
+			"options":[
+				{
+					"option":"True",
+					"correct":"True",
+					"feedback":"Correct. Programming languages provide a precise and convenient way to express programs. For programs to be executable, they must be translated to a sequence of instructions that the computer knows how to execute."
+				},
+				{
+					"option":"False.",
+					"correct":"False",
+					"feedback":"Incorrect. Programming languages provide a precise and convenient way to express programs. For programs to be executable, they must be translated to a sequence of instructions that the computer knows how to execute."
+				}
+			]
+		}
+	]
+}
+]

@@ -1,0 +1,16 @@
+[
+	{
+		"title":"In last activity you learned Loops but for better understanding we will have a quick revise on Loops by watching a video on Factors of given number",
+		"activityType":"video",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on factors of a given number"
+		}
+		]
+	}
+]

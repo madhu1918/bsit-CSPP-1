@@ -1,0 +1,18 @@
+[{
+	"title":"In this activity we will discuss about grade book example by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnGradebookExample.mp4",
+	"videoResources":"/GradebookExample.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Gradebook Example"
+	}
+	]
+}
+
+
+]

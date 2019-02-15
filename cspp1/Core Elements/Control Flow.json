@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity we will discuss about Control flow by watching a video",
+		"activityType":"video",
+		"videoURL":"/5) Control Flow.mp4",
+		"videoResources" : "/5) Control Flow.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Control Flow"
+		}
+		]
+	}
+]

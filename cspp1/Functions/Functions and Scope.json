@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity we will discuss about Functions and scope by watching a video",
+		"activityType":"video",
+		"videoURL":"/2 Functions and Scope.mp4",
+		"videoResources" : "/2 Functions and Scope.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Functions and Scope"
+		}
+		]
+	}
+]

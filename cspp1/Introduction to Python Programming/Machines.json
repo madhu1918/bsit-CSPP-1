@@ -1,0 +1,17 @@
+[
+	{
+		"activityType":"video",
+		"title":"In this activity we discussed about how the machine architecture and machine primitives by watching a video",
+		"videoURL":"/Machines.mp4",
+		"videoResources":"/Machines.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Machines"
+		}
+		]
+	}
+]

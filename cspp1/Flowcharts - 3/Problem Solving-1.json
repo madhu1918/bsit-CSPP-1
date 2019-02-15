@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity you are going to learn construction of flowchart by solving a problem Finding GCD of two numbers",
+		"activityType":"video",
+		"videoURL":"",
+		"raptorURL" : "/gcd.rap"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on finding the GCD of two numbers"
+		}
+		]
+	}
+]

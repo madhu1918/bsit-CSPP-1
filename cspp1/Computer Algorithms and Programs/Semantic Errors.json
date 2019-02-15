@@ -1,0 +1,29 @@
+[{
+	"activityType":"quiz",
+	"title":"Last activity you solved few questions. In this activity we give you some questions on Semantic Errors, try to answer those questions",
+	"questions":[
+		{
+			"questionType":"mcq",
+			"questionText":"Which of the following is a semantic error?",
+			"points":"1",
+			"options":[
+				{
+					"option":"Attempting to divide by 0.",
+					"correct":"False",
+					"feedback":"Incorrect. A semantic error is an error in logic. In this case the program does not produce the correct output because the problem is not solved correctly. This would be considered a run-time error."
+				},
+				{
+					"option":"Forgetting a colon at the end of a statement where one is required.",
+					"correct":"False",
+					"feedback":"Incorrect. A semantic error is an error in logic. In this case the program does not produce the correct output because the code can not be processed by the compiler or interpreter. This would be considered a syntax error."
+				},
+				{
+					"option":"Forgetting to divide by 100 when printing a percentage amount.",
+					"correct":"True",
+					"feedback":"Correct! This will produce the wrong answer because the programmer implemented the solution incorrectly. This is a semantic error."
+				}
+			]
+		}
+	]
+}
+]

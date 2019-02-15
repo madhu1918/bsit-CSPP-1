@@ -1,0 +1,16 @@
+[
+	{
+		"title":"In last activity you learned Loops, In this Activity we are going to learn Lists by watching a video on Count even numbers in a List",
+		"activityType":"video",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Count Even Numbers in a given List"
+		}
+		]
+	}
+]

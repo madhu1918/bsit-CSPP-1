@@ -1,0 +1,137 @@
+[
+	{
+		"activityType":"quiz",
+		"title":"Last activity you solved few questions. There are few more questions in this activity for you to answer",
+		"quizDescription":"For each of the following expressions, indicate the type of the expression and the value returned, or, if the evaluation would lead to an error, choose the type 'NoneType' and write the word 'error' (note this is a word, not a string, no quotes) as the value returned.<br><br>While you could simply type these expressions into your IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.",
+		"questions":[
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>3 + 5.0</code>",
+				"points":"1",
+				"answer":"8.0"
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>3 + 5.0</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"float"
+				}
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>5/2</code>",
+				"points":"1",
+				"answer":"2.5"
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>5/2</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"float"
+				}
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>5/2 == 5/2.0</code>",
+				"points":"1",
+				"answer":"True"
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>5/2 == 5/2.0</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"bool"
+				}
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>5/2.0</code>",
+				"points":"1",
+				"answer":"2.5"
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>5/2.0</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"float"
+				}
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>round(2.6)</code>",
+				"points":"1",
+				"answer":"3"
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>round(2.6)</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"int"
+				}
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>int(2.6)</code>",
+				"points":"1",
+				"answer":"2"
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>int(2.6)</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"int"
+				}
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>2.0 + 5.0</code>",
+				"points":"1",
+				"answer":"7.0"
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>2.0 + 5.0</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"float"
+				}
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>5*2 == 5.0 * 2.0</code>",
+				"points":"1",
+				"answer":"True"
+			},
+			{
+				"questionType":"dropdown",
+				"questionText":"<code>5*2 == 5.0 * 2.0</code>",
+				"points":"1",
+				"dropdown":
+				{
+					"option":["Select an option","NoneType","int","float","bool"],
+					"correct":"bool"
+				}
+			}
+		]
+	}
+]

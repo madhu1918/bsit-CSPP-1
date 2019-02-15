@@ -1,0 +1,85 @@
+[{
+	"activityType":"quiz",
+	"title":"Last activity you have an overview of all the concepts we are going to discuss in this Module. In this activity we give you some questions on computers, try to answer those questions.",
+	"questions":[
+		{
+
+			"questionType":"mcq",
+			"questionText":"Each computer has a built-in instruction set that it knows how to execute by design.<br><br><b>Hints</b>:Recall that we use the term computation to mean “the execution of a sequence of instructions by a computer with the intention of solving a given problem”.A computer should know how to perform certain basic instructions for it to be able to do any computation at all.",
+			"points":"1",
+			"options":[
+				{
+					"option":"True",
+					"correct":"True",
+					"feedback":"Correct. This set typically includes simple instructions for doing arithmetic and logic operations, moving data between the processing and storage units, and for determining which instruction is to be executed next."
+				},
+				{
+					"option":"False.",
+					"correct":"False",
+					"feedback":"Incorrect. Each computer has a set of primitive instructions that it is “wired” to execute. We call this the instruction set of the computer.."
+				}
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText":"The computer uses intelligence to execute instructions.",
+			"points":"1",
+			"hint":["Recall that we said a computer executes the instructions given to it mechanically.Mechanical computation means, automated computation without any thought."],
+			"options":[
+				{
+					"option":"True",
+					"correct":"False",
+					"feedback":"Incorrect. A computer executes instructions automatically. Its main task is to simply execute the instructions given to it (from its instruction set) and remember their results as the computation goes on. The part that may require intelligence is expressing a computation in terms of those instructions."
+
+				},
+				{
+					"option":"False",
+					"correct":"True",
+					"feedback":"Correct. A computer executes instructions automatically. Its main task is to simply execute the instructions given to it (from its instruction set) and remember their results as the computation goes on. The part that may require intelligence is expressing a computation in terms of those instructions."
+				}
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText":"In modern computers instructions can be stored and manipulated as other types of data.",
+			"points":"1",
+			"hint":
+				[
+					"Recall the characteristic we singled out as something that makes modern computers especially powerful.",
+					"We have not discussed in detail how instructions are represented in a computer but we stated that modern computers can store instructions."
+				],
+			"options":[
+				{
+					"option":"True",
+					"correct":"True",
+					"feedback":"Correct. We will learn later in the course that everything inside the computer is encoded in the same way, using bits. The ability to store and manipulate instructions as any other data allows computers to do a wider range of computations than they would have been able to do otherwise."
+				},
+				{
+					"option":"False",
+					"correct":"False",
+					"feedback":"Incorrect. We will learn later in the course that everything inside the computer is encoded in the same way, using bits. The ability to store and manipulate instructions as any other data allows computers to do a wider range of computations than they would have been able to do otherwise."
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":"Computers help humans solve problems by automatically executing a sequence of instructions given to them and storing their results.",
+			"points":"1",
+			"options":[
+				{
+					"option":"True",
+					"correct":"True",
+					"feedback":"Correct. Executing instructions and storing data are the main things that computers do. In order to solve a problem with the help of a computer we need to specify a sequence of steps for the computer to execute"
+				},
+				{
+					"option":"False",
+					"correct":"False",
+					"feedback":"Incorrect. Executing instructions and storing data are exactly the main things that computers do. In order to solve a problem with the help of a computer we need to specify a sequence of steps for the computer to execute."
+				}
+			]
+		}
+	]
+}
+]

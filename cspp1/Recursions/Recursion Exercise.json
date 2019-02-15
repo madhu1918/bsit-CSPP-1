@@ -1,0 +1,131 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following questions on recursion",
+	"questions":
+	[
+		{
+			"questionType":"mcq",
+			"questionText":[
+					{
+						"text":"Assume the two files below are in the same folder. You run inventory.py. What happens?"
+					},
+					{
+						"code":"batteries.py"
+					},
+					{
+						"code":"inventory1.py"
+					}
+			],
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"prints aa",
+					"correct":"True"
+				},
+				{
+					"option":"prints AA",
+					"correct":"False"
+				},
+				{
+					"option":"There is an error",
+					"correct":"False"
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":[
+					{
+						"text":"Assume the two files below are in the same folder. You run inventory.py. What happens?"
+					},
+					{
+						"code":"batteries.py"
+					},
+					{
+						"code":"inventory2.py"
+					}
+			],
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"prints aa",
+					"correct":"False"
+				},
+				{
+					"option":"prints AA",
+					"correct":"False"
+				},
+				{
+					"option":"There is an error",
+					"correct":"True"
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":[
+					{
+						"text":"Assume the two files below are in the same folder. You run inventory.py. What happens?"
+					},
+					{
+						"code":"batteries.py"
+					},
+					{
+						"code":"inventory3.py"
+					}
+			],
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"prints aa",
+					"correct":"False"
+				},
+				{
+					"option":"prints AA",
+					"correct":"True"
+				},
+				{
+					"option":"There is an error",
+					"correct":"False"
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":[
+					{
+						"text":"Assume the two files below are in the same folder. You run inventory.py. What happens?"
+					},
+					{
+						"code":"batteries.py"
+					},
+					{
+						"code":"inventory4.py"
+					}
+			],
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"prints AA AAA C D",
+					"correct":"False"
+				},
+				{
+					"option":"prints aa aaa c d",
+					"correct":"False"
+				},
+				{
+					"option":"prints aa AAA C D",
+					"correct":"True"
+				},
+				{
+					"option":"There is an error.",
+					"correct":"False"
+				}
+			]
+		}
+	]
+}]

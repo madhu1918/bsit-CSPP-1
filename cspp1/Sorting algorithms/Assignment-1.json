@@ -1,0 +1,55 @@
+[{
+	"title":"In the previous activities you solved few problems on sorting algorithms. In this activity  also there are few more questions please answer those questions",
+	"activityType":"quiz",
+	"quizDescription":
+		[
+			{
+				"text":"Answer the questions below based on the following sorting function. If it helps, you may paste the code in your programming environment. Study the output to make sure you understand the way it sorts."
+			},
+			{
+				"code":"code 6.py"
+			}
+		],
+	"questions": [
+			{
+				"questionType": "mcq",
+				"questionText": "Does this function sort the list in increasing or decreasing order? (items at lower indices being smaller means it sorts in increasing order, and vice versa)",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"Increasing",
+						"correct":"True"
+					},
+					{
+						"option":"Decreasing",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "What is the worst case time complexity of swapSort? Consider different kinds of lists when the length of the list is large.",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(n^2)",
+						"correct":"True"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(1)",
+						"correct":"False"
+					}
+				]
+			}
+		]
+}]					

@@ -1,0 +1,70 @@
+[{
+	"activityType":"quiz",
+	"title":"Last activity you solved few questions. In this activity we give you some questions on Algorithms-1, try to answer those questions.",
+	"questions":[
+		{
+			"questionType":"mcq",
+			"questionText":"An interpreter for a language X is a program that executes programs written using the language X.",
+			"points":"1",
+			"hint":
+			[
+					"Programs can take programs as inputs.",
+					"An interpreter is a program.",
+					"An input to an interpreter is a high-level program that we want to execute."
+			],
+			"options":[
+				{
+					"option":"True",
+					"correct":"True",
+					"feedback":"Correct. An interpreter is a program itself. It takes a program, which is a sequence of instructions in the source language, and “interprets (executes)” it one instruction at a time."
+				},
+				{
+					"option":"False.",
+					"correct":"False",
+					"feedback":"Incorrect. Programs can take other programs as input. It takes a program, which is a sequence of instructions in the source language, and “interprets (executes)” it one instruction at a time."
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":"While writing a program to solve a problem with a high-level programming language, as a programmer, you need to take into consideration the computing platform on which the program is to be executed.",
+			"points":"1",
+			"hint":
+			[
+					"Recall what we said about abstraction and high-level programming languages.",
+					"An advantage of using a high-level programming language is that it allows one to write programs at an abstraction level higher than the instruction set of the computer.",
+					"We can execute a program on any platform as long as an interpreter or compiler exists for that platform."
+			],
+			"options":[
+				{
+					"option":"True",
+					"correct":"False",
+					"feedback":"Incorrect. An important reason for writing programs using a high-level programming language is to avoid what is described. Having to deal with the details of a particular computing platform would divert programmers attention from the problem itself. We write a program once and we can execute it on any platform as long as an interpreter or compiler exists for that platform. In some cases, for example, when we want very efficient programs, low-level languages may be better suited but this is outside the scope of this course"
+				},
+				{
+					"option":"False.",
+					"correct":"True",
+					"feedback":"Correct. An important reason for writing programs using a high-level programming language is to avoid what is described. Having to deal with the details of a particular computing platform would divert programmers attention from the problem itself. We write a program once and we can execute it on any platform as long as an interpreter or compiler exists for that platform. In some cases, for example, when we want very efficient programs, low-level languages may be better suited but this is outside the scope of this course."
+				}
+			]
+		},
+		{
+			"questionType":"mcq",
+			"questionText":"An interpreter combines translation and execution.",
+			"points":"1",
+			"options":[
+				{
+					"option":"True",
+					"correct":"True",
+					"feedback":"Correct. It does not translate the entire source program to the machine language and then execute it, which would imply the separation of these two phases. Rather, it translates and executes instructions one at a time. This is a reason for them being slower than compilers, which separate those phases."
+				},
+				{
+					"option":"False.",
+					"correct":"False",
+					"feedback":"Incorrect. It does not translate the entire source program to the machine language and then execute it, which would imply the separation of these two phases. Rather, it translates and executes instructions one at a time. This is a reason for them being slower than compilers, which separate those phases."
+				}
+			]
+		}
+	]
+}
+]

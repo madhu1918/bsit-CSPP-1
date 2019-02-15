@@ -1,0 +1,20 @@
+[{
+	"activityType":"assignment",
+	"title":"Solve the following problem",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"Write a procedure called <code>oddTuples</code>, which takes a tuple as input, and returns a new tuple as output, where every other element of the input tuple is copied, starting with the first one. So if test is the tuple <code>('I', 'am', 'a', 'test', 'tuple')</code>, then evaluating oddTuples on this input would return the tuple <code>('I', 'a', 'tuple')</code>.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Odd Tuples Exercise.zip"]
+				}
+			],
+			"points":"5",
+			"code":"oddtuples.py"
+		}
+	]
+}]

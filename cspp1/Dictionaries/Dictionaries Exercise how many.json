@@ -1,0 +1,33 @@
+[{
+	"activityType":"assignment",
+	"title":"Dictionaries Excercise How Many",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"question":
+			[
+				{
+					"text":"Consider the following sequence of expressions:"
+				},
+				{
+					"code":"howmany_1.py"
+				},
+				{
+					"text":"We want to write some simple procedures that work on dictionaries to return information.<br>First, write a procedure, called how_many, which returns the sum of the number of values associated with a dictionary. For example:"
+				},
+				{
+					"code":"howmany2.py"
+				},
+				{
+					"text":"Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["how many.zip"]
+				}
+			],
+			"points":"10",
+			"code":"howmany.py"
+		}
+	]
+}]

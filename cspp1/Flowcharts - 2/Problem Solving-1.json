@@ -1,0 +1,17 @@
+[
+	{
+		"title":" In this activity, you are going to learn how to draw a flowchart by solving a problem converting Celsius to Fahrenheit.",
+		"activityType":"video",
+		"videoURL":"",
+		"raptorURL":"/degresstofarhenheit.rap"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video Celcius to Fahrenheit"
+		}
+		]
+	}
+]

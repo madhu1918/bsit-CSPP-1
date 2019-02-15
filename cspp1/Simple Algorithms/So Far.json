@@ -1,0 +1,17 @@
+[
+	{
+		"title":"Video on So Far",
+		"activityType":"video",
+		"videoURL":"/1) So Far.mp4",
+		"videoResources" : "/1) So Far.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on So Far<br><br>Line should be s[::-1] = 'hgfedcba'"
+		}
+		]
+	}
+]

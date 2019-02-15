@@ -1,0 +1,121 @@
+[{
+	"title":"In the previous activities you solved few problems on sorting algorithms. In this activity  also there are few more questions please answer those questions",
+	"activityType":"quiz",
+	"quizDescription": [
+		{
+			"text":"Here is another version of a sorting function:"
+		},
+		{
+			"code":"sorting Exercise 2 program1.py"
+		},
+		{
+			"text":"Compare this to:"
+		},
+		{
+			"code":"sorting Exercise 2 program2.py"
+		}
+	],
+	"questions": [
+		{
+				"questionType":"mcq",
+				"questionText": "Do these two functions result in the same sorted lists?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"Yes",
+						"correct":"True",
+						"feedback":"Correct<br>mySort:<br><br>A list is sorted if every pair of successive elements in a list are in the correct order. mySort implements this idea more directly than in other sorting algorithms we have seen. The basic idea is that every time it finds two successive elements in the wrong order, it will swap them. Because all lists can be sorted, it will eventually run out of things that are in the wrong order. At this point the list is sorted, and the algorithm terminates.<br><br>Another way of thinking about mySort is that in each iteration, if an element e is bigger than the one after it, e moves down one location. Then, e is checked against the next element, and so on, until the algorithm finds an element bigger than e. So, in the first pass, the biggest element drops to the bottom of the list. Then, in the second pass, the second biggest drops to the second to last position in the list, and so on for the remaining iterations. In each pass through the list, the next biggest element drops to its proper location, so that after n iterations, the list is sorted. This algorithm is typically known as 'bubble sort' as elements bubble (up or down) one element at a time."
+					},
+					{
+						"option":"No",
+						"correct":"False",
+						"feedback":"Incorrect<br>newSort is basically a slight variant of Selection Sort (see previous problem). In each iteration, newSort tries to find the smallest element in the unsorted part of the list and appends it to the sorted part of the list. newSort maintains that the element at the ith position is the smallest element between the ith and jth positions. So, when j reaches the end of the list, the ith position must have been the smallest element in the unsorted portion (from position i to the end) of the list."
+					}
+				]
+
+
+			},
+			{
+				"questionType":"mcq",
+				"questionText": "Do these two functions execute the same number of assignments of values into entries of the lists?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"Yes. They execute the same number of assignments.",
+						"correct":"True",
+						"feedback":"Correct<br>This is pretty complicated to prove, so don't worry if this question was hard for you! Here's a sketch of why both mySort and newSort execute the same number of assignments:<br><br>newSort is, loosely speaking, performing mySort in the opposite direction, moving up the next smallest element to the beginning of the list. However, instead of swapping the successive elements, it instead swaps with the eventual position the smallest element will have to end up in. The number of swaps it needs ends up being the same as that of mySort because moving in either direction will encounter the same number of inconsistent pairwise elements."
+					},
+					{
+						"option":"No. newSort may use more - but never fewer - inserts than mySort.",
+						"correct":"False",
+						"feedback":"Incorrect<br>This is pretty complicated to prove, so don't worry if this question was hard for you! Here's a sketch of why both mySort and newSort execute the same number of assignments:<br><br>newSort is, loosely speaking, performing mySort in the opposite direction, moving up the next smallest element to the beginning of the list. However, instead of swapping the successive elements, it instead swaps with the eventual position the smallest element will have to end up in. The number of swaps it needs ends up being the same as that of mySort because moving in either direction will encounter the same number of inconsistent pairwise elements."
+					},
+					{
+						"option":"No. mySort may use more - but never fewer - inserts than newSort.",
+						"correct":"False",
+						"feedback":"Incorrect<br>This is pretty complicated to prove, so don't worry if this question was hard for you! Here's a sketch of why both mySort and newSort execute the same number of assignments:<br><br>newSort is, loosely speaking, performing mySort in the opposite direction, moving up the next smallest element to the beginning of the list. However, instead of swapping the successive elements, it instead swaps with the eventual position the smallest element will have to end up in. The number of swaps it needs ends up being the same as that of mySort because moving in either direction will encounter the same number of inconsistent pairwise elements."
+					},
+					{
+						"option":"No. Either function may use more inserts than the other",
+						"correct":"False",
+						"feedback":"Incorrect<br>This is pretty complicated to prove, so don't worry if this question was hard for you! Here's a sketch of why both mySort and newSort execute the same number of assignments:<br><br>newSort is, loosely speaking, performing mySort in the opposite direction, moving up the next smallest element to the beginning of the list. However, instead of swapping the successive elements, it instead swaps with the eventual position the smallest element will have to end up in. The number of swaps it needs ends up being the same as that of mySort because moving in either direction will encounter the same number of inconsistent pairwise elements."
+					}
+				]
+			},
+			{
+				"questionType":"mcq",
+				"questionText": "Is the worst-case order of growth of these functions the same?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"Yes. newSort and mySort have the same complexity. ",
+						"correct":"True",
+						"feedback":"Correct<br>mySort is O(n^2). In each iteration, mySort checks n-1 successive pairwise elements, and also moves the next biggest element to the bottom of the list (see explanation of how mySort works under the first question of this problem). So, after at most n iterations, it will have moved the n biggest elements to their correct locations, in which case it has sorted the list! So, the worst case time complexity for mySort is O(n^2) .<br><br>In newSort, i iterates over each element of the list, and j checks between 1 and up to n-i elements. That's n iterations for i, and for each i, we are looking for the smallest element by checking about n/2 elements on average. That's kind of like n * n/2 checks, which is a complexity of O(n^2) ."
+					},
+					{
+						"option":"No. newSort has higher complexity than selSort ",
+						"correct":"False",
+						"feedback":"Incorrect<br>mySort is O(n^2). In each iteration, mySort checks n-1 successive pairwise elements, and also moves the next biggest element to the bottom of the list (see explanation of how mySort works under the first question of this problem). So, after at most n iterations, it will have moved the n biggest elements to their correct locations, in which case it has sorted the list! So, the worst case time complexity for mySort is O(n^2) .<br><br>In newSort, i iterates over each element of the list, and j checks between 1 and up to n-i elements. That's n iterations for i, and for each i, we are looking for the smallest element by checking about n/2 elements on average. That's kind of like n * n/2 checks, which is a complexity of O(n^2) ."
+					},
+					{
+						"option":"No. mySort has higher complexity than newSort. ",
+						"correct":"False",
+						"feedback":"Incorrect<br>mySort is O(n^2). In each iteration, mySort checks n-1 successive pairwise elements, and also moves the next biggest element to the bottom of the list (see explanation of how mySort works under the first question of this problem). So, after at most n iterations, it will have moved the n biggest elements to their correct locations, in which case it has sorted the list! So, the worst case time complexity for mySort is O(n^2) .<br><br>In newSort, i iterates over each element of the list, and j checks between 1 and up to n-i elements. That's n iterations for i, and for each i, we are looking for the smallest element by checking about n/2 elements on average. That's kind of like n * n/2 checks, which is a complexity of O(n^2) ."
+					}
+				]
+			},
+			{
+				"questionType":"mcq",
+				"questionText": "Do these two functions examine the same number of entries in the list?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"Yes. newSort and mySort examine the same number of entries.",
+						"correct":"False",
+						"feedback":"Incorrect<br>For L = [1, 2, 3] mySort performs 2 comparisons and newSort performs 3 comparisons. For L = [3, 2, 1] mySort performs 6 comparisons and newSort performs 3 comparisons."
+					},
+					{
+						"option":"No. newSort examines more entries than mySort",
+						"correct":"False",
+						"feedback":"Incorrect<br>For L = [1, 2, 3] mySort performs 2 comparisons and newSort performs 3 comparisons. For L = [3, 2, 1] mySort performs 6 comparisons and newSort performs 3 comparisons."
+					},
+					{
+						"option":"No. mySort examines more entries than newSort.",
+						"correct":"False",
+						"feedback":"Incorrect<br>For L = [1, 2, 3] mySort performs 2 comparisons and newSort performs 3 comparisons. For L = [3, 2, 1] mySort performs 6 comparisons and newSort performs 3 comparisons."
+					},
+					{
+						"option":"No. mySort and newSort examine different numbers of entries, but one cannot always say which function will examine the most entries.",
+						"correct":"True",
+						"feedback":"Correct<br>For L = [1, 2, 3] mySort performs 2 comparisons and newSort performs 3 comparisons. For L = [3, 2, 1] mySort performs 6 comparisons and newSort performs 3 comparisons."
+					}
+				]
+
+			}
+
+	]
+}					]

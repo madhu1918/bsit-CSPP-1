@@ -1,0 +1,34 @@
+[{
+	"activityType":"quiz",
+	"title":"Last activity you solved few questions. In this activity we give you some questions on What is Debugging, try to answer those questions",
+	"questions":[
+		{
+			"questionType":"mcq",
+			"questionText":"Debugging is:",
+			"points":"1",
+			"options":[
+				{
+					"option":"tracking down programming errors and correcting them.",
+					"correct":"True",
+					"feedback":"Correct! Programming errors are called bugs and the process of finding and removing them from a program is called debugging."
+				},
+				{
+					"option":"removing all the bugs from your house.",
+					"correct":"False",
+					"feedback":"Incorrect. Maybe, but that is not what we are talking about in this context."
+				},
+				{
+					"option":"finding all the bugs in the program.",
+					"correct":"False",
+					"feedback":"Incorrect. This is partially correct. But, debugging is more than just finding the bugs. What do you need to do once you find them?"
+				},
+				{
+					"option":"fixing the bugs in the program.",
+					"correct":"False",
+					"feedback":"Incorrect. This is partially correct. But, debugging is more than just fixing the bugs. What do you need to do before you can fix them?"
+				}
+			]
+		}
+	]
+}
+]

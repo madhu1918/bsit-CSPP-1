@@ -1,0 +1,19 @@
+[{
+	"title":"Solve the following Assignment problem",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType": "filesubmission",
+			"questionText":[
+				{
+					"text": "Assume <b>s</b> is a string of lower case characters.<br><br>Write a program that counts up the number of vowels contained in the string <b>s</b>. Valid vowels are: 'a', 'e', 'i', 'o', and 'u'. For example, if s = 'azcbobobegghakl', your program should print:<br><br>Number of vowels: 5<br><br>Check your program against the given test cases below as a zip file. Submit your Solution(zip file) when all the test cases are passed."
+				},
+				{
+					"attachment":["Assignment-1.zip"]
+				}
+			],
+			"points":"10"
+		}
+	]
+}]

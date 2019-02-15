@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Now you all learned and practised the variables and assignment operator, In this Activity, we are going to learn Arithmetic Operators and Branching by watching a video on Profit and Loss.",
+		"activityType":"video",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Profit and Loss"
+		}
+		]
+	}
+]

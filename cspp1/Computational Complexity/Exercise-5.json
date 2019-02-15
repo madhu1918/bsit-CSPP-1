@@ -1,0 +1,107 @@
+[{
+	"activityType":"quiz",
+	"title" : "Last activity we learned Complexity classes, in this activity there are some questions, try to answer those questions",
+	"quizDescription" : "For each of the following expressions, select the order of growth class that best describes it from the following list:O(1),O(lon(n)),O(n),O(nlog(n)),O(n^c) or O(c^n) .",
+	"questions": [
+		{
+			"questionType" : "dropdown",
+			"questionText": "5n",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(n)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "3n^2 + 2n - 100",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(n^c)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "10log (n) + 5n",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(n)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "10log (n) + 5n^2",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(n^c)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "3n^3 - 2000 n^2",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(n^c)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "2n^2",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(n^c)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "50n+nlog(n)",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(n log(n))"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "1000+2000000",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(1)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "2^n+n^2",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(c^n)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "log n+1000",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(lon(n))","O(n)","O(nlog(n))","O(n^c)","O(c^n)"],
+					"correct":"O(log(n))"
+				}
+		}
+	]
+}]		

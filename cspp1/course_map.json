@@ -1,0 +1,627 @@
+{
+    "units": [
+        {
+            "activities": [
+                "Introduction",
+                "Computers", 
+                "Algorithms-1", 
+                "Algorithms-2", 
+                "Interpreters", 
+                "The Python Programming Language", 
+                "Programs", 
+                "What is Debugging", 
+                "Syntax Errors", 
+                "Runtime Errors", 
+                "Semantic Errors", 
+                "Experimental Debugging", 
+                "Formal and Natural Languages", 
+                "A Typical First Program", 
+                "Comments", 
+                "Flow Chart", 
+                "Raptor Installation", 
+                "Python Installation"
+            ], 
+            "totalPoints": 34, 
+            "title": "Computer Algorithms and Programs", 
+            "overview": [
+                "This unit covers about the overview of computer algorithms and programs which contains Introduction to computers, algorithms, programs, python language, interpreters, Debugging, syntax errors, runtime errors, Debugging, flowcharts, comments for the code. All these concepts will have their own priority and we will discuss in detail in following units."
+            ], 
+            "learningObjectives": [
+                "Recognize what is a computer program, a programming language, and a programming language interpreter.",
+                "Learn basic concepts of python"
+            ], 
+            "requiredPoints": 28
+        }, 
+        {
+            "activities": [
+                "Variables and Assignment Operator", 
+                "Variables and Assignment Operator Practice", 
+                "Arithematic Operators and Branching", 
+                "Arithematic Operators and Branching Practice", 
+                "Loops-1", 
+                "Loops-1 Practice", 
+                "Loops-2", 
+                "Loops-2 Practice", 
+                "Lists", 
+                "Lists Practice", 
+                "Strings", 
+                "Strings Practice", 
+                "Assignment-1", 
+                "Assignment-2", 
+                "Assignment-3", 
+                "Assignment-4", 
+                "Assignment-5"
+            ], 
+            "totalPoints": 90, 
+            "title": "Flowcharts - 1", 
+            "overview": [
+                "In the previous unit, you learned the basic Introduction to Computer Algorithms and Programs. In this unit, you are going to learn the Basic concepts of Flowcharts like variables, operators, Branching, Loops, Strings. The flowchart is the pictorial representation of an algorithm which makes you get a better idea of solving problems."
+            ], 
+            "learningObjectives": [
+                "Define Flowchart", 
+                "Learn Variables and Assignment operator", 
+                "Learn Arithmetic operators and Branching", 
+                "Learn Loops, Lists and Strings", 
+                "Trace a Flowchart"
+            ], 
+            "requiredPoints": 76
+        }, 
+        {
+            "activities": [
+                "Problem Solving-1", 
+                "Problem Solving-1 Practice", 
+                "Problem Solving-2", 
+                "Problem Solving-2 Practice", 
+                "Problem Solving-3", 
+                "Problem Solving-3 Practice", 
+                "Assignment-1", 
+                "Assignment-2", 
+                "Assignment-3"
+            ], 
+            "totalPoints": 40, 
+            "title": "Flowcharts - 2", 
+            "overview": [
+                "In the previous unit, you learned the basic concepts of Flowchart and practised tracing of flowcharts. In this unit, you are going to learn how to draw and construct a Flowchart by using the variables and basic concepts of flowchart you learned."
+            ], 
+            "learningObjectives": [
+                "Construct a Flowchart", 
+                "Usage of Variables and Assignment operator", 
+                "Usage of Arithmetic operators and Branching", 
+                "Usage of Loops, Lists and Strings"
+            ], 
+            "requiredPoints": 34
+        }, 
+        {
+            "activities": [
+                "Problem Solving-1", 
+                "Problem Solving-1 Practice", 
+                "Problem Solving-2", 
+                "Problem Solving-3", 
+                "Problem Solving-3 Practice", 
+                "Assignment-1", 
+                "Assignment-2", 
+                "Assignment-3"
+            ], 
+            "totalPoints": 60, 
+            "title": "Flowcharts - 3", 
+            "overview": [
+                "In the previous two units, you learned and practised flowcharts. For better understanding and practice we will solve some more problems in this unit on flowcharts."
+            ], 
+            "learningObjectives": [
+                "Construct a Flowchart", 
+                "Usage of Variables and Assignment operator", 
+                "Usage of Arithmetic operators and Branching", 
+                "Usage of Loops, Lists and Strings"
+            ], 
+            "requiredPoints": 51
+        }, 
+        {
+            "activities": [
+                "Introduction to Python", 
+                "Knowledge", 
+                "Exercise-1", 
+                "Exercise-2", 
+                "Machines", 
+                "Exercise-3", 
+                "Languages", 
+                "Exercise-4", 
+                "Types", 
+                "Exercise-5", 
+                "Exercise-6", 
+                "Variables", 
+                "Exercise-7", 
+                "Operators and Branching", 
+                "Exercise-8", 
+                "Exercise-9", 
+                "Exercise-10"
+            ], 
+            "totalPoints": 68, 
+            "title": "Introduction to Python Programming", 
+            "overview": [
+                "Last unit we discussed and practices flowcharts. In this unit we discuss introduction to python. Python is an easy to learn, powerful programming language. It has efficient high-level data structures. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms."
+            ], 
+            "learningObjectives": [
+                "Computer fundamental operations", 
+                "Learn machine architecture", 
+                "Declarative and imperative knowledge", 
+                "Learn syntax and semantics of programming language", 
+                "Learn Operators and Branching"
+            ], 
+            "requiredPoints": 57
+        }, 
+        {
+            "activities": [
+                "Bindings", 
+                "Strings", 
+                "Bindings and Strings Exercise-1", 
+                "Bindings and Strings Exercise-2", 
+                "Input Output", 
+                "Input Output Exercise", 
+                "IDEs", 
+                "Hello World", 
+                "Control Flow", 
+                "Happy Exercise", 
+                "VarA varB Exercise", 
+                "Control Flow Exercise", 
+                "while Exercise", 
+                "for Exercise", 
+                "Iteration", 
+                "Iteration Exercise-1", 
+                "Iteration Exercise-2", 
+                "Iteration Exercise-3", 
+                "Iteration Exercise-4", 
+                "Guess and Check", 
+                "Guess and Check Exercise", 
+                "Assignment-1", 
+                "Assignment-2", 
+                "Assignment-3"
+            ], 
+            "totalPoints": 179, 
+            "title": "Core Elements", 
+            "overview": [
+                "In the earlier unit, we discussed the variables, operators and branching continuing these topics we will discuss bindings, strings, Input and output, control flow. These all are the core elements of python program. core elements are the building blocks of any language, so we keenly go in broad about each topic."
+            ], 
+            "learningObjectives": [
+                "Evaluating expressions", 
+                "Usage of variables", 
+                "Learn about conditional branching", 
+                "Learn about IDE's, Loops"
+            ], 
+            "requiredPoints": 152
+        }, 
+        {
+            "activities": [
+                "So Far", 
+                "So Far Exercise-1", 
+                "So Far Exercise-2", 
+                "So Far Exercise-3", 
+                "Approximate Solutions", 
+                "Approximate Solutions Exercise", 
+                "Bisection Search", 
+                "Guess My Number Exercise", 
+                "Floats and Fractions", 
+                "Floats and Fractions Exercise", 
+                "Newton Raphson", 
+                "Assignment-1", 
+                "Assignment-2", 
+                "Assignment-3", 
+                "Assignment-4"
+            ], 
+            "totalPoints": 121, 
+            "title": "Simple Algorithms", 
+            "overview": [
+                "In computer science, an algorithm is an unambiguous specification of how to solve a class of problems. Algorithms can perform calculation, data processing and automated reasoning tasks."
+            ], 
+            "learningObjectives": [
+                "Define algorithm", 
+                "Guess and Check algorithms", 
+                "Approximation methods", 
+                "Bisection search algorithm", 
+                "Newton - Raphson root finding algorithm"
+            ], 
+            "requiredPoints": 102
+        }, 
+        {
+            "activities": [
+                "Decomposition and Abstraction", 
+                "Functions and Scope", 
+                "Functions and Scope Exercise", 
+                "Square Exercise", 
+                "Eval Quadratic Exercise", 
+                "Calling Functions", 
+                "Calling Functions Exercise - 1", 
+                "Calling Functions Exercise - 2", 
+                "Calling Functions Exercise - 3", 
+                "Keyword Arguments", 
+                "Specification", 
+                "Specification Exercise - 1", 
+                "Specification Exercise - 2", 
+                "Fourth Power Exercise", 
+                "Odd Exercise", 
+                "Assignment Introduction", 
+                "Assignment-1", 
+                "Assignment-2", 
+                "Assignment-3"
+            ], 
+            "totalPoints": 146, 
+            "title": "Functions", 
+            "overview": [
+                "In the Last Unit, we discussed simple algorithms. As writing up code in one big chunk makes it's hard to trace and understand. so functions were introduced to make the code reusable, easy to understand and trace. In this unit, we discuss the functions."
+            ], 
+            "learningObjectives": [
+                "Defining/creating a function and its uses", 
+                "Using function arguments and return values Explain the scope of variables", 
+                "Explain the scope of variables", 
+                "Using functions in modules", 
+                "Use user-defined and built-in Python functions."
+            ], 
+            "requiredPoints": 124
+        }, 
+        {
+            "activities": [
+                "Iteration vs Recursion", 
+                "PowerIter Exercise", 
+                "PowerRecr Exercise", 
+                "Inductive Reasoning", 
+                "Towers of Hanoi", 
+                "GCDIter Exercise", 
+                "GCDRecr Exercise", 
+                "Fibonacci", 
+                "Recursion on Non-Numerics", 
+                "IsIn Exercise", 
+                "Files", 
+                "Recursion Exercise", 
+                "Assignment-1", 
+                "Assignment-2"
+            ], 
+            "totalPoints": 74, 
+            "title": "Recursions", 
+            "overview": [
+                "In Last activity we discussed functions. In this activity we discuss recursions, generally, Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem. The approach can be applied to many types of problems."
+                
+            ], 
+            "learningObjectives": [
+                "Introduction to computational functions", 
+                "Iterative Algorithms", 
+                "Recursive Algorithms", 
+                "Using Environments to understand Recursion", 
+                "Global Variables"
+            ], 
+            "requiredPoints": 62
+        }, 
+        {
+            "activities": [
+                "Tuples", 
+                "Tuples Exercise", 
+                "Odd Tuples Exercise", 
+                "Lists", 
+                "Lists Exercise", 
+                "List Operations", 
+                "List Operations Exercise", 
+                "Mutation, Aliasing and Cloning", 
+                "Mutation, Aliasing and Cloning Exercise", 
+                "Functions as Objects", 
+                "Functions as Objects Exercise-1", 
+                "Functions as Objects Exercise-2", 
+                "Functions as Objects Exercise-3", 
+                "Functions as Objects Exercise-4", 
+                "Assignment Introduction", 
+                "Assignment-1", 
+                "Assignment-2"
+            ], 
+            "totalPoints": 170, 
+            "title": "Tuples and Lists", 
+            "overview": [
+                "In Last activity we discussed Recursion. In this course, we were introduced to the Data structures in python i.e, Lists, Tuples and Dictionaries. A tuple is a sequence of immutable heterogeneous Python objects where A-List is a sequence of mutable heterogeneous Python objects. we will discuss tuples and lists in this unit and Dictionaries in next unit."
+            ], 
+            "learningObjectives": [
+                "Data structures in Python", 
+                "Create and access elements in a Python tuples.", 
+                "Describe operations on tuples", 
+                "Create and access elements in a Python list.", 
+                "Describe operations on lists", 
+                "Difference between list and tuple"
+            ], 
+            "requiredPoints": 144
+        }, 
+        {
+            "activities": [
+                "Quick Review", 
+                "Dictionaries", 
+                "Dictionaries Exercise", 
+                "Example with a Dictionary", 
+                "Dictionaries How many Exercise", 
+                "Dictionaries Biggest Exercise", 
+                "Fibonacci and Dictionaries", 
+                "Global Variables", 
+                "Assignment-1", 
+                "Assignment-2"
+            ], 
+            "totalPoints": 82, 
+            "title": "Dictionaries", 
+            "overview": [
+                "Last unit we discussed lists and tuples. In this unit we will learn about dictionaries, A dictionary is a data type composed of a collection of (key: value) pairs, such that each possible key appears at most once in the collection. Python dictionaries are collections that are indexed by keys, which can be any immutable type."
+            ], 
+            "learningObjectives": [
+                "Dictionaries", 
+                "Describe operations on dictionaries"
+            ], 
+            "requiredPoints": 69
+        }, 
+        {
+            "activities": [
+                "Programming Challenges", 
+                "Classes of Tests", 
+                "Testing and Debugging Exercise-1", 
+                "Testing and Debugging Exercise-2", 
+                "Testing and Debugging Exercise-3", 
+                "Testing and Debugging Exercise-4", 
+                "Testing and Debugging Exercise-5", 
+                "Bugs", 
+                "Integer Division Exercise", 
+                "Debugging", 
+                "Testing and Debugging Exercise-6", 
+                "Testing and Debugging Exercise-7", 
+                "Debugging Example", 
+                "Assignment Introduction", 
+                "Assignment Getting Started", 
+                "Assignment-1", 
+                "Assignment-2", 
+                "Assignment-3", 
+                "Assignment-4"
+            ], 
+            "totalPoints": 94, 
+            "title": "Testing and Debugging", 
+            "overview": [
+                "Last unit we completed the data structures of python. In this unit we will discuss about Testing and Debugging, Testing and Debugging is the process of finding and resolving defects or problems within a computer program that prevent correct operation of computer software or a system."
+            ], 
+            "learningObjectives": [
+                "Perform Testing And Debugging on a given program", 
+                "Know what is a Test Suite", 
+                "To study the method of Debugging As Search."
+            ], 
+            "requiredPoints": 79
+        }, 
+        {
+            "activities": [
+                "Exceptions", 
+                "Exception Exercise-1", 
+                "Exception Example", 
+                "Exceptions as Control Flow", 
+                "Exceptions Exercise-2 Activity-1", 
+                "Exceptions Exercise-2 Activity-2", 
+                "Exceptions Exercise-2 Activity-3", 
+                "Exceptions Exercise-2 Activity-4", 
+                "Exceptions Exercise-2 Activity-5", 
+                "Simple Divide Exercise", 
+                "Assertions", 
+                "Assertions Exercise Activity-1", 
+                "Assertions Exercise Activity-2", 
+                "Assignment-1", 
+                "Assignment-2", 
+                "Computer Choosing a Word and Playing a Hand", 
+                "Assignment-3"
+            ], 
+            "totalPoints": 94, 
+            "title": "Assertions and Exception handling", 
+            "overview": [
+                "The last Unit we learnt about testing and debugging, In this unit, we will discuss Assertions and Exception handling. If the assert condition is true, it does nothing and your program just continues to execute. But if the assert condition evaluates to false, it raises an AssertionError exception with an optional error message. To summarize: Python asserts statement is a debugging aid, not a mechanism for handling run-time errors."
+            ], 
+            "learningObjectives": [
+                "Introduction to Errors and Exceptions", 
+                "Difference between errors and exceptions", 
+                "Handling exceptions", 
+                "Exception control flow", 
+                "Raising exceptions", 
+                "User defined exceptions", 
+                "Assertions"
+            ], 
+            "requiredPoints": 79
+        }, 
+        {
+            "activities": [
+                "Video on Object Oriented Programming", 
+                "Video on Class Instances", 
+                "Exercise-1", 
+                "Video on Methods", 
+                "Exercise-2", 
+                "Exercise-3", 
+                "Video on Class Examples", 
+                "Coordinate Exercise", 
+                "Int Set Exercise", 
+                "Video on Why OOP", 
+                "Video on Class Variables", 
+                "Video on Building a Class", 
+                "Video on Adding another Class", 
+                "Hand Exercise", 
+                "Example Exercise", 
+                "Assignment Introduction", 
+                "Assignment-1", 
+                "Assignment-2"
+            ], 
+            "totalPoints": 105, 
+            "title": "Classes and Objects", 
+            "overview": [
+                "In this unit, we will discuss the object-oriented programming, classes and objects. Object-oriented programming makes complex code easier to develop, more reliable, more maintainable, and generally better. Other features of oop's like inheritance, encapsulation, Polymorphism etc.. make us rely on that."
+            ], 
+            "learningObjectives": [
+                "Explain the Concepts of Object-Oriented Programming", 
+                "Create a User-defined Data Type", 
+                "Define a class with its Properties and Behaviour", 
+                "Add methods to a class"
+            ], 
+            "requiredPoints": 89
+        }, 
+        {
+            "activities": [
+                "Video on Hierarchies", 
+                "Spell Exercise Activity-1", 
+                "Spell Exercise Activity-2", 
+                "Spell Exercise Activity-3", 
+                "Exercise-2", 
+                "Video on Visualizing the Hierarchy", 
+                "Video on Using Inherited Methods", 
+                "Video on Gradebook Example", 
+                "Video on Generators", 
+                "GenPrimes Exercise", 
+                "Exercise-3 Activity-1", 
+                "Exercise-3 Activity-2", 
+                "Assignment-1", 
+                "Assignment-2"
+            ], 
+            "totalPoints": 85, 
+            "title": "Inheritance", 
+            "overview": [
+                "Object-oriented programming is introduced in the last unit and discussed classes and objects. One of the main features of Object-oriented programming is Inheritance in this unit we are going to cover it. inheritance is when an object or class is based on another object or class, using the same implementation."
+            ], 
+            "learningObjectives": [
+                "Describe Inheritance and it's need in OOPs", 
+                "Differentiate Subclass and Superclass", 
+                "Explain types of Inheritance"
+            ], 
+            "requiredPoints": 72
+        }, 
+        {
+            "activities": [
+                "Program Efficiency", 
+                "Exercise-1", 
+                "Exercise-2 Activity-1", 
+                "Exercise-2 Activity-2", 
+                "Exercise-2 Activity-3", 
+                "Big oh Notation", 
+                "Exercise-3 Activity-1", 
+                "Exercise-3 Activity-2", 
+                "Exercise-3 Activity-3", 
+                "Exercise-3 Activity-4", 
+                "Exercise-4", 
+                "Complexity classes", 
+                "Exercise-5", 
+                "Analyzing Complexity", 
+                "Analyzing Complexity-2", 
+                "Exercise-6", 
+                "Recursion Complexity", 
+                "Exercise-7", 
+                "Assignment-1", 
+                "Assignment-2", 
+                "Assignment-3", 
+                "Assignment-4"
+            ], 
+            "totalPoints": 65, 
+            "title": "Computational Complexity", 
+            "overview": [
+                "In the last unit, we discussed Inheritance. In this unit we cover Computational complexities i.e, In computer science, the computational complexity of an algorithm is the number of resources required for running it. why and how to calculate the complexity of a program, how can we make our program better? Different types of complexities we are going to cover in this unit"
+            ], 
+            "learningObjectives": [
+                "Define different classes of algorithms and their inherent complexity", 
+                "Classifying a range of classes of algorithms from constant to exponential"
+            ], 
+            "requiredPoints": 55
+        }, 
+        {
+            "activities": [
+                "Search Algorithms", 
+                "Bisection Search", 
+                "Searching Exercise-1 Activity-1", 
+                "Searching Exercise-1 Activity-2", 
+                "Searching Exercise-1 Activity-3", 
+                "Searching Exercise-2", 
+                "Searching Exercise-3", 
+                "Searching Exercise-4", 
+                "Assignment-1"
+            ], 
+            "totalPoints": 15, 
+            "title": "Searching algorithms", 
+            "overview": [
+                "Searching and sorting are the two important concepts in computer science. Mainly search algorithms are used to retrieve information stored within some data structure, or calculated in the search space of a problem domain. We will discuss Search Algorithms in this unit."
+            ], 
+            "learningObjectives": [
+                "Implement Sequential Search.", 
+                "Measure the complexity of Sequential Search.", 
+                "Generalize the idea of Bisection Search to more generic Binary Search.", 
+                "Determine complexity of Binary Search algorithm", 
+                "Enhanced efficiency of the Binary Search if data is sorted"
+            ], 
+            "requiredPoints": 12
+        }, 
+        {
+            "activities": [
+                "Bogo Sort", 
+                "Bubble Sort", 
+                "Selection Sort", 
+                "Sorting Exercise 1", 
+                "Sorting Exercise 2", 
+                "Assignment-1", 
+                "Assignment-2"
+            ], 
+            "totalPoints": 11, 
+            "title": "Sorting algorithms", 
+            "overview": [
+                "Next to searching comes sorting, the fundamental algorithms for sorting that considers several classic algorithms including Bogo sort, Bubble Sort, selection sort, merge sort. We will discuss first three sorts in this unit and merge sort in next unit."
+            ], 
+            "learningObjectives": [
+                "Implement Bogo Sort, Bubble Sort and Selection Sort", 
+                "Determine the complexity of Sorting algorithms."
+            ], 
+            "requiredPoints": 9
+        }, 
+        {
+            "activities": [
+                "Merge Sort", 
+                "Merge Sort Exercise", 
+                "Assignment-1"
+            ], 
+            "totalPoints": 27, 
+            "title": "Merge sort", 
+            "overview": [
+                "In the previous unit, you learned Sorting Algorithms and their importance. There is one more sorting algorithm which works efficiently than Insertion and selection that is Merge sort and we are going to discuss Merge sort in this unit."
+            ], 
+            "learningObjectives": [
+                "Implement Merge Sort", 
+                "Analyze Merge Sort"
+            ], 
+            "requiredPoints": 22
+        }, 
+        {
+            "activities": [
+                "Introduction to Files", 
+                "Reading from a File", 
+                "Writing to a File", 
+                "Appending Data to an Existing File", 
+                "Displaying all the Files from a Directory", 
+                "Files Exercise-1", 
+                "Assignment-1"
+            ], 
+            "totalPoints": 30, 
+            "title": "File Input Output", 
+            "overview": [
+                "Up to now, we are not storing our data for future use, but in this unit, we were introduced to files where we can store our data. We can read data from files, write data into a file."
+            ], 
+            "learningObjectives": [
+                "Learn File Reading", 
+                "Learn File Writing", 
+                "Learn Appending Data to a File"
+            ], 
+            "requiredPoints": 25
+        }
+    ], 
+    "overview": [
+        "In this course, students are introduced to Python and the basics of programming in the context of computational concepts and techniques as exhaustive enumeration, bisection search, and efficient approximation algorithms. It covers such traditional topics as computational complexity and simple algorithms, It introduces the concepts of Object Oriented Programming which help to solve complex programs easily. The goal of this course is to introduce hands-on experience on python and use that to solve complex problems in computer science."
+    ], 
+    "learningObjectives": [
+        "Install and run the Python interpreter", 
+        "Create and execute Python programs", 
+        "Identifying the elements of a program", 
+        "Gain knowledge of Python syntax", 
+        "Learn variable declarations in Python", 
+        "Learn control structures", 
+        "Learn loop constructs", 
+        "Understand the concepts of file I/O", 
+        "Be able to read data from a text file using Python", 
+        "Recognise methods and functions", 
+        "Learn objects such as Lists, tuples and dictionaries", 
+        "Identify the differences between lists, tuples and dictionaries", 
+        "Identify the real world objects and program them", 
+        "Implement the reusability of objects"
+    ], 
+    "title": "Computer Science Principles and Programming - 1"
+}

@@ -1,0 +1,132 @@
+[{
+	"activityType":"quiz",
+	"title" : "Answer the following Questions",
+	"quizDescription" : [
+		{
+			"text" : "You have the following function definitions:"
+		},
+		{
+			"code" : "cspp1.8.7.1.py"
+		},
+		{
+			"attachment":["cspp1.8.7.1.py"]
+		},
+		{
+			"text" : "Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated. If evaluating an expression would cause an error, select NoneType and write 'error' in the box. If the value of an expression is a function, select function as the type and write 'function' in the box."
+		}
+	],
+	"questions": [
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>a(6)</code>",
+			"points":"1",
+			"answer": "7"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression? <br> <code>a(6)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","num"],
+					"correct":"int"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>a(-5.3)</code>",
+			"points":"1",
+			"answer": "-4.3"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression? <br> <code>a(-5.3)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","num"],
+					"correct":"float"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>a(a(a(6)))</code>",
+			"points":"1",
+			"answer": "9"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression? <br> <code>a(a(a(6)))</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","num"],
+					"correct":"int"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>c(a(1), b(1))</code>",
+			"points":"1",
+			"answer": "4.0"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression? <br> <code>c(a(1), b(1))</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","num"],
+					"correct":"float"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>d('apple', 11.1)</code>",
+			"points":"1",
+			"answer": "error"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression? <br> <code>d('apple', 11.1)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","num"],
+					"correct":"NoneType"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>e(a(3), b(4), c(3, 4))</code>",
+			"points":"1",
+			"answer": "False"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression? <br> <code>e(a(3), b(4), c(3, 4))</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","string","float","boolean","num"],
+					"correct":"boolean"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>f</code>",
+			"points":"1",
+			"answer": "function"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression? <br> <code>f</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","function","float","boolean","num"],
+					"correct":"function"
+				}
+		}
+	]
+}]

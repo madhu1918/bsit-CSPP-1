@@ -1,0 +1,24 @@
+[
+	{
+		"title":"Solve the below problem",
+		"activityType":"assignment",
+		"questions":
+		[
+			{
+				"questionType": "filesubmission",
+				"questionText": [
+					{
+						"text":"Write a Python function, odd, that takes in one number and returns True when the number is odd and False otherwise.<br><br>You should use the % (mod) operator, not if.<br><br>This function takes in one number and returns a boolean.<br><br>Copy the sample code from below<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+					},
+					{
+						"attachment":["Functions - Odd Exercise.zip"]
+					}
+				],
+				"points":"5",
+				"code" : "cspp1.8.15.1.py"
+			}
+
+		]
+
+	}
+]

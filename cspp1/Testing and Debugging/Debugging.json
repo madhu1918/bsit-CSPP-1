@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this Activity we will discuss Debugging by watching a video",
+	"videoURL":"/Debugging.mp4",
+	"videoResources":"/Debugging.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Debugging"
+	}
+	]
+}
+]

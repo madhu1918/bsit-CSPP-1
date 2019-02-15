@@ -1,0 +1,49 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following Question",
+	"quizDescription":
+	[
+		{
+			"text":"Consider the following code specification:"
+		},
+		{
+			"code":"Exercise2.py"
+		}
+	],
+	"questions":
+	[
+		{
+			"questionType":"checkbox",
+			"questionText":"Indicate which of the conditions below would combine to make a good black box test suite for the function union by selecting the appropriate choice(s).",
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"set1 is an empty set; set2 is an empty set ",
+					"correct":"True",
+					"feedback":"A good black box test suite would contain tests for all of the given conditions! Black-box testing tests the functionality of an application, by looking at the paths through its specifications.<br>According to the specifications, the possibilities for set1 and set2 are as follows: both sets are empty; one of the sets is empty and one has at least one object; both sets are not empty. The tests list all the combinations of those possibilities for set1 and set2."
+				},
+				{
+					"option":"set1 is an empty set; set2 is of size greater than or equal to 1",
+					"correct":"True",
+					"feedback":"A good black box test suite would contain tests for all of the given conditions! Black-box testing tests the functionality of an application, by looking at the paths through its specifications.<br>According to the specifications, the possibilities for set1 and set2 are as follows: both sets are empty; one of the sets is empty and one has at least one object; both sets are not empty. The tests list all the combinations of those possibilities for set1 and set2."
+				},
+				{
+					"option":"set1 is of size greater than or equal to 1; set2 is an empty set correct",
+					"correct":"True",
+					"feedback":"A good black box test suite would contain tests for all of the given conditions! Black-box testing tests the functionality of an application, by looking at the paths through its specifications.<br>According to the specifications, the possibilities for set1 and set2 are as follows: both sets are empty; one of the sets is empty and one has at least one object; both sets are not empty. The tests list all the combinations of those possibilities for set1 and set2."
+				},
+				{
+					"option":"set1 and set2 are both nonempty sets which do not contain any objects in common correct",
+					"correct":"True",
+					"feedback":"A good black box test suite would contain tests for all of the given conditions! Black-box testing tests the functionality of an application, by looking at the paths through its specifications.<br>According to the specifications, the possibilities for set1 and set2 are as follows: both sets are empty; one of the sets is empty and one has at least one object; both sets are not empty. The tests list all the combinations of those possibilities for set1 and set2."
+				},
+				{
+					"option":"set1 and set2 are both nonempty sets which contain objects in common correct",
+					"correct":"True",
+					"feedback":"A good black box test suite would contain tests for all of the given conditions! Black-box testing tests the functionality of an application, by looking at the paths through its specifications.<br>According to the specifications, the possibilities for set1 and set2 are as follows: both sets are empty; one of the sets is empty and one has at least one object; both sets are not empty. The tests list all the combinations of those possibilities for set1 and set2."
+				}
+			]
+		}
+	]
+}]

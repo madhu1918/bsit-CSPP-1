@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity you are going to learn how to draw a flowchart by solving a problem Number palindrome",
+		"activityType":"video",
+		"videoURL":"",
+		"raptorURL":"/palindrome.rap"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Number Palindrome"
+		}
+		]
+	}
+]

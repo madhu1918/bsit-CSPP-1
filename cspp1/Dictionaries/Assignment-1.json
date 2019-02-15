@@ -1,0 +1,33 @@
+[{
+	"activityType":"assignment",
+	"title":"Solve the following Assignment pulling out all the available letters on Dictionaries",
+	"questions":
+	[
+		{
+			"questionType":"filesubmissions",
+			"questionText":
+			[
+				{
+					"text":"Next, implement the function getAvailableLetters that takes in one parameter - a list of letters, lettersGuessed. This function returns a string that is comprised of lowercase English letters - all lowercase English letters that are not in lettersGuessed.<br>Example Usage:"
+				},
+				{
+					"code":"pr3.py"
+				},
+				{
+					"text":"Note that this function should return the letters in alphabetical order, as in the example above.<br>For this function, you may assume that all the letters in lettersGuessed are lowercase."
+				},
+				{
+					"text":"<b>Hints</b>:You might consider using string.ascii_lowercase, which is a string comprised of all lowercase letters:<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Assignment-1.zip"]
+				},
+				{
+					"code":"pr31.py"
+				}
+			],
+			"points":"20",
+			"code":"problem3.py"
+		}
+	]
+}]

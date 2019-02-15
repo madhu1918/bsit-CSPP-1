@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this activity we will discuss about recursion on non numerics by watching a video",
+	"videoURL":"/Recursion on non-numerics.mp4",
+	"videoResources":"/Recursion on non-numerics.zip"
+},
+ {
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Recursions on Non-Numerics"
+		}
+		]
+	}
+ ]

@@ -1,0 +1,16 @@
+[{
+	"title":"You completed solving problems on Big oh notation. In this activity we will discuss about Complexity classes by watching a video",
+	"activityType":"video",
+	"videoURL":"/Complexity classes.mp4",
+	"videoResources":"/Complexity classes.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Complexity Classes"
+	}
+	]
+}
+]

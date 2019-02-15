@@ -1,0 +1,16 @@
+[{
+	"title":"You completed solving problems on Complexity classes. In this activity we will discuss about Analysing complexity by watching a video",
+	"activityType":"video",
+	"videoURL":"/Analyzing Complexity.mp4",
+	"videoResources":"/Analyzing Complexity.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Analyzing Complexity"
+	}
+	]
+}
+]

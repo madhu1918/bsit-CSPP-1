@@ -1,0 +1,16 @@
+[{
+	"title":"You completed solving problems on Analysing complexity. In this activity we will discuss about Recursion complexity by watching a video",
+	"activityType":"video",
+	"videoURL":"/Recursion Complexity.mp4",
+	"videoResources":"/Recursion Complexity.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Recursion Complexity"
+	}
+	]
+}
+]

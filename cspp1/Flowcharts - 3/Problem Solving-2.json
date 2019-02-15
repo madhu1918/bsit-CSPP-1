@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity, you are going to learn construction of flowchart by solving a problem Finding whether a list is in sorted order or not.",
+		"activityType":"video",
+		"videoURL":"",
+		"raptorURL" : "/checkforsortedlist.rap"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on finding whether a list is in sorted order or not"
+		}
+		]
+	}
+]

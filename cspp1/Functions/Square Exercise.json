@@ -1,0 +1,22 @@
+[
+	{
+		"title":"Solve the following problem",
+		"activityType":"assignment",
+		"questions":
+		[
+			{
+				"questionType": "filesubmission",
+				"questionText":[
+					{
+						"text":"Write a Python function, square, that takes in one number and returns the square of that number.<br>This function takes in one number and returns one number.<br>Check the below sample code for writing the program<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+					},
+					{
+						"attachment":["Functions - Square Exercise.zip"]
+					}
+				], 
+				"points":"5",
+				"code" : "cspp1.8.4.1.py"
+			}
+		]
+	}
+]

@@ -1,0 +1,28 @@
+[{
+	"title":"Solve the following problem",
+	"activityType":"assignment",
+		"questions":
+		[
+			{
+				"questionType": "filesubmission",
+				"questionText": [{
+						"text":" Suppose we rewrite the FancyDivide function to use a helper function."
+					},
+
+					{
+						"code":"ExceptionsExampleOnSimpleDivide.py"
+					},
+
+					{
+						"text":"This code raises a ZeroDivisionError exception for the following call:<code> fancy_divide([0, 2, 4], 0)</code><br><br>Your task is to change the definition of simple_divide so that the call does not raise an exception. When dividing by 0, <code>fancy_divide</code> should return a list with all 0 elements. Any other error cases should still raise exceptions. You should only handle the ZeroDivisionError.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+					},
+					{
+						"attachment":["Assertions and Exceptions-Exercise on Simple Divide.zip"]
+					}
+				],
+				"points":"10"
+			}
+		]
+
+}
+]

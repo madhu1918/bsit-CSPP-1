@@ -1,0 +1,30 @@
+[{
+	"title" : "Solve the following problem",
+	"activityType":"assignment",
+	"questions": [{
+			"questionType": "filesubmission",
+			"questionText": [{
+				"text":" In this problem, you'll be asked to read through an object-oriented implementation of the hand from the word game problem of Problem Set 4. You'll then be asked to implement one of its methods. Note that the implementation of the object-oriented version of the hand is a bit different than how we did things with the functional implementation; pay close attention to doc strings and read through the implementation carefully. <br><br> To begin: Download <a href=\"/hand.py\" target=\"_blank\">hand.py</a> and read through the file. Be sure to understand what's going on in the file. Make a few instances of the <code>Hand</code> class, and play around with the existing methods. <br><br>  When you have completed reading through the file, implement the <code>update</code> method. <br><br> Paste the entire <code>Hand</code> class in the box below. <br><br> The <code>__str__</code> method is this:"},
+				{
+					"code" :"ClassesObjectsExerciseHandCode1.py "
+				},
+
+				{
+					"text":"A more concise version of this code might be"
+				},
+
+				{
+					"code" :"ClassesObjectsExerciseHandCode2.py "
+				},
+
+				{
+					"text":"Use whichever <code>__str__</code> method you like. This will make sure the grading of the hand's display is consistent."
+				}
+
+			],
+			"points":"10"
+		}
+	]
+}
+
+]

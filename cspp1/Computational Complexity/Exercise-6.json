@@ -1,0 +1,47 @@
+[{
+	"activityType":"quiz",
+	"title" : "Last activity we learned Analysing complexity, in this activity there are some questions, try to answer those questions",
+	"quizDescription" : "Consider the following Python procedures. For each one, specify its order of growth.",
+	"questions": [
+		{
+			"questionType" : "dropdown",
+			"code":"AnalyzingComplexityProgram1.py",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(log(n))","O(n)","O(i)","O(nlog(n))","O(ilog(n))"],
+					"correct":"O(1)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"code":"AnalyzingComplexityProgram2.py",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(log(a))","O(log(b))","O(a)","O(b)","O(a*b)","O(a^b)"],
+					"correct":"O(b)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"code":"AnalyzingComplexityProgram3.py",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(log(a))","O(log(b))","O(a)","O(b)","O(a*b)","O(a^b)"],
+					"correct":"O(b)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"code":"AnalyzingComplexityProgram4.py",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(log(a))","O(log(b))","O(a)","O(b)","O(a*b)","O(a^b)"],
+					"correct":"O(log(b))"
+				}
+		}
+	]
+}]		

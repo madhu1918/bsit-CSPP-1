@@ -1,0 +1,82 @@
+[{
+	"title": "Answer the following questions on OOP's",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType": "fillintheblank",
+			"questionText": [{
+					"text":" Consider the following code: <br> What does the code print out? If you aren't sure, create a Python file and run it."
+				},
+
+				{
+					"code":"ClassesObjectsExercise2Code1.py "
+				}
+
+			],
+			"points":"1",
+			"answer":"5:30",
+			"feedback":"5:30 prints out because we printed out the attribute self.time, not the local variable time."
+
+		},
+
+
+		{
+			"questionType": "fillintheblank",
+			"questionText": [{
+					"text":"Consider the following code: <br> What does the code print out? If you aren't sure, create a Python file and run it. "
+				},
+
+				{
+					"code":"ClassesObjectsExercise2Code2.py "
+				}
+			],
+			"points":"1",
+			"answer":"10:30",
+			"feedback":" What does this problem tell us about giving parameters the same name as object attributes?In short, it is needlessly confusing. It is less confusing if you give parameters, local variables, and attributes different, distinct names to avoid the confusion that arises in this problem. "
+		},
+
+
+		{
+			"questionType": "fillintheblank",
+			"questionText":[{
+					"text":" Consider the following code: <br> What does the code print out? If you aren't sure, create a Python file and run it"
+				},
+
+				{
+					"code":"ClassesObjectsExercise2Code3.py "
+				}
+			],
+			"points":"1",
+			"answer":"10:30"
+
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": [{
+					"text":" Are boston_clock and paris_clock different objects? "
+				},
+
+				{
+					"code":"ClassesObjectsExercise2Code3.py "
+				}
+			],
+			"points":"1",
+			"options": [{
+					"option": "Yes",
+					"correct": "False",
+					"feedback":"Incorrect<br>boston_clock and paris_clock are two names for the same object. This is called aliasing. "
+				},
+
+				{
+					"option": "No",
+					"correct": "True",
+					"feedback":"Correct<br>boston_clock and paris_clock are two names for the same object. This is called aliasing. "
+
+				}
+			]
+
+		}
+
+
+	]
+}]

@@ -1,0 +1,18 @@
+[{
+	"title":"In this Activity we will discuss class variables  by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnClassVariables.mp4",
+	"videoResources":"/ClassVariables.zip"
+},
+ {
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Class Variables"
+	}
+	]
+}
+
+
+]

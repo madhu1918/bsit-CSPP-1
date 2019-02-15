@@ -1,0 +1,93 @@
+[{
+	"title": "Answer the following questions on OOP's",
+	"activityType": "quiz",
+	"questions": [{
+			"questionType":"mcq",
+			"questionText": " What method is called when an object is created? ",
+			"points":"1",
+			"options": [{
+					"option": "<code>self</code>",
+					"correct": "False",
+					"feedback":"Incorrect<br>The <code>__init__</code>method is called whenever an object is created. For more on object creation, see <a href=\"http://www.greenteapress.com/thinkpython/html/thinkpython018.html#toc186\">this chapter</a> of How To Think Like A Computer Scientist."
+				},
+
+				{
+					"option": "<code>obj.self</code>",
+					"correct": "False",
+					"feedback":"Incorrect<br>The __init__ method is called whenever an object is created. For more on object creation, see this chapter of How To Think Like A Computer Scientist."
+
+				},
+
+				{
+					"option": "<code>init</code>",
+					"correct": "False",
+					"feedback":"Incorrect<br>The __init__ method is called whenever an object is created. For more on object creation, see this chapter of How To Think Like A Computer Scientist."
+
+				},
+
+				{
+					"option": "<code>__init__</code>",
+					"correct": "True",
+					"feedback":"Correct<br>The __init__ method is called whenever an object is created. For more on object creation, see this chapter of How To Think Like A Computer Scientist."
+
+				},
+
+				{
+					"option": "<code>new</code>",
+					"correct": "False",
+					"feedback":"Incorrect<br>The __init__ method is called whenever an object is created. For more on object creation, see this chapter of How To Think Like A Computer Scientist."
+
+				}
+
+
+			]
+		},
+
+
+		{
+			"questionType": "fillintheblank",
+			"questionText": " If you have an object instance, <code>obj</code>, and you want to call its <code>doSomething()</code> method (assuming it has one), how would you do this? (write the line of code you would use) ",
+			"points":"1",
+			"answer":"obj.doSomething()"
+		},
+
+
+
+		{
+			"questionType":"mcq",
+			"questionText": " True or False? An object's attributes must be defined in the object's <code>__init__ </code>method. ",
+			"points":"1",
+			"options": [{
+					"option": "True",
+					"correct": "False",
+					"feedback":"Incorrect<br>An object's attributes are variables that can be used throughout the entire object, regardless of the method in which it is first defined. However, it is customary to define attributes within the <code>__init__</code> method for many reasons. Primarily this is to ensure all attributes are properly initialized. Because the <code>__init__</code> method is called when an object is created, if attributes are created in the <code>__init__</code> method they will be initialized properly (and thus not throw any errors) when they are referenced later on."
+				},
+
+				{
+					"option": "False",
+					"correct": "True",
+					"feedback":"Correct<br>An object's attributes are variables that can be used throughout the entire object, regardless of the method in which it is first defined. However, it is customary to define attributes within the <code>__init__</code> method for many reasons. Primarily this is to ensure all attributes are properly initialized. Because the <code>__init__</code> method is called when an object is created, if attributes are created in the <code>__init__</code> method they will be initialized properly (and thus not throw any errors) when they are referenced later on."
+
+				}
+
+			]
+		},
+
+		{
+			"questionType": "fillintheblank",
+			"questionText": [{"text":" The following code starts the definition of a class called <code>Address</code>. The class needs to have two attributes: <code>number</code> and <code>streetName</code>. <br> What is the correct expression for <code># Line 1?</code> "},{"code":"ClassesObjectsExercise1.py"}],	
+			"points":"1",
+			"answer":"self.number = number"
+		},
+
+		{
+			"questionType": "fillintheblank",
+			"questionText":[{"text": " The following code starts the definition of a class called Address. The class needs to have two attributes: number and streetName. <br> What is the correct expression for <code> # Line 2</code>? "},{"code":"ClassesObjectsExercise1.py"}],
+			"points":"1",
+			"answer":"self.streetName = streetName"
+
+		}
+
+
+	]
+}]

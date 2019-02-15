@@ -1,0 +1,8 @@
+[{
+	"activityType" : "quiz",
+	"questionType":"filesubmission",
+	"title" : "In the previous activity, you learned to learn construction of flowchart. In this activity, there is a similar problem for you.",
+	"questionText":"Draw a flowchart for finding the LCM of two numbers",
+	"points":"5"
+}
+]

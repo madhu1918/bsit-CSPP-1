@@ -1,0 +1,105 @@
+[{
+	"title":"Approximate Solutions Exercise",
+	"activityType":"quiz",
+	"quizDescription": [
+		{
+			"text" : "Consider the following code:"
+		},
+		{
+			"code" : "cspp1.7.6.1.py"
+		},
+		{
+			"text" : "If this code is executed, it will print succeeded: 4.9999999999998 (or succeeded: 5.0). Remember floating point errors?<br>Now suppose we try the following:"
+		}
+	],
+	"questions": [
+			{
+				"questionType":"mcq",
+
+				"questionText" : [
+					{
+						"code" : "cspp1.7.6.2.py"
+					},
+					{
+						"text" : "Select the answer that best describes what occurs when the above code is executed:"
+					}
+				],
+				"points":"1",
+				"options": [
+					{
+						"option": "Script successfully completes, and prints out succeeded: 4.9999999999998 (or succeeded: 5.0)",
+						"correct": "False"
+					},
+					{
+						"option": "Script successfully completes, but prints out failed",
+						"correct": "False"
+					},
+					{
+						"option": "Script successfully completes, but prints out succeeded: followed by some number not really close to 5.0",
+						"correct": "False"
+					},
+					{
+						"option": "Script enters an infinite loop and never terminates correct",
+						"correct": "True"
+					}
+				]
+			},
+			{
+				"questionType":"mcq",
+				"questionText" : [
+					{
+						"text" : "Now suppose we try<br>"
+					},
+					{
+						"code" : "cspp1.7.6.3.py"
+					},
+					{
+						"text":"Select the answer that best describes what occurs when the above code is executed:"
+					}
+				],
+				"points":"1",
+				"options": [
+					{
+						"option": "Script successfully completes, and prints out succeeded: 4.9999999999998 (or succeeded: 5.0) ",
+						"correct": "True"
+					},
+					{
+						"option": "Script successfully completes, but prints out failed",
+						"correct": "False"
+					},
+					{
+						"option": "Script successfully completes, but prints out succeeded: followed by some number not really close to 5.0",
+						"correct": "False"
+					},
+					{
+						"option": "Script enters an infinite loop and never terminates",
+						"correct": "False"
+					}
+				]
+			},
+			{
+				"questionType":"mcq",
+				"questionText" : "Finally, let's use the same code as immediately above, but change the first line to x = 23. Note that the square root of 23 is roughly 4.7958.<br>Select the answer that best describes what occurs when the modified code is executed:",
+				"points":"1",
+				"options": [
+					{
+						"option": "Script successfully completes, and prints out succeeded: 4.9999999999998 (or succeeded: 5.0)",
+						"correct": "False"
+					},
+					{
+						"option": "Script successfully completes, but prints out failed",
+						"correct": "True"
+					},
+					{
+						"option": "Script successfully completes, but prints out succeeded: followed by some number not really close to 5.0",
+						"correct": "False"
+					},
+					{
+						"option": "Script enters an infinite loop and never terminates",
+						"correct": "False"
+					}
+				]
+
+			}
+	]
+}]

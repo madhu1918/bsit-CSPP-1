@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity, you are going to learn construction of flowchart by solving a problem Find whether a character is present in a string or not",
+		"activityType":"video",
+		"videoURL":"",
+		"raptorURL" : "/findingcharacterinstring.rap"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on finding whether a character is present in a string or not"
+		}
+		]
+	}
+]

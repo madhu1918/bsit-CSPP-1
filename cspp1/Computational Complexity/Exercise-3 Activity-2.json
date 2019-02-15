@@ -1,0 +1,22 @@
+[{
+	"title":"Last activity you solved few questions. In this activity we give you some questions, try to answer those questions",
+	"activityType":"quiz",
+	"quizDescription": [{"text":"For the following programs, fill in the best-case and the worst-case number of steps it will take to run each program.For these questions, you'll be asked to write a mathematical expression. Use +, -, / signs to indicate addition, subtraction, and division. Explicitly indicate multiplication with a * (ie say \"6*n\" rather than \"6n\"). Indicate exponentiation with a caret (^) (ie \"n^4\" for ). Indicate base-2 logarithms with the word log2 followed by parenthesis (ie \"log2(n)\").<br>"},{"code":"BigohNotationExercise1activity1Program2.py"}],
+	"questions": 
+		[
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the number of steps it will take to run above Program in the best case? Express your answer in terms of n, the number of elements in the list L.",
+				"points":"1",
+				"answer": "2",
+				"feedback":"In the best case scenario, L is an empty list. So we execute only the first assignment statement, then the return statement. Thus in the best case we execute 2 steps. Note that since the list is empty, no assignments are performed in the for x in L line.."
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "What is the number of steps it will take to run above Program in the worst case? Express your answer in terms of n, the number of elements in the list L.",
+				"points":"1",
+				"answer": "4*n^2 + n + 2",
+				"feedback":"In the worst case scenario, L is a long list of one repeated number (ie [2, 2, 2, 2, ...]. In this case we go through the loop for x in L n times. Every time through this loop, we perform one assigment of a value to the variable x, then we execute the inner loop for y in L n times.<br>The inner loop performs one assigment of a value to the variable y. It then has one operation that is checked every time (if x == y). Since the WORST case is when the list is composed of identical elements, this check is always true - so the third and fourth operations (x*y, and list appending) are always performed. So the inner loop executes 4*n times on each iteration of the outer loop. Thus the nested loop structure is executed n * (4*n + 1) = 4*n**2 + n times!<br>Adding in two steps (for the first assignment statement, and the return statement) we see that in the worst case, this program executes 4*n**2 + n + 2 steps."
+			}
+		]
+}]	

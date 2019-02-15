@@ -1,0 +1,18 @@
+[{
+	"title":"In this Activity we will discuss methods by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnMethods.mp4",
+	"videoResources":"/Methods.zip"
+},
+ {
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Methods"
+	}
+	]
+}
+
+
+]

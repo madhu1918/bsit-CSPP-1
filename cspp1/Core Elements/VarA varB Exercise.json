@@ -1,0 +1,9 @@
+[{
+	"title": "Solve the following problem",
+	"activityType": "assignment",
+	"questions": [{
+		"questionType": "filesubmission",
+		"questionText": "Assume that two variables, <b>varA</b> and <b>varB</b>, are assigned values, either numbers or strings.<br>Write a piece of Python code that evaluates <b>varA</b> and <b>varB</b>, and then prints out one of the following messages:  <ul>   <li>  <code>\"string involved\"</code>  <p>if either <b>varA</b> or <b>varB</b> are strings</p> </li>  <li> <code>\"bigger\"</code> <p> if <b>varA</b> is larger than <b>varB</b> </p>    </li>  <li> <code>\"equal\" </code> <p> if <b>varA</b> is equal to <b>varB</b> </p> </li> <li><code>\"smaller\" </code> <p> if <b>varA</b> is smaller than <b>varB</b> </p> </li> </ul> ",
+		"points": "5"
+	}]
+}]

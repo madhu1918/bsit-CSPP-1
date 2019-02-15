@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this Activity, we will discuss an example of using a dictionary by watching a video",
+	"videoURL":"/Example with a Dictionary.mp4",
+	"videoResources":"/Example with a Dictionary.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Example with a Dictionary"
+	}
+	]
+}
+]

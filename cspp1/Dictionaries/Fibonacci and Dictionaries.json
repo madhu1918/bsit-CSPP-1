@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this Activity we will discuss Fibonacci and Dictionaries by watching a video",
+	"videoURL":"/Fibonacci and Dictionaries.mp4",
+	"videoResources":"/Fibonacci and Dictionaries.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Fibonacci and Dictionaries"
+	}
+	]
+}
+]

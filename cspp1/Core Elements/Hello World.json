@@ -1,0 +1,13 @@
+[{
+	"title":"Solve the following problem",
+	"activityType":"quiz",
+	"questions":
+	[
+		{
+			"questionType": "filesubmission",
+			"questionText": "Write a piece of Python code that prints out the string <code>hello world</code> ",
+			"points":"5"
+		}
+	]
+}
+]

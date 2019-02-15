@@ -1,0 +1,143 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following questions",
+	"quizDescription":[{"text":"For each of the expressions below, specify its type and value. If it generates an error, select type 'NoneType' and put the word 'error' in the box for the value.<br><br>Assume we've made the following assignment:"},
+	{"code":"tuples2.py"},
+	{"attachment":["tuples2.py"]},
+	{"text":"Additionally, assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly after the previous problem part(s)."}
+	],
+	"questions":
+	[
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>x[0]</code>",
+			"points":"1",
+			"answer":"1"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>x[0]</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>x[2]</code>",
+			"points":"1",
+			"answer":"[3, 'John', 4]"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>x[2]</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>x[-1]</code>",
+			"points":"1",
+			"answer":"'Hi'"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>x[-1]</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"string"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>x[2][2]</code>",
+			"points":"1",
+			"answer":"4"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>x[2][2]</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>x[0:1]</code>",
+			"points":"1",
+			"answer":"[1]"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>x[0:1]</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>2 in x</code>",
+			"points":"1",
+			"answer":"True"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>2 in x</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"boolean"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>3 in x</code>",
+			"points":"1",
+			"answer":"False"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>3 in x</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"boolean"
+				}
+
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>x[0]=8</code>",
+			"points":"1",
+			"answer":"[8, 2, [3, 'John', 4], 'Hi'] "
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>x[0]=8</code>",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+		}
+	]
+}]

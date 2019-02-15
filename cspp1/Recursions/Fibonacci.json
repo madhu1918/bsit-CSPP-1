@@ -1,0 +1,17 @@
+[{
+	"activityType":"video",
+	"title":"In this activity we will discuss about fibnocci in recursion by watching a video",
+	"videoURL":"/Fibonacci.mp4",
+	"videoResources":"/Fibonacci.zip"
+},
+ {
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Fibanacci"
+		}
+		]
+	}
+ 
+]

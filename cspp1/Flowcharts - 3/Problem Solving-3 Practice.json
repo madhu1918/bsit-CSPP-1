@@ -1,0 +1,8 @@
+[{
+	"activityType" : "quiz",
+	"questionType":"filesubmission",
+	"title" : "In the previous activity, you learned to learn construction of flowchart. In this activity, there is a similar problem for you.",
+	"questionText":"Draw a flowchart to validate the given Credit Card Number<br>Rules:<br><ul><li>Credit Card Number should not start with zero</li><li>Credit Card Number should contain 16 digits</li></ul> ",
+	"points":"5"
+}
+]

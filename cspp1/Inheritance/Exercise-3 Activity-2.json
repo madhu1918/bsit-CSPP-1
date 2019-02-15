@@ -1,0 +1,156 @@
+[{
+	"title": "Solve the following questions on generators",
+	"activityType": "quiz",
+	"quizDescription": " For the following tasks, would it be best to use a generator, a standard function, or either? ",
+	"questions": [{
+			"questionType":"mcq",
+			"questionText": " Finding the nth Fibonacci number ",
+			"points":"1",
+			"options": [{
+					"option": " Generator ",
+					"correct": "False"
+
+				},
+
+				{
+					"option": " Standard function ",
+					"correct": "True"
+
+				},
+
+				{
+					"option": " Either a generator or standard function is fine ",
+					"correct": "False"
+
+				}
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " Printing out an unbounded sequence of Fibonacci numbers ",
+			"points":"1",
+			"options": [{
+					"option": " Generator ",
+					"correct": "True"
+
+				},
+
+				{
+					"option": " Standard function ",
+					"correct": "False"
+
+				},
+
+				{
+					"option": " Either a generator or standard function is fine ",
+					"correct": "False"
+
+				}
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " Printing out a bounded sequence of prime numbers, where the prime numbers are successively computed by division by smaller primes ",
+			"points":"1",
+			"options": [{
+					"option": " Generator ",
+					"correct": "False"
+
+				},
+
+				{
+					"option": " Standard function ",
+					"correct": "False"
+
+				},
+
+				{
+					"option": " Either a generator or standard function is fine ",
+					"correct": "True"
+
+				}
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " Printing out an unbounded sequence of prime numbers, where the prime numbers are successively computed by division by smaller primes ",
+			"points":"1",
+			"options": [{
+					"option": " Generator ",
+					"correct": "True"
+
+				},
+
+				{
+					"option": " Standard function ",
+					"correct": "False"
+
+				},
+
+				{
+					"option": " Either a generator or standard function is fine ",
+					"correct": "False"
+
+				}
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " Finding the score of a word from the 6.00x Word Game of Pset 4 ",
+			"points":"1",
+			"options": [{
+					"option": " Generator ",
+					"correct": "False"
+
+				},
+
+				{
+					"option": " Standard function ",
+					"correct": "True"
+
+				},
+
+				{
+					"option": " Either a generator or standard function is fine ",
+					"correct": "False"
+
+				}
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " Iterating over a sequence of numbers in a random order, where no number is repeated ",
+			"points":"1",
+			"options": [{
+					"option": " Generator ",
+					"correct": "False"
+
+				},
+
+				{
+					"option": " Standard function ",
+					"correct": "True"
+
+				},
+
+				{
+					"option": " Either a generator or standard function is fine ",
+					"correct": "False"
+
+				}
+			]
+		}
+
+
+
+
+
+
+
+	]
+}]

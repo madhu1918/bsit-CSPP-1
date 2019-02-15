@@ -1,0 +1,22 @@
+[{
+	"activityType":"quiz",
+	"title" : "In this activity you will install python. After installing answer the questions in the activity",
+	"questions": [
+		{
+			"questionType":"mcq",
+			"questionText": "Did you sucessfully install Python Interpreter on your machine",
+			"points":"1",
+			"options": [
+				{
+					"option": "Yes",
+					"correct": "True"
+				},
+				{
+					"option": "No",
+					"correct": "False"
+				}
+			]
+		}
+	]
+}
+]

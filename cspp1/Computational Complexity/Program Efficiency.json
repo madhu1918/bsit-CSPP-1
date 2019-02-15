@@ -1,0 +1,16 @@
+[{
+	"title":"In this activity we will discuss about Program efficiency by watching a video",
+	"activityType":"video",
+	"videoURL":"/Program Efficency.mp4",
+	"videoResources":"/Program Efficiency.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Program Efficiency"
+	}
+	]
+}
+]

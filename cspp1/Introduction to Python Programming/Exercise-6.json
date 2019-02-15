@@ -1,0 +1,70 @@
+[
+	{
+		"activityType":"quiz",
+		"title":"Last activity you solved few questions. There are few more questions in this activity for you to answer",
+		"quizDescription":"For each of the following expressions, indicate the value returned, or if the evaluation would lead to an error, write the word 'error' (note this is a word, not a string, no quotes). While you could simply type these expressions into an IDE, we encourage you to answer them directly since this will help reinforce your understanding of basic Python expressions.<br><br>For decimal answers, give the full result, or four decimal places of accuracy (whichever is shortest).<br><br><b>Floating point Errors:</b><br>Decimal numbers cannot be stored exactly in the computer because the computer does not have an infinite amount of memory. So decimal numbers are rounded when stored. When you do calculations with these numbers, your final result will be different than the actual result. For example, you may get something like 5.0000000044 instead of 5.0. This is called floating-point rounding error.",
+		"questions":
+		[
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>6 + 12 -3</code>",
+				"points":"1",
+				"answer":"15"
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>2 * 3.0</code>",
+				"points":"1",
+				"answer":"6.0"
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>- - 4</code>",
+				"points":"1",
+				"answer":"4"
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>10/3</code>",
+				"points":"1",
+				"answer":"3.3333"
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>10.0/3.0</code>",
+				"points":"1",
+				"answer":"3.3333"
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>(2 + 3) * 4</code>",
+				"points":"1",
+				"answer":"20"
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>2 + 3 * 4</code>",
+				"points":"1",
+				"answer":"14"
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>2**3 + 1</code>",
+				"points":"1",
+				"answer":"9"
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>2.1 ** 2.0</code>",
+				"points":"1",
+				"answer":"4.41"
+			},
+			{
+				"questionType":"fillintheblank",
+				"questionText":"<code>2.2 * 3.0</code>",
+				"points":"1",
+				"answer":"6.6"
+			}
+		]
+	}
+]

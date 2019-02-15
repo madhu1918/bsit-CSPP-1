@@ -1,0 +1,31 @@
+[{
+	"title":"In the previous activities you solved few problems on searching algorithms. In this activity  also there are few more questions please answer those questions",
+	"activityType":"quiz",
+	"quizDescription":[{"text": "Assume we have defined the following function:"},{"code":"searchingExercise1program2.py"}],
+	"questions": [
+			{
+				"questionType": "checkbox",
+				"questionText": "Which of the following statement(s) will result in an infinite loop?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"foo(a)",
+						"correct":"True",
+						"feedback":"The function foo first binds val to the 0th element of L, L[0]. Then, val is bound to element L[L[0]], then L[L[L[0]]], and so on.<br>Calling foo on lists a and b results in an infinite loop - foo(a) traverses indicies 0->1->2->3->4->0 and foo(b) traverses indicies 0->3->4->1->0."
+					},
+					{
+						"option":"foo(b)",
+						"correct":"True",
+						"feedback":"The function foo first binds val to the 0th element of L, L[0]. Then, val is bound to element L[L[0]], then L[L[L[0]]], and so on.<br>Calling foo on lists a and b results in an infinite loop - foo(a) traverses indicies 0->1->2->3->4->0 and foo(b) traverses indicies 0->3->4->1->0."
+					},
+					{
+						"option":"foo(c)",
+						"correct":"False",
+						"feedback":"foo(c) results in an error, because L[5] does not exist."
+					}
+				]
+			}
+		]
+}
+ ]

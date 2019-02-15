@@ -1,0 +1,21 @@
+[{
+	"activityType":"assignment",
+	"title":"Solve the following problem on Recursion",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"Write a function recurPower(base, exp) which computes base<sup>exp</sup> by recursively calling itself to solve a smaller version of the same problem, and then multiplying the result by base to solve the initial problem.<br>This function should take in two values - base can be a float or an integer; exp will be an integer >=0 . It should return one numerical value. Your code must be recursive - use of the ** operator or looping constructs is not allowed.<br>Note: In programming there are many ways to solve a problem. For your code to check correctly here, though, you must write your recursive function such that you make a recursive call directly to the function recurPower. Thank you for understanding.<br><br><b>Hints</b>:To figure out what base case to use, think about what the smallest value of exp can be.<br>Recall that exp will be an integer greater than or equal to zero - so, the smallest value of exp is zero. What is the value of base<sup>exp</sup> when exp equals zero, for any value of base?<br>A good way to think about recursion is that recursion is the process of solving a given problem with a smaller instance of the same problem.So, how could we express base<sup>exp</sup> as a smaller instance of an exponential equation?<br>base<sup>exp</sup> = base.base<sup>exp-1</sup>To convince yourself this is true, put in real numbers for base and exp; then, work through the recursion over and over until you reach your base case.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["power using recursion.zip"]
+				}
+			],
+			"points":"10",
+			"code":"powerrecr.py"
+		}
+	]
+
+}]

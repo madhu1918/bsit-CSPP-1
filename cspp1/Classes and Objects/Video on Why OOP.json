@@ -1,0 +1,17 @@
+[{
+	"title":"In this Activity we will discuss why oop concept is required by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnWhyOOP.mp4",
+	"videoResources":"/ObjectOrientedProgramming.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Why OOP"
+	}
+	]
+}
+
+]

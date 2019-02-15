@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity we will discuss about Guess and Check method by watching a video",
+		"activityType":"video",
+		"videoURL":"7) Guess and Check.mp4",
+		"videoResources" : "7) Guess and Check.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Guess and Check"
+		}
+		]
+	}
+]

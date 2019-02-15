@@ -1,0 +1,49 @@
+[{
+	"title" : "Last activity you solved few questions. There are few more questions in this activity for you to answer",
+	"activityType":"quiz",
+	"quizDescription" : [{"text":" Consider the following code: <br> What does the code print out? Try figuring it out in your head before you try running it in Python. The hint is that this code prints out 5 lines "},{"code":"InheritanceExerciseSpell.py"}],
+	"questions": [
+		{
+			"questionType" : "fillintheblank",
+			"questionText": " Enter first line that is printed out in its own box ",
+			"points":"1",
+			"answer":"Accio"
+		},
+
+		{
+			"questionType" : "fillintheblank",
+			"questionText": " Enter second line that is printed out in its own box ",
+			"points":"1",
+			"answer":"Summoning Charm Accio"
+		},
+
+
+		{
+			"questionType" : "fillintheblank",
+			"questionText": " Enter third line that is printed out in its own box ",
+			"points":"1",
+			"answer":"No description"
+		},
+
+
+		{
+			"questionType" : "fillintheblank",
+			"questionText": " Enter fourth line that is printed out in its own box ",
+			"points":"1",
+			"answer":"Confundus Charm Confundo"
+		},
+
+
+		{
+			"questionType" : "fillintheblank",
+			"questionText": " Enter fifth line that is printed out in its own box ",
+			"points":"1",
+			"answer":"Causes the victim to become confused and befuddled."
+		}
+
+
+
+
+
+	]
+}]

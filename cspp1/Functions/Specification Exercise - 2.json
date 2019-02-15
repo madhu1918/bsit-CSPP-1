@@ -1,0 +1,272 @@
+[{
+	"activityType":"quiz",
+	"title" : "Last activity we solved problems on specifications Excercise, In this activity given few more problems to solve",
+	"quizDescription" : [
+		{
+			"text" : "As we'll see in subsequent lectures, everything in Python is an object. Objects are special because we can associate special functions, referred to as object methods, with the object. In this problem you'll be working with string objects, and their built-in methods.<br>A complete description of the methods available to string objects can be found in the<a href=\"https://docs.python.org/3/library/stdtypes.html#string-methods\">Python library reference on string methods.</a><br>In this exercise, we want you to get some experience in using methods as functions. The convention for object methods is to use the \"dot\" notation, so that if s is a string, evaluating s.upper will return the actual function, and evaluating s.upper() will cause the function itself to be evaluated (in this case it returns a new string, since strings are immutable) with every character now in upper case. An example of this follows:"
+		},
+		{
+			"code" : "cspp1.8.13.1.py"
+		},
+		{
+			"attachment" : ["cspp1.8.13.1.py"]
+		},
+		{
+			"text" : "For each of the expressions in this problem, specify its type and value. If it generates an error, select type 'NoneType' and put the word 'error' in the box for the value. If it would be a function, select type 'function' and put the word 'function' in the box for the value.<br>Assume we've made the following assignments:"
+		},
+		{
+			"code" : "cspp1.8.13.2.py"
+		},
+		{
+			"attachment" : ["cspp1.8.13.2.py"]
+		},
+		{
+			"text" : "Assume that the expressions are evaluated in the order shown - that is, each problem part is evaluated directly after the previous problem part(s)."
+		}
+	],
+	"questions": [
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str1.upper</code>",
+			"points":"1",
+			"answer": "function"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1.upper</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"function"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str1.upper()</code>",
+			"points":"1",
+			"answer": "EXTERMINATE!"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1.upper()</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str1</code>",
+			"points":"1",
+			"answer": "exterminate!"
+
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"string"
+				}
+
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str1.isupper()</code>",
+			"points":"1",
+			"answer": "False"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1.isupper()</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"boolean"
+				}
+
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str1.islower()</code>",
+			"points":"1",
+			"answer": "True"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1.islower()</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"boolean"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str2 = str2.capitalize()<br>str2</code>",
+			"points":"1",
+			"answer": "Number one - the larch"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str2 = str2.capitalize()<br>str2</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str2.swapcase()</code>",
+			"points":"1",
+			"answer": "nUMBER ONE - THE LARCH"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str2.swapcase()</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str1.index('e')</code>",
+			"points":"1",
+			"answer": "0"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1.index('e')</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"int"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str2.index('n')</code>",
+			"points":"1",
+			"answer": "8"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str2.index('n')</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"int"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str2.find('n')</code>",
+			"points":"1",
+			"answer": "8"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str2.find('n')</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"int"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str2.index('!')</code>",
+			"points":"1",
+			"answer": "error"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str2.index('!')</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"NoneType"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str2.find('!')</code><br>Note: Be sure to make note of the difference between the find and index string methods...",
+			"points":"1",
+			"answer": "-1"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str2.find('!')</code>Note: Be sure to make note of the difference between the find and index string methods...",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"int"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str1.count('e')</code>",
+			"points":"1",
+			"answer": "3"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1.count('e')</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"int"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str1 = str1.replace('e', '*')<br>str1</code>",
+			"points":"1",
+			"answer": "*xt*rminat*!"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str1 = str1.replace('e', '*')<br>str1</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"string"
+				}
+		},
+		{
+		"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>str2.replace('one', 'seven')</code>",
+			"points":"1",
+			"answer": "Number seven - the larch"
+		},
+		{
+		"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>str2.replace('one', 'seven')</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean","function"],
+					"correct":"string"
+				}
+		}
+	]
+}]

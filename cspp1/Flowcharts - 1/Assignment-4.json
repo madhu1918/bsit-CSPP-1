@@ -1,0 +1,13 @@
+[{
+	"activityType":"assignment",
+	"title":"I think you completed Assignment-3, Here is the next Assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Read the flow chart given below, write a tracing report and specify what does it convey?",
+			"points":"10",
+			"attachment":["/cspp1_unit2_assignment2.rap"]
+		}
+	]
+}]

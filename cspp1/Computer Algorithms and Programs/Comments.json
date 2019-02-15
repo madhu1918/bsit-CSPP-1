@@ -1,0 +1,34 @@
+[{
+	"activityType":"quiz",
+	"title" : "Last activity you solved few questions. In this activity we give you some questions on Comments, try to answer those questions",
+	"questions":[
+		{
+			"questionType" : "mcq",
+			"questionText":"What are comments for?",
+			"points":"1",
+			"options":[
+				{
+					"option":"To tell the computer what you mean in your program.",
+					"correct":"False",
+					"feedback":"Incorrect! Comments are ignored by the computer."
+				},
+				{
+					"option":"For the people who are reading your code to know, in natural language, what the program is doing.",
+					"correct":"True",
+					"feedback":"Correct! The computer ignores comments. It's for the humans that will \"consume\" your program."
+				},
+				{
+					"option":"Nothing, they are extraneous information that is not needed.",
+					"correct":"False",
+					"feedback":"Incorrect! Comments can provide much needed information for anyone reading the program."
+				},
+				{
+					"option":"Nothing in a short program. They are only needed for really large programs.",
+					"correct":"False",
+					"feedback":"Incorrect! Even small programs benefit from comments."
+				}
+			]
+		}
+	]
+}
+]

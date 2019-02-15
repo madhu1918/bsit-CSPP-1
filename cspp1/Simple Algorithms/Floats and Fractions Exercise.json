@@ -1,0 +1,79 @@
+[{
+	"title":"Floats and Fractions Exercise",
+	"activityType":"quiz",
+	"questions": [
+			{
+				"questionType":"mcq",
+				"questionText": "True or False? The internal computer representation of any number is always an approximation. ",
+				"points":"1",
+				"options": [
+					{
+						"option": "True",
+						"correct": "False"
+					},
+					{
+						"option": "False",
+						"correct": "True"
+					}
+				]
+			},
+			{
+				"questionType":"mcq",
+				"questionText": "The decimal 11 is what binary?: ",
+				"points":"1",
+				"options": [
+					{
+						"option": "11",
+						"correct": "False"
+					},
+					{
+						"option": "1011",
+						"correct": "True"
+					},
+					{
+						"option": "1101",
+						"correct": "False"
+					},
+					{
+						"option": "cannot be converted",
+						"correct": "False"
+					}
+				]
+			},
+			{
+				"questionType":"mcq",
+				"questionText": "True or False? The internal representation of the decimal number 1/10 = 0.1 requires an infinite number of digits.",
+				"points":"1",
+				"options": [
+					{
+						"option": "True",
+						"correct": "True"
+					},
+					{
+						"option": "False",
+						"correct": "False"
+					}
+				]
+
+			},
+			{
+				"questionType":"mcq",
+				"questionText": "After many computations, you get two floating numbers stored in variables a and b. Your code compares the numbers with a == b.",
+				"points":"1",
+				"options": [
+					{
+						"option": "Doing the comparison will always lead to a correct program.",
+						"correct": "False"
+					},
+					{
+						"option": "Doing the comparison will sometimes lead to a correct program.",
+						"correct": "True"
+					},
+					{
+						"option": "Doing the comparison will never lead to a correct program.",
+						"correct": "False"
+					}
+				]
+			}
+	]
+}]

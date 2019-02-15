@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity we will discuss about Iterations by watching a video",
+		"activityType":"video",
+		"videoURL":"/6) Iteration.mp4",
+		"videoResources" : "/6) Iteration.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Iteration"
+		}
+		]
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity you will learn about input & output by watching a video",
+		"activityType":"video",
+		"videoURL":"/3) Input Output.mp4",
+		"videoResources" : "/3) Input Output.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Input Output"
+		}
+		]
+	}
+]

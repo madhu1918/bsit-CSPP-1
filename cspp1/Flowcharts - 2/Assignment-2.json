@@ -1,0 +1,12 @@
+[{
+	"activityType":"assignment",
+	"title":"I think you completed Assignment-1, Here is the next Assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Draw a flow chart that computes the factorial of a given number",
+			"points":"5"
+		}
+	]
+}]

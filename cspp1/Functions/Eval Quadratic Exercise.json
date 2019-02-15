@@ -1,0 +1,22 @@
+[
+	{
+		"title":"Eval Quadratic Exercise",
+		"activityType":"assignment",
+		"questions":
+		[
+			{
+				"questionType": "filesubmission",
+				"questionText": [
+				{
+					"text":"Write a Python function, <code>evalQuadratic(a, b, c, x)</code>, that returns the value of the quadratic<p>a . x <sup>2</sup> + b . x + c</p>This function takes in four numbers and returns a single number.<br>Download the sample code from below<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Functions - Eval Quadratic Exercise.zip"]
+				}
+				],
+				"points":"5",
+				"code" : "cspp1.8.5.1.py"
+			}
+		]
+	}
+]

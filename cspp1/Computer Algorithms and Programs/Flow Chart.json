@@ -1,0 +1,115 @@
+[{
+	"activityType":"quiz",
+	"title" : "Last activity you solved few questions. In this activity we give you some questions on Flowchart, try to answer those questions",
+	"questions": [
+		{
+			"questionType" : "mcq",
+			"questionText": "A flowchart is a type of diagram that represents an algorithm, workflow or process, showing the steps as boxes of various kinds, and their order by connecting them with arrows.",
+			"points":"1",
+			"options": [
+				{
+					"option": "Yes",
+					"correct": "True"
+				},
+				{
+					"option": "No",
+					"correct": "False"
+				}
+			]
+		},
+		{
+			"questionType" : "mcq",
+			"questionText": [{"text":"What is the purpose of this symbol?"},{"image":{"imageSRC":"start-end.jpg", "imageName":""}}],
+			"points":"1",
+			"options": [
+				{
+					"option": "Indicates an action or step in the flowchart process.",
+					"correct": "False"
+				},
+				{
+					"option": "Indicates the beginning or end of the flowchart (i.e. Start, Quit, or End).",
+					"correct": "True"
+				},
+				{
+					"option": "A subroutine by user request, where the user is able to request info, a particular subroutine etc. from the program",
+					"correct": "False"
+				},
+				{
+					"option": "Indicates that the program has a save function.",
+					"correct": "False"
+				}
+			]
+		},
+		{
+			"questionType" : "mcq",
+			"questionText": "What is a diagrammatic representation that illustrates the sequence of operations to be performed to get the solution of a problem?",
+			"points":"1",
+			"options": [
+				{
+					"option": "Algorithm",
+					"correct": "False"
+				},
+				{
+					"option": "Flowchart",
+					"correct": "True"
+				},
+				{
+					"option": "Pseudocode",
+					"correct": "False"
+				},
+				{
+					"option": "Programming",
+					"correct": "False"
+				}
+			]
+		},
+		{
+			"questionType" : "mcq",
+			"questionText": [{"text":"What is the purpose of this symbol?"},{"image": {"imageName":"","imageSRC":"decision.jpg"}}],
+			"points":"1",
+			"options": [
+				{
+					"option": "On-page connector",
+					"correct": "False"
+				},
+				{
+					"option": "Terminal Symbol",
+					"correct": "False"
+				},
+				{
+					"option": "Decision Symbol",
+					"correct": "True"
+				},
+				{
+					"option": "Procedure",
+					"correct": "False"
+				}
+			]
+		},
+		{
+			"questionType" : "mcq",
+			"questionText": [{"text":"What is the purpose of this symbol?"},{"image": {"imageName":"","imageSRC":"direction.jpg"}}],
+			"points":"1",
+			"options": [
+				{
+					"option": "Represents when something is input into the program or output from the program",
+					"correct": "False"
+				},
+				{
+					"option": "Asks a question and then determines which route the program will take",
+					"correct": "False"
+				},
+				{
+					"option": "An action done by the program (e.g. calculate the area of a square)",
+					"correct": "False"
+				},
+				{
+					"option": "Shows the direction and sequence of processes",
+					"correct": "True"
+				}
+			]
+		}
+
+	]
+}
+]

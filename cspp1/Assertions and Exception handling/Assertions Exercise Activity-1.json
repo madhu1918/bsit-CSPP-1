@@ -1,0 +1,87 @@
+[{
+	"title": "Answer the following questions",
+	"activityType": "quiz",
+	"quizDescription": [{
+			"text":" Consider the function <code>normalize</code> that takes as input a list of positive numbers <code>numbers</code> and returns a list of numbers that are a fraction of the maximum element in the list. Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers."
+		},
+
+		{
+			"code":"AssertionsExercise3Activity1.py"
+		},
+
+		{
+			"text":"The code below tries to call <code>normalize</code> with one particular input. Answer the next 5 questions based on the following code."
+		},
+
+		{
+			"code":"AssertionsExercise3Activity1Code2.py"
+
+		}
+	],
+	"questions": [{
+			"questionType":"mcq",
+			"questionText": " Does the try block throw (also known as raise) an exception? ",
+			"points":"1",
+			"options": [{
+					"option": " Yes ",
+					"correct": "True"
+				},
+
+				{
+					"option": " No ",
+					"correct": "False"
+				}
+
+			]
+		},
+
+		{
+			"questionType": "fillintheblank",
+			"questionText": " What is the name of the exception the code is trying to catch? ",
+			"points":"1",
+			"answer":" ZeroDivisionError "
+		},
+
+		{
+			"questionType": "fillintheblank",
+			"questionText": " What is the output? ",
+			"points":"1",
+			"answer":" Invalid maximum element "
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " Since we are dividing by the maximum element in a list of positive numbers, we know that normalize will return a value between 0 and 1. What type of condition is this? ",
+			"points":"1",
+			"options": [{
+					"option": " pre condition ",
+					"correct": "False"
+				},
+
+				{
+					"option": " post condition ",
+					"correct": "True"
+				}
+
+			]
+		},
+
+		{
+			"questionType":"mcq",
+			"questionText": " We also know the result is not meaningful when the maximum element is 0, so we want to ensure that the numbers in the list do not violate this. What type of condition is this? ",
+			"points":"1",
+			"options": [{
+					"option": " pre condition ",
+					"correct": "True"
+				},
+
+				{
+					"option": " post condition ",
+					"correct": "False"
+				}
+
+			]
+		}
+
+	]
+}]

@@ -1,0 +1,16 @@
+[
+	{
+		"title":"Now you all learned and practiced Arithmetic operators and branching, In this Activity we are going to learn Loops by watching a video on Sum of the digits of given number",
+		"activityType":"video",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Sum of Digits of a Given Number"
+		}
+		]
+	}
+]

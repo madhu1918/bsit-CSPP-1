@@ -1,0 +1,18 @@
+[{
+	"activityType" : "quiz",
+	"questionType":"filesubmission",
+	"title" : "Last Activity we learned how Strings works now in this acitivity we will trace a flowchart and practice Strings concepts",
+	"questionText":[
+		{
+			"text":"Trace the following flowchart "
+		},
+		{
+			"attachment":["stringreverse.rap"]
+		},
+		{
+			"text":"Submit the trace report."
+		}
+	],
+	"points":"5"
+}
+]

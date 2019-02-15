@@ -1,0 +1,26 @@
+[{
+	"title":"Last activity you solved few questions. In this activity we give you some questions, try to answer those questions",
+	"activityType":"quiz",
+	"quizDescription": "In the last video, Professor Grimson introduced the idea of \"asymptotic complexity\", which means we describe running time in terms of number of basic steps. We've described the best- and worst-case running times in terms number of basic steps for the three programs above. Now, we'd like you to give the complexity order (ie, \"Big O\" running time) of each of the above programs.<br>Recall that \"Big O\" notation gives an upper bound on asymptotic growth of a function. So, should you use the best-case or the worst-case running times for each program? Review the video again if you're unsure of what to put for the following boxes.<br><br><b>Note</b>: Your answer should be expressed with a capital letter O, then a mathematical term similar to one described in the introduction to this problem - for example, O(n^5).",
+	"questions": 
+		[
+			{
+				"questionType": "fillintheblank",
+				"questionText": [{"text":"What is the complexity order of given code"},{"code":"BigohNotationExercise1activity1Program1.py"}],
+				"points":"1",
+				"answer": "O(n^2)"
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": [{"text":"What is the complexity order of given code"},{"code":"BigohNotationExercise1activity1Program2.py"}],
+				"points":"1",
+				"answer": "O(n^2)"
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": [{"text":"What is the complexity order of given code"},{"code":"BigohNotationExercise1activity1Program3.py"}],
+				"points":"1",
+				"answer": "O(n^2)"
+			}	
+		]
+}]	

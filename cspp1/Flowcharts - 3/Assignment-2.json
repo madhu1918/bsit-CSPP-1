@@ -1,0 +1,14 @@
+[{
+	"activityType" : "assignment",
+	"title" : "I think you completed Assignment-1, Here is the next Assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Draw a flowchart for finding the given string is in lexicographic order or not.",
+			"points":"20"
+		}
+	]
+
+}
+]

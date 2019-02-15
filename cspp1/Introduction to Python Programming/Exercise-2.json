@@ -1,0 +1,54 @@
+[
+	{
+		"activityType":"quiz",
+		"title":"Last activity you solved few questions. There are few more questions in this activity for you to answer",
+		"questions":
+		[
+			{
+				"questionType":"mcq",
+				"questionText":"Declarative knowledge refers to statements of fact.",
+				"points":"1",
+				"options":[
+				{
+					"option":"True",
+					"correct":"True"
+				},
+				{
+					"option":"False",
+					"correct":"False"
+				}
+			]
+			},
+			{
+				"questionType":"mcq",
+				"questionText":"Imperative knowledge refers to 'how to' methods.",
+				"points":"1",
+				"options":[
+				{
+					"option":"True",
+					"correct":"True"
+				},
+				{
+					"option":"False",
+					"correct":"False"
+				}
+			]
+			},
+			{
+				"questionType":"mcq",
+				"questionText":"A recipe for deducing the square root involves guessing a starting value for y. Without another recipe to be told how to pick a starting number, the computer cannot generate one on its own.",
+				"points":"1",
+				"options":[
+				{
+					"option":"True",
+					"correct":"True"
+				},
+				{
+					"option":"False",
+					"correct":"False"
+				}
+			]
+			}
+		]
+	}
+]

@@ -1,0 +1,13 @@
+[{
+	"title":"Assignment-3",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType": "filesubmission",
+			"questionText": "Write a python program to find the square root of the given number using Bi-section method",
+			"points":"20"
+		}
+	]
+}
+]

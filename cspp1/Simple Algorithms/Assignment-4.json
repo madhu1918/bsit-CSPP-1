@@ -1,0 +1,13 @@
+[{
+	"title":"Assignment-4",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType": "filesubmission",
+			"questionText": "Write a python program to find the square root of the number using Newton-Rapson method",
+			"points":"20"
+		}
+	]
+}
+]

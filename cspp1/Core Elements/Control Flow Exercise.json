@@ -1,0 +1,54 @@
+[{
+	"title":"Answer the following questions on control flow",
+	"activityType":"quiz",
+	"quizDescription": [
+		{
+			"text" : "Below are some short Python programs. For each program, answer the associated question.<br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br>This question is going to ask you what some simple loops print out. If you're asked what code like this prints:<br>"
+		},
+		{
+			"code":"cspp1.6.12.1.py"
+		},
+		{
+			"text" : "write what it prints out, separating what appears on a new line by a comma and a space. So the answer for the above code would be:<br>"
+		},
+		{
+			"code":"controlflow.py"
+		},
+		{
+			"text":"If a given loop will not terminate, write the phrase 'infinite loop' (no quotes) in the box. Recall that you can stop an infinite loop in your program by typing CTRL+c in the console.<br>Note: What does +=, -=, *=, /= stand for<br><br><code>a += b</code> is equivalent to <code>a = a + b</code><br><br><code>a -= b</code> is equivalent to <code>a = a - b</code><br><br><code>a *= b</code> is equivalent to <code>a = a * b</code><br><br><code>a /= b</code> is equivalent to <code>a = a / b</code>"
+		}
+	],
+	"questions": [
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.12.2.py",
+				"points":"1",
+				"answer": "0, 1, 2, 3, 4, 5, Outside of loop, 6"
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.12.3.py",
+				"points":"1",
+				"answer": "infinite loop"
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.12.4.py",
+				"points":"1",
+				"answer": "9,8,7,6,5,4,3"
+
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.12.5.py",
+				"points":"1",
+				"answer": "10, 9, 8, 7, Breaking out of loop, Outside of loop"
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.12.6.py",
+				"points":"1",
+				"answer": "infinite loop"
+			}
+	]
+}]

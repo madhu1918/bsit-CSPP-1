@@ -1,0 +1,17 @@
+[
+	{
+		"title":"Video on Bisection Search",
+		"activityType":"video",
+		"videoURL":"/3) Bisection Search.mp4",
+		"videoResources" : "3) Bisection Search.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Bisection Search<br><br>Both low = 1.0 and low = 0.0 work."
+		}
+		]
+	}
+]

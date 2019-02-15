@@ -1,0 +1,16 @@
+[
+	{
+		"activityType":"video",
+		"title":"Last video we discussed how to read data into a file. In this video, we will learn how to write data into a file",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions":[
+			{
+				"questionType":"summarize",
+				"questionText":"Summarize the video on Writing to a File"
+			}
+		]
+	}
+]

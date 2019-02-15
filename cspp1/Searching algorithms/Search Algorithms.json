@@ -1,0 +1,16 @@
+[{
+	"title":"In this Activity we discuss about all search algorithms and the how linear search works and its analysis",
+	"activityType":"video",
+	"videoURL":"/Search Algorithms.mp4",
+	"videoResources":"/Search Algorithms.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Search Algorithms"
+	}
+	]
+}
+]

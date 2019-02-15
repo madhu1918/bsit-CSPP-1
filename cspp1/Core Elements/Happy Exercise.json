@@ -1,0 +1,13 @@
+[{
+	"title":"Solve the following problem",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType": "filesubmission",
+			"questionText": "Write a piece of Python code that prints out the string <b>'hello world'</b> if the value of an integer variable, <b>happy</b>, is strictly greater than 2.",
+			"points":"5"
+		}
+	]
+}
+]

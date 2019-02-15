@@ -1,0 +1,78 @@
+[{
+	"activityType":"quiz",
+	"title" : "Last activity we solved problems on Calling functions excercise, In this activity given few more problems to solve",
+	"quizDescription" : [
+		{
+			"text" :"Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated. If evaluating an expression would cause an error, select NoneType and write 'error' in the box. If the result is a function, select function and write 'function' in the box. As always, try to do this problem by hand before turning to your interpreter.<br>Assume the following definitions have been made:"
+		},
+		{
+			"code" : "cspp1.8.8.1.py"
+		}
+	],
+	"questions": [
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>a(False, 2, 3)</code>",
+			"points":"1",
+			"answer": "3"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>a(False, 2, 3)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>b(3, 2)</code>",
+			"points":"1",
+			"answer": "3"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>b(3, 2)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>a(3>2, a, b)</code>",
+			"points":"1",
+			"answer": "function"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>a(3>2, a, b)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function"],
+					"correct":"function"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>b(a, b)</code>",
+			"points":"1",
+			"answer": "error"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>b(a, b)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function"],
+					"correct":"NoneType"
+				}
+		}
+	]
+}]

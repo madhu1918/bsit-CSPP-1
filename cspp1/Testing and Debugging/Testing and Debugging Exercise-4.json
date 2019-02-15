@@ -1,0 +1,47 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following Question",
+	"quizDescription":
+	[
+		{
+			"text":"Consider the following function definition:"
+		},
+		{
+			"code":"Exercise4.py"
+		},
+		{
+			"text":"Assume that union is called with strings as arguments."
+		}
+	],
+	"questions":
+	[
+		{
+			"questionType":"mcq",
+			"questionText":"Please select the best glass box test suite for the function union from the following options:",
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"Test Suite A: union('',''), union('','a'), union('','ab'), union('a',''), union('a','b'), union('c','ab'), union('de',''), union('ab','c'), union('cd','ab')",
+					"correct":"False",
+					"feedback":"Incorrect<br>A good glass box test suite would try to test a good sample of all the possible paths through the code. So, it should contain tests that test when set1 is empty, when set1[0] is in set2, and when set1[0] is not in set2. The test suite should also test when the recursion depth is 0, 1, and greater than 1.<br>Remember that glass box testing is a method of software testing that tests the internal structures and workings of a piece of code. When we look at the code for union, we see a set of conditionals that ask about set1. Thus a good glass box test suite will contain tests that match the following lines from the conditional statements in the code:<br><ul><li>len(set1) == 0 - matched by the test union('', 'abc')</li><li>set1[0] in set2 - matched by the test union('a', 'abc')</li><li>set1[0] not in set2 (this is the else: of the conditional) - matched by the test union('d', 'abc')</li></ul>In addition, because union is a recursive function, we should make sure our test set considers a recursion depth of 0, 1, and many. In this case, recursion depth is covered by some of the tests we've already chosen:<br><ul><li>Recursion depth = 0 - matched by the test union('', 'abc')</li><li>Recursion depth = 1 - matched by the tests union('a', 'abc'), union('d', 'abc')</li><li>Recursion depth > 1 - matched by the test union('ab', 'abc')</li></ul>Note that this test suite is NOT path complete because it would take essentially infinite time to test all possible recursive depths.<br>Let's examine now why the other test suites weren't as good as Test Suite D:<ul><li>Test Suite A looks at a good sampling of set sizes for set1 and set2, but does not explore the if-else paths in the code. set1 never contains any element in set2.</li><li>Test Suite B does not explore the paths in the code because it never varies the contents of set1.</li><li>Test Suite C does not contain a test that explores the path when set1 has an element that is not in set2.</li></ul>"
+				},
+				{
+					"option":"Test Suite B: union('abc',''), union('abc','a'), union('abc','ab'), union('abc','d'), union('abc', 'abcd')",
+					"correct":"False",
+					"feedback":"Incorrect<br>A good glass box test suite would try to test a good sample of all the possible paths through the code. So, it should contain tests that test when set1 is empty, when set1[0] is in set2, and when set1[0] is not in set2. The test suite should also test when the recursion depth is 0, 1, and greater than 1.<br>Remember that glass box testing is a method of software testing that tests the internal structures and workings of a piece of code. When we look at the code for union, we see a set of conditionals that ask about set1. Thus a good glass box test suite will contain tests that match the following lines from the conditional statements in the code:<br><ul><li>len(set1) == 0 - matched by the test union('', 'abc')</li><li>set1[0] in set2 - matched by the test union('a', 'abc')</li><li>set1[0] not in set2 (this is the else: of the conditional) - matched by the test union('d', 'abc')</li></ul>In addition, because union is a recursive function, we should make sure our test set considers a recursion depth of 0, 1, and many. In this case, recursion depth is covered by some of the tests we've already chosen:<br><ul><li>Recursion depth = 0 - matched by the test union('', 'abc')</li><li>Recursion depth = 1 - matched by the tests union('a', 'abc'), union('d', 'abc')</li><li>Recursion depth > 1 - matched by the test union('ab', 'abc')</li></ul>Note that this test suite is NOT path complete because it would take essentially infinite time to test all possible recursive depths.<br>Let's examine now why the other test suites weren't as good as Test Suite D:<ul><li>Test Suite A looks at a good sampling of set sizes for set1 and set2, but does not explore the if-else paths in the code. set1 never contains any element in set2.</li><li>Test Suite B does not explore the paths in the code because it never varies the contents of set1.</li><li>Test Suite C does not contain a test that explores the path when set1 has an element that is not in set2.</li></ul>"
+				},
+				{
+					"option":"Test Suite C: union('','abc'), union('a','abc'), union('ab','abc'), union('abc','abc')",
+					"correct":"False",
+					"feedback":"Incorrect<br>A good glass box test suite would try to test a good sample of all the possible paths through the code. So, it should contain tests that test when set1 is empty, when set1[0] is in set2, and when set1[0] is not in set2. The test suite should also test when the recursion depth is 0, 1, and greater than 1.<br>Remember that glass box testing is a method of software testing that tests the internal structures and workings of a piece of code. When we look at the code for union, we see a set of conditionals that ask about set1. Thus a good glass box test suite will contain tests that match the following lines from the conditional statements in the code:<br><ul><li>len(set1) == 0 - matched by the test union('', 'abc')</li><li>set1[0] in set2 - matched by the test union('a', 'abc')</li><li>set1[0] not in set2 (this is the else: of the conditional) - matched by the test union('d', 'abc')</li></ul>In addition, because union is a recursive function, we should make sure our test set considers a recursion depth of 0, 1, and many. In this case, recursion depth is covered by some of the tests we've already chosen:<br><ul><li>Recursion depth = 0 - matched by the test union('', 'abc')</li><li>Recursion depth = 1 - matched by the tests union('a', 'abc'), union('d', 'abc')</li><li>Recursion depth > 1 - matched by the test union('ab', 'abc')</li></ul>Note that this test suite is NOT path complete because it would take essentially infinite time to test all possible recursive depths.<br>Let's examine now why the other test suites weren't as good as Test Suite D:<ul><li>Test Suite A looks at a good sampling of set sizes for set1 and set2, but does not explore the if-else paths in the code. set1 never contains any element in set2.</li><li>Test Suite B does not explore the paths in the code because it never varies the contents of set1.</li><li>Test Suite C does not contain a test that explores the path when set1 has an element that is not in set2.</li></ul>"
+				},
+				{
+					"option":"Test Suite D: union('','abc'), union('a','abc'), union('ab','abc'), union('d','abc')",
+					"correct":"True",
+					"feedback":"Correct<br>A good glass box test suite would try to test a good sample of all the possible paths through the code. So, it should contain tests that test when set1 is empty, when set1[0] is in set2, and when set1[0] is not in set2. The test suite should also test when the recursion depth is 0, 1, and greater than 1.<br>Remember that glass box testing is a method of software testing that tests the internal structures and workings of a piece of code. When we look at the code for union, we see a set of conditionals that ask about set1. Thus a good glass box test suite will contain tests that match the following lines from the conditional statements in the code:<br><ul><li>len(set1) == 0 - matched by the test union('', 'abc')</li><li>set1[0] in set2 - matched by the test union('a', 'abc')</li><li>set1[0] not in set2 (this is the else: of the conditional) - matched by the test union('d', 'abc')</li></ul>In addition, because union is a recursive function, we should make sure our test set considers a recursion depth of 0, 1, and many. In this case, recursion depth is covered by some of the tests we've already chosen:<br><ul><li>Recursion depth = 0 - matched by the test union('', 'abc')</li><li>Recursion depth = 1 - matched by the tests union('a', 'abc'), union('d', 'abc')</li><li>Recursion depth > 1 - matched by the test union('ab', 'abc')</li></ul>Note that this test suite is NOT path complete because it would take essentially infinite time to test all possible recursive depths.<br>Let's examine now why the other test suites weren't as good as Test Suite D:<ul><li>Test Suite A looks at a good sampling of set sizes for set1 and set2, but does not explore the if-else paths in the code. set1 never contains any element in set2.</li><li>Test Suite B does not explore the paths in the code because it never varies the contents of set1.</li><li>Test Suite C does not contain a test that explores the path when set1 has an element that is not in set2.</li></ul>"
+				}
+			]
+		}
+	]
+}]

@@ -1,0 +1,16 @@
+[{
+	"title":"In this activity we will discuss about Hierarchies and introduction to inheritance by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnHierarchies.mp4",
+	"videoResources":"/Hierarchies.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Hierarchies"
+	}
+	]
+}
+]

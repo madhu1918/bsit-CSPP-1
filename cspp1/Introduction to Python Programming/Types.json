@@ -1,0 +1,17 @@
+[
+	{
+		"activityType":"video",
+		"title":"In this activity we discussed about simple operations in python by watching a video",
+		"videoURL":"/Types.mp4",
+		"videoResources":"/Types.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Types"
+		}
+		]
+	}
+]

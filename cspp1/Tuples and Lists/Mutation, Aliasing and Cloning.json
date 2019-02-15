@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this activity we will discuss about Mutation, Aliasing and cloning by watching a video",
+	"videoURL":"/Mutation, Aliasing, Cloning.mp4",
+	"videoResources":"/Mutation, Aliasing, Cloning.zip"
+},
+{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Mutation, Aliasing, Cloning"
+		}
+		]
+	}
+]

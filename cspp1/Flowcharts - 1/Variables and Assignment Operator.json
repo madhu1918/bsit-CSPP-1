@@ -1,0 +1,16 @@
+[
+	{
+		"title":"In this Activity we are going to learn variables and assignment operator by watching a video on swapping of two numbers",
+		"activityType":"video",
+		"videoURL":""
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on swapping of two numbers"
+		}
+		]
+	}
+]

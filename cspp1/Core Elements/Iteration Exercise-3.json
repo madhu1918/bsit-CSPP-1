@@ -1,0 +1,53 @@
+[{
+	"title":"Solve the following problems on iterations",
+	"activityType":"quiz",
+	"quizDescription": [
+		{
+			"text" : "Below are some short Python programs. For each program, answer the associated questions.<br><br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong. You'll learn the most this way, by figuring things out, instead of just running the code and reading off the answers."
+		},
+		{
+			"code" : "cspp1.6.18.py"
+		}
+	],
+
+	"questions": [
+			{
+				"questionType": "fillintheblank",
+				"questionText": " How many times does H print out? ",
+				"points":"1",
+				"answer": "1"
+			},
+
+			{
+				"questionType": "fillintheblank",
+				"questionText": " How many times does e print out? Disregard the letters in the word done. ",
+				"points":"1",
+				"answer": "2"
+			},
+
+			{
+				"questionType": "fillintheblank",
+				"questionText": "How many times does l print out?",
+				"points":"1",
+				"answer": "3"
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "How many times does o print out? Disregard the letters in the word done.",
+				"points":"1",
+				"answer": "1"
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "How many times does ! print out?",
+				"points":"1",
+				"answer": "2"
+			},
+			{
+				"questionType": "fillintheblank",
+				"questionText": "How many times does done print out?",
+				"points":"1",
+				"answer": "1"
+			}
+	]
+}]

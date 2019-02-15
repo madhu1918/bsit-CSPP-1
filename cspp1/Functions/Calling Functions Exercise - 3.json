@@ -1,0 +1,67 @@
+[{
+	"activityType":"quiz",
+	"title" : "Last activity we solved problems on Calling functions excercise, In this activity given few more problems to solve",
+	"quizDescription" : "Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated. If evaluating an expression would cause an error, select NoneType and write 'error' in the box. If the result is a function, select function and write 'function' in the box. <br><br>To get the most out of this problem, try to figure out the answers by reading the code, not running it. Run the code in your interpreter only after you've checked your answers a few times.<br><br><b>Hint</b>: If you are confused, you may find it helpful to draw out an environment diagram similar to what was presented in lecture.<br><br>",
+	"questions": [
+		{
+			"questionType" : "fillintheblank",
+			"questionText":[
+				{
+					"text":"Value of the below Code Snippet?<br>"
+				},
+				{
+					"code" : "cspp1.8.9.1.py"
+				}
+			],
+			"points":"1",
+			"answer": "4"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText":[
+				{
+					"text":"Type of the below Code Snippet?<br>"
+				},
+				{
+					"code" : "cspp1.8.9.1.py"
+				}
+			],
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","num"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText":[
+				{
+					"text":"Value of the below Code Snippet?<br>"
+				},
+				{
+					"code" : "cspp1.8.9.2.py"
+				}
+			],
+			"points":"1",
+			"answer": "19"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText":[
+				{
+					"text":"Type of the below Code Snippet?<br>"
+				},
+				{
+					"code" : "cspp1.8.9.2.py"
+				}
+			],
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","num"],
+					"correct":"int"
+				}
+		}
+	]
+}]

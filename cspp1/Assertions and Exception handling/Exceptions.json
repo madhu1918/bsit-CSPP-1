@@ -1,0 +1,18 @@
+[{
+	"title":"In this Activity we will discuss Exceptions by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnExceptions.mp4",
+	"videoResources":"/Exceptions.zip"
+},
+ {
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Exceptions"
+		}
+		]
+	}
+
+
+]

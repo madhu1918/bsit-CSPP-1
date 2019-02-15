@@ -1,0 +1,17 @@
+[
+	{
+		"title":"Video on Approximate Solutions",
+		"activityType":"video",
+		"videoURL":"/2) Approximate Solutions.mp4",
+		"videoResources" : "2) Approximate Solutions.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Approximate Solutions"
+		}
+		]
+	}
+]

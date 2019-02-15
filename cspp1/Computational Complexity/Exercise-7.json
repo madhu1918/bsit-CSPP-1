@@ -1,0 +1,47 @@
+[{
+	"activityType":"quiz",
+	"title" : "Last activity we learned Recursion complexity, in this activity there are some questions, try to answer those questions",
+	"quizDescription" : "Consider the following Python procedures. For each one, specify its order of growth.",
+	"questions": [
+		{
+			"questionType" : "dropdown",
+			"code":"RecursionComplexityProgram1.py",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(log(s))","O(log(len(s)))","O(s)","O(len(s))","O(slog(s))","O(len(s)^2"],
+					"correct":"O(len(s))"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"code":"RecursionComplexityProgram2.py",
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(log(s))","O(log(len(s)))","O(s)","O(len(s))","O(slog(s))","O(len(s)^2"],
+					"correct":"O(log(len(s)))"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText":[{"text":"For this problem, assume n = len(L1) = len(L2)"},{"code":"RecursionComplexityProgram3.py"}],
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(log(n))","O(nlog(n))","O(n)","O(n ^ 2)","O(n ^ 3)","O(2^n)"],
+					"correct":"O(n ^ 2)"
+				}
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText":[{"text":"For this problem, assume n = len(L1) = len(L2)"},{"code":"RecursionComplexityProgram4.py"}],
+			"points":"1",
+			"dropdown":
+				{
+					"option":["-select-","O(1)","O(log(n))","O(nlog(n))","O(n)","O(n ^ 2)","O(n ^ 3)","O(2^n)"],
+					"correct":"O(n ^ 2)"
+				}
+		}
+	]
+}]		

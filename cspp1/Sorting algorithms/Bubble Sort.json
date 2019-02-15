@@ -1,0 +1,16 @@
+[{
+	"title":"In this Activity we discuss about Bubble sort and its analysis by watching a video",
+	"activityType":"video",
+	"videoURL":"/Bubble Sort.mp4",
+	"videoResources":"/Bubble Sort.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Bubble Sort"
+	}
+	]
+}
+]

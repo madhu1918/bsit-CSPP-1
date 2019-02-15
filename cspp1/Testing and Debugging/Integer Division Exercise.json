@@ -1,0 +1,42 @@
+[{
+
+	"activityType":"assignment",
+	"title":"Solve the following problem Integer division Exercise",
+	"quizDescription":
+	[
+		{
+			"text":"Consider the following function definition:"
+		},
+		{
+			"code":"integerdivision.py"
+		},
+		{
+			"text":"When we call<br>"
+		},
+		{
+			"code":"integerdivisionprint.py"
+		},
+		{
+			"text":"we get the following error message:"
+		},
+		{
+			"code":"integerdivision1.py"
+		}
+	],
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"Your task is to modify the code for integerDivision so that this error does not occur.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Integer Division Exercise.zip"]
+				}
+			],
+			"points":"5",
+			"code":"integerdivision2.py"
+		}
+	]
+}]

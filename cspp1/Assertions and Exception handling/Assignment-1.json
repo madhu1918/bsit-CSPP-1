@@ -1,0 +1,45 @@
+[{
+	"title":"Solve the following problem playing a hand",
+	"activityType":"assignment",
+
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[{
+				"text":"In <code>ps4a.py</code>, note that in the function <code>playHand</code>, there is a bunch of pseudocode. This pseudocode is provided to help guide you in writing your function. Check out the <a href=\"https://prod-edxapp.edx-cdn.org/assets/courseware/v1/85721a1199ca98dda55d8992bc93658d/asset-v1:MITx+6.00.1x+2T2017_2+type@asset+block/WhyPseudocode.pdf\">Why Pseudocode</a>? resource to learn more about the What and Why of Pseudocode before you start coding your solution. <br><br> <b>Note</b>: Do <b>not</b> assume that there will always be 7 letters in a hand! The parameter <code>n</code> represents the size of the hand. <br><br> <b>Testing</b>: Before testing your code in the answer box, try out your implementation as if you were playing the game. Here is some example output of <code>playHand</code>: <br><br> <b>Test Cases</b> <br><br> Case #1 <br><br> Function Call: <br><br> <code>wordList = loadWords() <br><br>playHand({'h':1, 'i':1, 'c':1, 'z':1, 'm':2, 'a':1}, wordList, 7)</code> <br><br> Output:"
+				},
+
+				{
+					"file":"Problem5Case1.txt"
+				},
+
+				{
+					"text":"Case #2 <br><br> Function Call: <br><br> <code>wordList = loadWords() <br><br>playHand({'w':1, 's':1, 't':2, 'a':1, 'o':1, 'f':1}, wordList, 7)</code> <br><br> Output:"
+				},
+
+				{
+					"file":"Problem5Case2.txt"
+				},
+
+				{
+					"text":"Case #3 <br><br> Function Call: <br><br> <code>wordList = loadWords() <br><br> playHand({'n':1, 'e':1, 't':1, 'a':1, 'r':1, 'i':2}, wordList, 7)</code> <br><br> Output:"
+				},
+
+				{
+					"file":"Problem5Case3.txt"
+				},
+
+				{
+					"text":"Additional Testing <br><br> Be sure that, in addition to the listed tests, you test the same basic test conditions with varying values of n. n will never be smaller than the number of letters in the hand."
+				},
+				
+				{
+					"code":"Code.py"
+				}
+				 
+			],
+			"points":"20"			
+		}
+	]
+}]

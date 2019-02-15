@@ -1,0 +1,19 @@
+[{
+	"activityType":"assignment",
+	"title":"We have designed an Assignment for you, try to solve the following Assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"Read a file and build a dictionary with word and its frequencies and write the same into output (output.txt) file. Download the input file given below"
+				},
+				{
+					"attachment":["input1.txt"]
+				}
+			],
+			"points":"20"
+		}
+	]
+}]

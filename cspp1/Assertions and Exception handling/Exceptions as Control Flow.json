@@ -1,0 +1,19 @@
+[
+{
+	"title":"In this Activity we will discuss Exceptions as control flow by watching a video",
+	"activityType":"video",
+	"videoURL":"/VideoOnExceptionsasControlFlow.mp4",
+	"videoResources":"/ExceptionsasControlFlow.zip"
+},
+{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Exceptions as Control Flow"
+		}
+		]
+	}
+
+
+]

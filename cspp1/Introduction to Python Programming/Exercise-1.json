@@ -1,0 +1,85 @@
+[
+	{
+		"activityType":"quiz",
+		"title":"Last two activities we learnt the background and introduction for python. Let's answer few questions in this activity",
+		"questions":
+		[
+			{
+				"questionType":"mcq",
+				"questionText":"What is the difference between an Algorithm and a Program?",
+				"points":"1",
+				"options":[
+				{
+					"option":"An algorithm is a conceptual idea, a program is a concrete instantiation of an algorithm.",
+					"correct":"True"
+				},
+				{
+					"option":"An algorithm is limited to mathematical operation, a program can specify all kinds of operations.",
+					"correct":"False"
+				},
+				{
+					"option":"An algorithm makes a slow program run fast.",
+					"correct":"False"
+				},
+				{
+					"option":"An algorithm deals with computer hardware, a program deals with computer software.",
+					"correct":"False"
+				}
+			]
+			},
+			{
+				"questionType":"mcq",
+				"questionText":"True or False? A computational mode of thinking means that everything can be viewed as a math problem involving numbers and formulas.",
+				"points":"1",
+				"options":[
+				{
+					"option":"True",
+					"correct":"True"
+				},
+				{
+					"option":"False",
+					"correct":"False"
+				}
+			]
+			},
+			{
+				"questionType":"mcq",
+				"questionText":"True or False? Computer Science is the study of how to build efficient machines that run programs.",
+				"points":"1",
+				"options":[
+				{
+					"option":"True",
+					"correct":"False"
+				},
+				{
+					"option":"False",
+					"correct":"True"
+				}
+			]
+			},
+			{
+				"questionType":"checkbox",
+				"questionText":"The two things every computer can do are:",
+				"points":"1",
+				"options":[
+				{
+					"option":"Perform calculations correct",
+					"correct":"True"
+				},
+				{
+					"option":"Convert electricity to numbers",
+					"correct":"False"
+				},
+				{
+					"option":"Display results to a screen",
+					"correct":"False"
+				},
+				{
+					"option":"Remember the results",
+					"correct":"True"
+				}
+			]
+			}
+		]
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In last activity we learnt bindings, In this activity, you will learn Strings",
+		"activityType":"video",
+		"videoURL":"/2) Strings.mp4",
+		"videoResources" : "/2)  Strings.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions":[
+		    {
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Strings"
+		    }
+        ]
+	}
+]

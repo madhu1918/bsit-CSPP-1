@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this Activity we will discuss Bugs by watching a video",
+	"videoURL":"/Bugs.mp4",
+	"videoResources":"/Bugs.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Bugs"
+	}
+	]
+}
+]

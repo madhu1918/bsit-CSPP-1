@@ -1,0 +1,16 @@
+[{
+	"activityType":"video",
+	"title":"In this video we will have a quick review of what had been discussed so far in the course",
+	"videoURL":"/Quick Review.mp4",
+	"VideoResources":"/Quick Review.zip"
+},
+{
+	"activityType":"quiz",
+	"questions": [
+	{
+		"questionType":"summarize",
+		"questionText":"Summarize the video on Quick Review"
+	}
+	]
+}
+]

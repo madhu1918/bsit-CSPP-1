@@ -1,0 +1,200 @@
+[{
+	"title" : "Answer the following questions on OOP's",
+	"activityType":"quiz",
+	"quizDescription" :[{"text": " Below is a transcript of a session with the Python shell. Provide the type and value of the expressions being evaluated inside the print. If evaluating an expression would cause an error, select NoneType and write error in the box. If the result is a function, select function and write function in the box. As always, try to do this problem by hand before turning to your interpreter for help. <br> Assume the following definitions have been made: "},{"code":"ClassesObjectsExercise3.py"},{"attachment":["ClassesObjectsExercise3.py"]}],
+	"questions": [
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code> w1 = Weird(X, Y) <br> print(w1.getX()) </code>",
+			"points":"1",
+			"answer": "error"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code> w1 = Weird(X, Y) <br> print(w1.getX()) </code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"NoneType"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>print(w1.getY())</code> ",
+			"points":"1",
+			"answer": "error"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>print(w1.getY())</code> ",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"NoneType"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>w2 = Wild(X, Y) <br> print(w2.getX())</code> ",
+			"points":"1",
+			"answer": "7"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>w2 = Wild(X, Y) <br> print(w2.getX())</code> ",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>print(w2.getY())</code>",
+			"points":"1",
+			"answer": "8"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>print(w2.getY())</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>w3 = Wild(17, 18) <br> print(w3.getX())</code>",
+			"points":"1",
+			"answer": "17"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>w3 = Wild(17, 18) <br> print(w3.getX())</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>print(w3.getY())</code>",
+			"points":"1",
+			"answer": "18"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>print(w3.getY())</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>w4 = Wild(X, 18) <br> print(w4.getX())</code> ",
+			"points":"1",
+			"answer": "7"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>w4 = Wild(X, 18) <br> print(w4.getX())</code> ",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>print(w4.getY())</code> ",
+			"points":"1",
+			"answer": "18"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>print(w4.getY())</code> ",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>X = w4.getX() + w3.getX() + w2.getX() <br> print(X) </code>",
+			"points":"1",
+			"answer": "31"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>X = w4.getX() + w3.getX() + w2.getX() <br> print(X) </code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>print(w4.getX())</code>",
+			"points":"1",
+			"answer": "7"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>print(w4.getX())</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>Y = w4.getY() + w3.getY()<br>Y = Y + w2.getY()<br>print(Y)</code>",
+			"points":"1",
+			"answer": "44"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>Y = w4.getY() + w3.getY()<br>Y = Y + w2.getY()<br>print(Y)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>print(w2.getY())</code>",
+			"points":"1",
+			"answer": "8"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>print(w2.getY())</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","string","float","boolean"],
+					"correct":"int"
+				}
+		}
+
+	]
+}]

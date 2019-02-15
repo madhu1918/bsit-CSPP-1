@@ -1,0 +1,33 @@
+[{
+	"title":"Solve the following problem",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":
+			[
+				{
+					"text":"Consider the following code from the last lecture video:"
+				},
+				{
+					"code":"intset1.py"
+				},
+				{
+					"text":"Your task is to define the following two methods for the intSet class:<br><br>1.Define an <code>intersect</code> method that returns a new <code>intSet</code> containing elements that appear in both sets. In other words,<br><br><code>s1.intersect(s2)</code><br><br>would return a new <code>intSet</code> of integers that appear in both <code>s1</code> and <code>s2</code>. Think carefully - what should happen if <code>s1</code> and <code>s2</code> have no elements in common?<br><br>2.Add the appropriate method(s) so that <code>len(s)</code> returns the number of elements in s.<br><br><br><br><b>Hints</b>:look through the <a href=\"https://docs.python.org/3.3/reference/datamodel.html\" target=\"_blank\">Python docs</a> to figure out what you'll need to solve this problem."
+				},
+				{
+					"text":"Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Classes and Objects - Int Set Exercise.zip"]
+				},
+				{
+					"code":"intset.py"	
+				}
+			],
+			"points":"10"
+		}
+	]
+}
+]

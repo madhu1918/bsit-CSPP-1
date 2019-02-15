@@ -1,0 +1,105 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following Questions",
+	"quizDescription":
+	[
+		{
+			"text":"Consider the following function definition:"
+		},
+		{
+			"code":"Exercise7.py"
+		},
+		{
+			"text":"When we call f(3) we expect the result 6, but we get 0.<br>When we call f(1) we expect the result 1, but we get 0.<br>When we call f(0) we expect the result 1, but we get 0."
+		}
+	],
+	"questions":
+	[
+		{
+			"questionType":"mcq",
+			"questionText":"Using this information, choose what line of code should be changed from the following choices:",
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"<code>if n == 0:</code>",
+					"correct":"False",
+					"feedback":[
+						{
+							"text":"Incorrect<br>This is a function known as <a href=\"https://en.wikipedia.org/wiki/Factorial\">factorial</a> - the product of all the numbers from 1 through n. The base case of factorial is 0! = 1, but the original code was written with the base case 0! = 0. You can see why the original code was broken by writing out the recursive expansion of f(3)<br>"
+						},
+						{
+							"image":{"imageSRC":"exercise71.jpg", "imageName":""}
+						},
+						{
+							"text":"The fixed version of the code puts the line return 1, instead of return n, when n == 0. We can see that this modified version of the code fixes the factorial function by again writing out the recursive expansion of f(3):<br>"
+						},
+						{
+							"image":{"imageSRC":"exercise72.jpg", "imageName":""}
+						}
+					]
+				},
+				{
+					"option":"<code>return n</code>",
+					"correct":"True",
+					"feedback":[
+						{
+							"text":"Correct<br>This is a function known as <a href=\"https://en.wikipedia.org/wiki/Factorial\">factorial</a> - the product of all the numbers from 1 through n. The base case of factorial is 0! = 1, but the original code was written with the base case 0! = 0. You can see why the original code was broken by writing out the recursive expansion of f(3)<br>"
+						},
+						{
+							"image":{"imageSRC":"exercise71.jpg", "imageName":""}
+						},
+						{
+							"text":"The fixed version of the code puts the line return 1, instead of return n, when n == 0. We can see that this modified version of the code fixes the factorial function by again writing out the recursive expansion of f(3):<br>"
+						},
+						{
+							"image":{"imageSRC":"exercise72.jpg", "imageName":""}
+						}
+					]
+				},
+				{
+					"option":"<code>else:</code>",
+					"correct":"False",
+					"feedback":[
+						{
+							"text":"Incorrect<br>This is a function known as <a href=\"https://en.wikipedia.org/wiki/Factorial\">factorial</a> - the product of all the numbers from 1 through n. The base case of factorial is 0! = 1, but the original code was written with the base case 0! = 0. You can see why the original code was broken by writing out the recursive expansion of f(3)<br>"
+						},
+						{
+							"image":{"imageSRC":"exercise71.jpg", "imageName":""}
+						},
+						{
+							"text":"The fixed version of the code puts the line return 1, instead of return n, when n == 0. We can see that this modified version of the code fixes the factorial function by again writing out the recursive expansion of f(3):<br>"
+						},
+						{
+							"image":{"imageSRC":"exercise72.jpg", "imageName":""}
+						}
+					]
+				},
+				{
+					"option":"<code>return n * f(n-1)</code>",
+					"correct":"False",
+					"feedback":[
+						{
+							"text":"Incorrect<br>This is a function known as <a href=\"https://en.wikipedia.org/wiki/Factorial\">factorial</a> - the product of all the numbers from 1 through n. The base case of factorial is 0! = 1, but the original code was written with the base case 0! = 0. You can see why the original code was broken by writing out the recursive expansion of f(3)<br>"
+						},
+						{
+							"image":{"imageSRC":"exercise71.jpg", "imageName":""}
+						},
+						{
+							"text":"The fixed version of the code puts the line return 1, instead of return n, when n == 0. We can see that this modified version of the code fixes the factorial function by again writing out the recursive expansion of f(3):<br>"
+						},
+						{
+							"image":{"imageSRC":"exercise72.jpg", "imageName":""}
+						}
+					]
+				}
+			]
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"How should this line be rewritten?",
+			"points":"1",
+			"answer":"return 1"
+		}
+	]
+}]

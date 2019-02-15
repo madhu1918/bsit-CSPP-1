@@ -1,0 +1,288 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following questions",
+	"quizDescription":[
+		{"text":"For each of the expressions below, specify its type and value. If it generates an error, select type 'NoneType' and put the word 'error' in the box for the value. If it would be a function, select type 'function' and put the word 'function' in the box for the value.<br>If the method returns None, select type 'NoneType' and put the word 'None' in the box for the value.<br>Assume we've made the following assignments:"},
+		{"code":"Exercise3.py"},
+		{"attachment":["Exercise3.py"]},
+		{"text":"You may want to refer to the <a href=\"https://docs.python.org/3/tutorial/datastructures.html\">Python Library Reference</a> to learn about list methods. Assume these calls appear one after another (so if the list is modified in a question, that modification stays for subsequent questions)."}
+					],
+	"questions":
+	[
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.sort</code>",
+			"points":"1",
+			"answer": "function"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.sort</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"function"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.sort()</code>",
+			"points":"1",
+			"answer": "None"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.sort()</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"NoneType"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA</code>",
+			"points":"1",
+			"answer": "[0, 1, 3, 4]"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.insert(0, 100)</code>",
+			"points":"1",
+			"answer": "None"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.insert(0, 100)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"NoneType"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.remove(3)</code>",
+			"points":"1",
+			"answer": "None"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.remove(3)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"NoneType"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.append(7)</code>",
+			"points":"1",
+			"answer": "None"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.append(7)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"NoneType"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA</code>",
+			"points":"1",
+			"answer": "[100, 0, 1, 4, 7]"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA + listB</code>",
+			"points":"1",
+			"answer": "[100, 0, 1, 4, 7, 'x', 'z', 't', 'q']"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA + listB</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listB.sort()<br>listB.pop()</code>",
+			"points":"1",
+			"answer": "'z'"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listB.sort()<br>listB.pop()</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"string"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listB.count('a')</code>",
+			"points":"1",
+			"answer": "0"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listB.count('a')</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listB.remove('a')</code>",
+			"points":"1",
+			"answer": "error"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listB.remove('a')</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"NoneType"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.extend([4, 1, 6, 3, 4])</code>",
+			"points":"1",
+			"answer": "None"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.extend([4, 1, 6, 3, 4])</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"NoneType"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.count(4)</code>",
+			"points":"1",
+			"answer": "3"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.count(4)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"int"
+				}
+
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.index(1)</code>",
+			"points":"1",
+			"answer": "2"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.index(1)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"int"
+				}
+
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.pop(4)</code>",
+			"points":"1",
+			"answer": "7"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.pop(4)</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"int"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA.reverse()</code>",
+			"points":"1",
+			"answer": "None"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA.reverse()</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"NoneType"
+				}
+		},
+		{
+			"questionType" : "fillintheblank",
+			"questionText": "Value of the expression? <br> <code>listA</code>",
+			"points":"1",
+			"answer": "[4, 3, 6, 1, 4, 4, 1, 0, 100]"
+		},
+		{
+			"questionType" : "dropdown",
+			"questionText": "Type of the expression?  <br> <code>listA</code>",
+			"points":"1",
+			"dropdown": 
+				{
+					"option":["NoneType","int","float","boolean","function","string","tuple","list"],
+					"correct":"list"
+				}
+		}
+	]
+
+}]

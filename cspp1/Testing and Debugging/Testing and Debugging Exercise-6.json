@@ -1,0 +1,63 @@
+[{
+	"activityType":"quiz",
+	"title":"Answer the following Questions",
+	"quizDescription":
+	[
+		{
+			"text":"Consider the following function definition:"
+		},
+		{
+			"code":"Exercise6.py"
+		},
+		{
+			"text":"When we call<br><code>rem(2, 5)</code><br>the shell returns 2. When we call<br><code>rem(5, 5)</code><br>the shell returns 0."
+		}
+	],
+	"questions":
+	[
+		{
+			"questionType":"mcq",
+			"questionText":"But when we call<br><code>rem(7, 5)</code><br>the shell does not return anything! Using this information, choose what line of code should be changed from the following choices:",
+			"points":"1",
+			"options":
+			[
+				{
+					"option":"<code>if x == a:</code>",
+					"correct":"False",
+					"feedback":"Incorrect<br>In the conditional, the final clause contains a recursive call that we never return the results of! Thus the final line - rem(x-a, a) - simply needs to be modified such that we return its value. Easy enough! The solution is thus<br><code> rem(x-a, a)"
+				},
+				{
+					"option":"<code>return 0 </code>",
+					"correct":"False",
+					"feedback":"Incorrect<br>In the conditional, the final clause contains a recursive call that we never return the results of! Thus the final line - rem(x-a, a) - simply needs to be modified such that we return its value. Easy enough! The solution is thus<br><code> rem(x-a, a)"
+				},
+				{
+					"option":"<code>elif x < a:</code>",
+					"correct":"False",
+					"feedback":"Incorrect<br>In the conditional, the final clause contains a recursive call that we never return the results of! Thus the final line - rem(x-a, a) - simply needs to be modified such that we return its value. Easy enough! The solution is thus<br><code> rem(x-a, a)"
+				},
+				{
+					"option":"<code>return x</code>",
+					"correct":"False",
+					"feedback":"Incorrect<br>In the conditional, the final clause contains a recursive call that we never return the results of! Thus the final line - rem(x-a, a) - simply needs to be modified such that we return its value. Easy enough! The solution is thus<br><code> rem(x-a, a)"
+				},
+				{
+					"option":"<code>else:</code>",
+					"correct":"False",
+					"feedback":"Incorrect<br>In the conditional, the final clause contains a recursive call that we never return the results of! Thus the final line - rem(x-a, a) - simply needs to be modified such that we return its value. Easy enough! The solution is thus<br><code> rem(x-a, a)"
+				},
+				{
+					"option":"<code>rem(x-a, a) </code>",
+					"correct":"True",
+					"feedback":"Correct<br>In the conditional, the final clause contains a recursive call that we never return the results of! Thus the final line - rem(x-a, a) - simply needs to be modified such that we return its value. Easy enough! The solution is thus<br><code> rem(x-a, a)"
+				}
+			]
+		},
+		{
+			"questionType":"fillintheblank",
+			"questionText":"How should this line be rewritten?",
+			"points":"1",
+			"answer":"return rem(x-a, a)"
+		}
+	]
+}]

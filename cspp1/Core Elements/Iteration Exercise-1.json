@@ -1,0 +1,54 @@
+[{
+	"title":"Solve the following problems on iterations",
+	"activityType":"quiz",
+	"quizDescription": [
+		{
+			"text" : "Below are some short Python programs. For each program, answer the associated question.<br>Try to answer the questions without running the code. Check your answers, then run the code for the ones you get wrong.<br>This question is going to ask you what some simple loops print out. If you're asked what code like this prints:"
+		},
+		{
+			"code" : "cspp1.6.16.1.py"
+		},
+		{
+			"text" : "write what it prints out, separating what appears on a new line by a comma and a space. So the answer for the above code would be:"
+		},
+		{
+			"code":"controlflow.py"
+		},
+		{
+			"text":"If a given loop will not terminate, write the phrase 'infinite loop' (no quotes) in the box. Recall that you can stop an infinite loop in your program by typing CTRL+c in the console.<br>Note: Using the 'range' built-in function."
+		}
+	],
+	"questions": [
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.16.2.py",
+				"points":"1",
+				"answer": "0, 1, 2, 3, 4, 4"
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.16.3.py",
+				"points":"1",
+				"answer": "0.0, 1.0, 2.0, 3.0, 4.0"
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.16.4.py",
+				"points":"1",
+				"answer": "0, 'Foo!', 4, 8, 12, 16, Foo!"
+
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.16.5.py",
+				"points":"1",
+				"answer": "h, o, l, a"
+			},
+			{
+				"questionType": "fillintheblank",
+				"code" : "cspp1.6.16.6.py",
+				"points":"1",
+				"answer": "Letter # 0 is S, 1"
+			}
+	]
+}]

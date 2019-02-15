@@ -1,0 +1,14 @@
+[{
+	"title" : "Spell Exercise Activity-3",
+	"activityType":"assignment",
+	"quizDescription" : [{"text":" Consider the following code: "},{"code":"InheritanceExerciseSpell.py"}],
+	"questions": [
+		{
+			"questionType" : "filesubmission",
+			"questionText": " How do we need to modify Accio so that print(Accio()) will print the following description?<br>Summoning Charm Accio<br>This charm summons an object to the caster, potentially over a significant distance. ",
+			"points":"10",
+			"code":"InheritanceExerciseSpellActivity3.py"
+		}
+
+	]
+}]

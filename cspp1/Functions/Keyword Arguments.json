@@ -1,0 +1,17 @@
+[
+	{
+		"title":"In this activity we will discuss about Keyword arguments by watching a video",
+		"activityType":"video",
+		"videoURL":"/4 Keyword Arguments.mp4",
+		"videoResources" : "/4 Keyword Arguments.zip"
+	},
+	{
+		"activityType":"quiz",
+		"questions": [
+		{
+			"questionType":"summarize",
+			"questionText":"Summarize the video on Keyword Arguments"
+		}
+		]
+	}
+]
