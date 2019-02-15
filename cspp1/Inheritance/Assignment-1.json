@@ -9,4 +9,17 @@
 			"points":"20"
 		}
 	]
-}]
+},
+{
+	"title":"Solve the following problem Decrypt a story",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"For this problem, the graders will use our implementation of the <code>Message</code>, <code>PlaintextMessage</code>, and <code>CiphertextMessage</code> classes, so don't worry if you did not get the previous parts correct. <br><br> Now that you have all the pieces to the puzzle, please use them to decode the file story.txt. The file ps6.py contains a helper function <code>get_story_string()</code> that returns the encrypted version of the story as a string. Create a <code>CiphertextMessage </code>object using the story string and use <code>decrypt_message</code> to return the appropriate shift value and unencrypted story string. <br><br> Paste your function <code>decrypt_story()</code> in the box below.",
+			"points":"20"			
+		}
+	]
+}
+]

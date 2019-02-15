@@ -9,5 +9,32 @@
 			"points":"20"
 		}
 	]
+},
+{
+	"activityType" : "assignment",
+	"title" : "I think you completed Assignment-1, Here is the next Assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Draw a flowchart for finding the given string is in lexicographic order or not.",
+			"points":"20"
+		}
+	]
+
+},
+{
+	"activityType" : "assignment",
+	"questionType":"filesubmission",
+	"title" : "Assignment - 3This is the last Assignment in this Unit, Here is your Assignment-3",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Draw a flow chart for finding the minimum number in the list and swap that number with the first index element.",
+			"points":"10"
+		}
+	]
+
 }
 ]

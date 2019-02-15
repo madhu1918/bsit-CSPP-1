@@ -16,4 +16,25 @@
 			"points":"20"			
 		}
 	]
-}]
+},
+{
+	"title":"Solve the following problem Plain text Message",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"For this problem, the graders will use our implementation of the <code>MessageC</code> class, so don't worry if you did not get the previous parts correct. <br> <code>PlaintextMessage</code> is a subclass of <code>Message</code> and has methods to encode a string using a specified shift value. Our class will always create an encoded version of the message, and will have methods for changing the encoding. <br> Implement the methods in the class <code>PlaintextMessage</code> according to the specifications in ps6.py. The methods you should fill in are: <br> <ul>  <li><code>__init__(self, text, shift)</code>: Use the parent class constructor to make your code more concise.</li> <li>The getter method <code>get_shift(self)</code></li> <li>The getter method <code>get_encrypting_dict(self)</code>: This should return a COPY of self.encrypting_dict to prevent someone from mutating the original dictionary.</li>  <li>The getter method <code>get_message_text_encrypted(self)</code></li> <li><code>change_shift(self, shift)</code>: Think about what other methods you can use to make this easier. It shouldn’t take more than a couple lines of code.</li> <//ul> <br> Paste your implementation of the entire <code>PlaintextMessage</code> class in the box below.<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Classes and Objects - Assignment-2.zip"]
+				}
+			],
+			"points":"20"
+						
+		}
+	]
+}
+]

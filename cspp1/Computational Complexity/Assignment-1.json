@@ -67,4 +67,573 @@
 				]
 			}
 		]
-}]					
+},
+{
+	"title":"I think you completed Assignment-1, Here is the next Assignment",
+	"activityType":"quiz",
+	"questions": [
+			{
+				"questionType": "mcq",
+				"questionText": "Indirection, as talked about in lecture, means you have to traverse the list more than once.",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"True",
+						"correct":"False"
+					},
+					{
+						"option":"False",
+						"correct":"True"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "The complexity of binary search on a sorted list of n items is O(log n).",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"True",
+						"correct":"True"
+					},
+					{
+						"option":"False",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "The worst case time complexity for selection sort is O(n ^ 2) .",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"True",
+						"correct":"True"
+					},
+					{
+						"option":"False",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "The base case for the recursive version of merge sort from lecture is checking ONLY for the list being empty.",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"True",
+						"correct":"False"
+					},
+					{
+						"option":"False",
+						"correct":"True"
+					}
+				]
+			}
+		]
+},
+{
+	"title":"I think you completed Assignment-2, Here is the next Assignment",
+	"activityType":"quiz",
+	"quizDescription": "For each of the following expressions, select the order of growth class that best describes it from the following list: O(1),O(lon(n)), O(n),O(nlog(n)),O(n^c) or O(c^n) . Assume c is some constant.",
+	"questions": [
+			{
+				"questionType": "mcq",
+				"questionText": "0.0000001n + 1000000",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"True"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "0.0001n^2 + 20000n - 90000",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"True"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "20n + 900log (n) + 100000",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"True"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "(log (n))^2 + 5n^7",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"True"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "n^{200} - 2 n^{30}",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"True"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"False"
+					}
+				]
+			},		
+					{
+				"questionType": "mcq",
+				"questionText": "30n^2+n log (n)",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"True"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"False"
+					}
+				]
+			},		
+					{
+				"questionType": "mcq",
+				"questionText": "nlog⁡(n)−3000n",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"True"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"False"
+					}
+				]
+			},		
+					{
+				"questionType": "mcq",
+				"questionText": "3",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"True"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"False"
+					}
+				]
+			},		
+					{
+				"questionType": "mcq",
+				"questionText": "5n+n5+n+5 ",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"True"
+					}
+				]
+			},		
+			{
+				"questionType": "mcq",
+				"questionText": "nlog⁡(n)+n2+n+log⁡n+1+2n",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n^c)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(c^n)",
+						"correct":"True"
+					}
+				]
+			}
+	]
+},
+{
+	"title":"This is the last Assignment in this Unit, Here is your Assignment-4",
+	"activityType":"quiz",
+	"questions": [
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.1.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"True"
+					},
+					{
+						"option":"O(log n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n log(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^2)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.2.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log(len(n)))",
+						"correct":"False"
+					},
+					{
+						"option":"O(len(n))",
+						"correct":"True"
+					},
+					{
+						"option":"O(len(n) log(len(n)))",
+						"correct":"False"
+					},
+					{
+						"option":"O(len(n) ^2)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.3.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log(n))",
+						"correct":"True"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^2)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^23)",
+						"correct":"False"
+					},
+					{
+						"option":"O(2 ^n)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.4.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"True"
+					},
+					{
+						"option":"O(nlog(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^2)",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^23)",
+						"correct":"False"
+					},
+					{
+						"option":"O(2 ^n)",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": [{"text":"Consider the following Python procedure. Specify its order of growth."},{"code":"code 4.5.py"}],
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"O(1)",
+						"correct":"False"
+					},
+					{
+						"option":"O(log(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n)",
+						"correct":"False"
+					},
+					{
+						"option":"O(nlog(n))",
+						"correct":"False"
+					},
+					{
+						"option":"O(n ^2)",
+						"correct":"True"
+					},
+					{
+						"option":"O(n ^23)",
+						"correct":"False"
+					},
+					{
+						"option":"O(2 ^n)",
+						"correct":"False"
+					}
+				]
+			}
+
+		]
+}
+]					

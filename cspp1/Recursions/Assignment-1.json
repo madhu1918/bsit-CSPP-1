@@ -16,4 +16,24 @@
 			"points":"10"
 		}
 	]
-}]
+},
+{
+	"activityType":"assignment",
+	"title":"Solve the following Assignment using recursion",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[
+				{
+					"text":"Write a program that calculate the sum of individual digits of a given number<br><br>Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+				},
+				{
+					"attachment":["Assignment-2.zip"]
+				}
+			],
+			"points":"20"
+		}
+	]
+}
+]

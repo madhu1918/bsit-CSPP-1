@@ -42,4 +42,84 @@
 			"points":"20"			
 		}
 	]
-}]
+},
+{
+	"title":"Solve the following problem playing a Game",
+	"activityType":"assignment",
+
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":[{
+				"text":"A game consists of playing multiple hands. We need to implement one final function to complete our word-game program. Write the code that implements the <code>playGame</code> function. You should remove the code that is currently uncommented in the <code>playGame</code> body. Read through the specification and make sure you understand what this function accomplishes. For the game, you should use the <code>HAND_SIZE</code> constant to determine the number of cards in a hand. <br><br> <b>Testing</b>: Try out this implementation as if you were playing the game. Try out different values for <code>HAND_SIZE</code> with your program, and be sure that you can play the wordgame with different hand sizes by modifying only the variable <code>HAND_SIZE</code> <br><br> Sample Output <br><br> Here is how the game output should look"},
+				{
+					"code":"Problem6Code1.txt"
+				},
+
+				{
+					"text":"Hints about the output <br><br> Be sure to inspect the above sample output carefully - very little is actually printed out in this function specifically. Most of the printed output actually comes from the code you wrote in <code>playHand</code> - be sure that your code is modular and uses function calls to the <code>playHand</code> helper function! <br><br> You should also make calls to the <code>dealHand</code> helper function. You shouldn't make calls to any other helper function that we've written so far - in fact, this function can be written in about 15-20 lines of code. <br><br> Here is the above output, with the output from <code>playHand</code> obscured: "
+				},
+
+				{
+					"code":"Problem6Code2.txt"	
+				},
+
+				{
+					"text":"Entering your code <br><br> Be sure to only paste your definition for playGame in the following box. Do not include any other function definitions. <br><br> A cool trick about 'print' <br><br> A cool trick about <code>print</code>: you can make two or more print statements print to the same line! Try out the following code. It will separate the first and second line with a space, and the second and third line with a \"?\" rather than putting each on a new line. <code> print('Hello', end = \" \")<br><br> print('world', end=\"?\")<br><br> print('!') </code>"
+				},
+				
+				{
+					"code":"Problem6Code3.py"
+				},
+
+				{
+				
+					"text":"<b>Note</b>: the <code>input</code> function on Spyder may print an extra newline. That's ok. Do not try to move text backwards using <code>end='\b'</code> in a print statement"
+				}
+			],
+			"points":"20"			
+		}
+	]
+},
+{
+	"title":"Solve the following problem",
+	"activityType":"assignment",
+	"quizDescription":"Now that your computer can choose a word, you need to give the computer the option to play. Write the code that re-implements the playGame function. You will modify the function to behave as described below in the function's comments. As before, you should use the HAND_SIZE constant to determine the number of cards in a hand. Be sure to try out different values for HAND_SIZE with your program.",
+	"questions": [
+			{
+				"questionType": "fileSubmission",
+				"questionText":[
+					{
+						"code":"code 7.py"
+					},
+					{
+						"text" : "<b>Sample Output and Hints</b><br>Here is how the game output should look..."
+					},
+					{
+						"file": "Here is How Output Code Should look like....txt"
+					},	
+					{
+						"text" : "<b>Hints about the output</b><br>"
+					},
+					{
+						"file": "Hints about the output.txt"
+					},	
+					{
+						"text" : "<b>A Note on Runtime</b><br>"
+					},
+					{
+						"file": "A Note on Runtime.txt"
+					},
+					{
+						"text" : "<b>Entering your code</b><br>"
+					},
+					{
+						"file": "Entering your code.txt"
+					}			
+				],
+				"points":"20"
+			}
+		]
+}
+]

@@ -16,4 +16,43 @@
 			"points":"10"
 		}
 	]
-}]
+},
+{
+	"title":"Solve the following Assignment problem",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType": "filesubmission",
+			"questionText":[
+				{
+					"text":"Assume <b>s</b> is a string of lower case characters.<br><br>Write a program that prints the number of times the string 'bob' occurs in <b>s</b>. For example, if s = 'azcbobobegghakl', then your program should print<br><br>Number of times bob occurs is: 2<br><br>Check your program against the given test cases below as a zip file. Submit your Solution(zip file) when all the test cases are passed."
+				},
+				{
+					"attachment":["Assignment-2.zip"]
+				}
+			] ,
+			"points":"20"
+		}
+	]
+},
+{
+	"title":"Solve the following Assignment problem",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType": "filesubmission",
+			"questionText":[
+				{
+					"text":"Assume <b>s</b> is a string of lower case characters.<br><br>Write a program that prints the longest substring of <b>s</b> in which the letters occur in alphabetical order. For example, if s = 'azcbobobegghakl', then your program should print<br><br>Longest substring in alphabetical order is: beggh<br><br>In the case of ties, print the first substring. For example, if s = 'abcbcd', then your program should print<br><br>Longest substring in alphabetical order is: abc<br><br>Note: This problem may be challenging. We encourage you to work smart. If you've spent more than a few hours on this problem, we suggest that you move on to a different part of the course. If you have time, come back to this problem after you've had a break and cleared your head.<br><br>Check your program against the given test cases below as a zip file. Submit your Solution(zip file) when all the test cases are passed."
+				},
+				{
+					"attachment":["Assignment-3.zip"]
+				}
+			] ,
+			"points":"20"
+		}
+	]
+}
+]

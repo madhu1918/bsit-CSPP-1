@@ -10,4 +10,57 @@
 			"attachment":["/cspp1_unit2_assignment1.rap"]
 		}
 	]
-}]
+},
+{
+	"activityType":"assignment",
+	"title":"I think you completed Assignment-1, Here is the next Assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Read the flow chart given below, write a tracing report and specify what does it convey?",
+			"points":"10",
+			"attachment":["/cspp1_unit2_assignment4.rap"]
+		}
+	]
+},
+{
+	"activityType":"assignment",
+	"title":"You are half way in your Assignments, Here is your Assignment-3",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Read the flow chart given below, write a tracing report and specify what does it convey?",
+			"points":"10",
+			"attachment":["/cspp1_unit2_assignment3.rap"]
+		}
+	]
+},
+{
+	"activityType":"assignment",
+	"title":"I think you completed Assignment-3, Here is the next Assignment",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Read the flow chart given below, write a tracing report and specify what does it convey?",
+			"points":"10",
+			"attachment":["/cspp1_unit2_assignment2.rap"]
+		}
+	]
+},
+{
+	"activityType":"assignment",
+	"title":"This is the last Assignment in this Unit, Here is your Assignment-5",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Read the flow chart given below, write a tracing report and specify what does it convey?",
+			"points":"10",
+			"attachment":["/cspp1_unit2_assignment5.rap"]
+		}
+	]
+}
+]
