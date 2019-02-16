@@ -46,11 +46,7 @@
                 "Lists Practice", 
                 "Strings", 
                 "Strings Practice", 
-                "Assignment-1", 
-                "Assignment-2", 
-                "Assignment-3", 
-                "Assignment-4", 
-                "Assignment-5"
+                "Assignment-1"
             ], 
             "totalPoints": 90, 
             "title": "Flowcharts - 1", 
@@ -74,9 +70,7 @@
                 "Problem Solving-2 Practice", 
                 "Problem Solving-3", 
                 "Problem Solving-3 Practice", 
-                "Assignment-1", 
-                "Assignment-2", 
-                "Assignment-3"
+                "Assignment-1"
             ], 
             "totalPoints": 40, 
             "title": "Flowcharts - 2", 
@@ -98,9 +92,7 @@
                 "Problem Solving-2", 
                 "Problem Solving-3", 
                 "Problem Solving-3 Practice", 
-                "Assignment-1", 
-                "Assignment-2", 
-                "Assignment-3"
+                "Assignment-1"
             ], 
             "totalPoints": 60, 
             "title": "Flowcharts - 3", 
@@ -172,9 +164,7 @@
                 "Iteration Exercise-4", 
                 "Guess and Check", 
                 "Guess and Check Exercise", 
-                "Assignment-1", 
-                "Assignment-2", 
-                "Assignment-3"
+                "Assignment-1"
             ], 
             "totalPoints": 179, 
             "title": "Core Elements", 
@@ -202,10 +192,7 @@
                 "Floats and Fractions", 
                 "Floats and Fractions Exercise", 
                 "Newton Raphson", 
-                "Assignment-1", 
-                "Assignment-2", 
-                "Assignment-3", 
-                "Assignment-4"
+                "Assignment-1"
             ], 
             "totalPoints": 121, 
             "title": "Simple Algorithms", 
@@ -239,9 +226,7 @@
                 "Fourth Power Exercise", 
                 "Odd Exercise", 
                 "Assignment Introduction", 
-                "Assignment-1", 
-                "Assignment-2", 
-                "Assignment-3"
+                "Assignment-1"
             ], 
             "totalPoints": 146, 
             "title": "Functions", 
@@ -271,8 +256,7 @@
                 "IsIn Exercise", 
                 "Files", 
                 "Recursion Exercise", 
-                "Assignment-1", 
-                "Assignment-2"
+                "Assignment-1"
             ], 
             "totalPoints": 74, 
             "title": "Recursions", 
@@ -306,8 +290,7 @@
                 "Functions as Objects Exercise-3", 
                 "Functions as Objects Exercise-4", 
                 "Assignment Introduction", 
-                "Assignment-1", 
-                "Assignment-2"
+                "Assignment-1"
             ], 
             "totalPoints": 170, 
             "title": "Tuples and Lists", 
@@ -334,8 +317,7 @@
                 "Dictionaries Biggest Exercise", 
                 "Fibonacci and Dictionaries", 
                 "Global Variables", 
-                "Assignment-1", 
-                "Assignment-2"
+                "Assignment-1"
             ], 
             "totalPoints": 82, 
             "title": "Dictionaries", 
@@ -365,10 +347,7 @@
                 "Debugging Example", 
                 "Assignment Introduction", 
                 "Assignment Getting Started", 
-                "Assignment-1", 
-                "Assignment-2", 
-                "Assignment-3", 
-                "Assignment-4"
+                "Assignment-1"
             ], 
             "totalPoints": 94, 
             "title": "Testing and Debugging", 
@@ -397,10 +376,8 @@
                 "Assertions", 
                 "Assertions Exercise Activity-1", 
                 "Assertions Exercise Activity-2", 
-                "Assignment-1", 
-                "Assignment-2", 
-                "Computer Choosing a Word and Playing a Hand", 
-                "Assignment-3"
+                "Assignment-1",
+                "Computer Choosing a Word and Playing a Hand"
             ], 
             "totalPoints": 94, 
             "title": "Assertions and Exception handling", 
@@ -436,8 +413,7 @@
                 "Hand Exercise", 
                 "Example Exercise", 
                 "Assignment Introduction", 
-                "Assignment-1", 
-                "Assignment-2"
+                "Assignment-1"
             ], 
             "totalPoints": 105, 
             "title": "Classes and Objects", 
@@ -466,8 +442,7 @@
                 "GenPrimes Exercise", 
                 "Exercise-3 Activity-1", 
                 "Exercise-3 Activity-2", 
-                "Assignment-1", 
-                "Assignment-2"
+                "Assignment-1"
             ], 
             "totalPoints": 85, 
             "title": "Inheritance", 
@@ -501,10 +476,7 @@
                 "Exercise-6", 
                 "Recursion Complexity", 
                 "Exercise-7", 
-                "Assignment-1", 
-                "Assignment-2", 
-                "Assignment-3", 
-                "Assignment-4"
+                "Assignment-1"
             ], 
             "totalPoints": 65, 
             "title": "Computational Complexity", 
@@ -550,8 +522,7 @@
                 "Selection Sort", 
                 "Sorting Exercise 1", 
                 "Sorting Exercise 2", 
-                "Assignment-1", 
-                "Assignment-2"
+                "Assignment-1"
             ], 
             "totalPoints": 11, 
             "title": "Sorting algorithms", 
