@@ -1,0 +1,59 @@
+[{
+	"title":"In the previous activities you solved few problems on sorting algorithms. In this activity  also there are few more questions please answer those questions",
+	"activityType":"quiz",
+	"quizDescription":
+		[
+			{
+				"text":"If we make a small change to the line for j in range(i+1, len(L)): such that the code becomes:"
+			},
+			{
+				"code":"code 6.2.py"
+			}
+		],
+	"questions": [
+			{
+				"questionType": "mcq",
+				"questionText": "What happens to the behavior of swapSort with this new code?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"No change",
+						"correct":"False"
+					},
+					{
+						"option":"modSwapSort now orders the list in descending order for all lists.",
+						"correct":"True"
+					},
+					{
+						"option":"modSwapSort now orders the list in descending order for SOME lists but not all",
+						"correct":"False"
+					},
+					{
+						"option":"modSwapSort enters an infinite loop",
+						"correct":"False"
+					}
+				]
+			},
+			{
+				"questionType": "mcq",
+				"questionText": "What happens to the time complexity of this modSwapSort?",
+				"points":"1",
+				"options":
+				[
+					{
+						"option":"Best and worst cases stay the same.",
+						"correct":"True"
+					},
+					{
+						"option":"Worst case stays the same but best case changes.",
+						"correct":"False"
+					},
+					{
+						"option":"Best and worst cases change.",
+						"correct":"False"
+					}
+				]
+			}
+		]
+}]					

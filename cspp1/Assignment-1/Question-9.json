@@ -1,0 +1,12 @@
+[{
+	"activityType" : "assignment",
+	"title" : "We designed some Assignments for you to practice Please solve the Assignments and submit them",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Draw a flowchart for finding the minimum number in the list and swap that number with the first index element.",
+			"points":"20"
+		}
+	]
+}]

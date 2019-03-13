@@ -1,0 +1,36 @@
+[{
+	"title":"Solve the following problem  paying debts off in a year part-1",
+	"activityType":"quiz",
+	"questions":[
+	{
+		"questionType": "filesubmission",
+		"questionText": [
+			{
+				"text":"Now write a program that calculates the minimum <b>fixed</b> monthly payment needed in order pay off a credit card balance within 12 months. By a fixed monthly payment, we mean a single number which does not change each month, but instead is a constant amount that will be paid each month.<br><br>In this problem, we will not be dealing with a minimum monthly payment rate.<br><br>The following variables contain values as described below:<ol><li><b>balance</b> - the outstanding balance on the credit card</li>  <li><b>annualInterestRate</b> - annual interest rate as a decimal</li></ol><br><br>The program should print out one line: the lowest monthly payment that will pay off all debt in under 1 year, for example:<br><br><b>Lowest Payment: 180</b><br><br>Assume that the interest is compounded monthly according to the balance at the end of the month (after the payment for that month is made). The monthly payment must be a multiple of $10 and is the same for all months. Notice that it is possible for the balance to become negative using this payment scheme, which is okay. A summary of the required math is found below:<br><br>Monthly interest rate</b>= (Annual interest rate) / 12.0<br><br><b>Monthly unpaid balance</b> =  (Previous balance) - (Minimum fixed monthly payment)<br><br><b>Updated balance each month</b> = (Monthly unpaid balance) + (Monthly interest rate x Monthly unpaid balance)<br><br><b>We provide sample test cases below.</b> We suggest you develop your code on your own machine, and make sure your code passes the sample test cases, before you paste it into the box below.<br><br>Note: Depending on where you round in this problem, your answers may be off by a few cents in either direction. Do not worry if your solution is within +/- 0.05 of the correct answer. Be sure to test these on your own machine - and that you get the same output! - before running your code on this webpage!"
+			},
+			{
+				"file":"assignment2testcase-1.txt"
+			},
+			{
+				"file":"assignment2testcase-2.txt"
+			},
+			{
+				"file":"assignment2testcase-3.txt"
+			},
+			{
+				"text":"<br><b>Hints</b>:Use the <a href=\"https://docs.python.org/3/library/functions.html#round\">round</a> function at the end of your code!<br>"
+			},
+			{
+				"file":"hint.txt"
+			},
+			{
+				"text":"Check your program against the give test cases below as a Zip file. Submit your Solution(Zip file) when all test cases are passed"
+			},
+			{
+				"attachment":["Functions - Assignment-2.zip"]
+			}
+		],
+		"points":"20"
+	}]
+}
+]

@@ -1,0 +1,12 @@
+[{
+	"activityType" : "assignment",
+	"title" : "We designed some Assignments for you to practice Please solve the Assignments and submit them",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Write a program that counts up the number of vowels contained in the string s. Valid vowels are: 'a', 'e', 'i', 'o', and 'u'. For example, if s = 'azcbobobegghakl', your program should print:<br>Number of vowels: 5",
+			"points":"20"
+		}
+	]
+}]

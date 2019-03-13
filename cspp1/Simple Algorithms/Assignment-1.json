@@ -9,41 +9,5 @@
 			"points":"20"
 		}
 	]
-},
-{
-	"title":"Assignment-2",
-	"activityType":"assignment",
-	"questions":
-	[
-		{
-			"questionType": "filesubmission",
-			"questionText": "Write a python program to find the square root of the given number using approximation method",
-			"points":"20"
-		}
-	]
-},
-{
-	"title":"Assignment-3",
-	"activityType":"assignment",
-	"questions":
-	[
-		{
-			"questionType": "filesubmission",
-			"questionText": "Write a python program to find the square root of the given number using Bi-section method",
-			"points":"20"
-		}
-	]
-},
-{
-	"title":"Assignment-4",
-	"activityType":"assignment",
-	"questions":
-	[
-		{
-			"questionType": "filesubmission",
-			"questionText": "Write a python program to find the square root of the number using Newton-Rapson method",
-			"points":"20"
-		}
-	]
 }
 ]

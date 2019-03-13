@@ -1,10 +1,10 @@
 [{
-	"title":"We designed some Assignments for you to practice Please solve the Assignment questions.",
+	"title":"I think you completed Assignment-1, Here is the next Assignment",
 	"activityType":"quiz",
 	"questions": [
 			{
 				"questionType": "mcq",
-				"questionText": "The ONLY thing we are interested in when designing programs is that it returns the correct answer.",
+				"questionText": "Indirection, as talked about in lecture, means you have to traverse the list more than once.",
 				"points":"1",
 				"options":
 				[
@@ -20,7 +20,7 @@
 			},
 			{
 				"questionType": "mcq",
-				"questionText": "When determining asymptotic complexity, we discard all terms except for the one with the largest growth rate.",
+				"questionText": "The complexity of binary search on a sorted list of n items is O(log n).",
 				"points":"1",
 				"options":
 				[
@@ -36,35 +36,35 @@
 			},
 			{
 				"questionType": "mcq",
-				"questionText": "Bisection search is an example of linear time complexity?",
+				"questionText": "The worst case time complexity for selection sort is O(n ^ 2) .",
 				"points":"1",
 				"options":
 				[
 					{
 						"option":"True",
-						"correct":"False"
+						"correct":"True"
 					},
 					{
 						"option":"False",
-						"correct":"True"
+						"correct":"False"
 					}
 				]
 			},
 			{
 				"questionType": "mcq",
-				"questionText": "For large values of n, an algorithm that takes 20000n^2 steps has better time complexity (takes less time) than one that takes 0.001n^5 steps",
+				"questionText": "The base case for the recursive version of merge sort from lecture is checking ONLY for the list being empty.",
 				"points":"1",
 				"options":
 				[
 					{
 						"option":"True",
-						"correct":"True"
+						"correct":"False"
 					},
 					{
 						"option":"False",
-						"correct":"False"
+						"correct":"True"
 					}
 				]
 			}
 		]
-}]					
+}]

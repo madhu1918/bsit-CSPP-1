@@ -1,0 +1,12 @@
+[{
+	"activityType" : "assignment",
+	"title" : "We designed some Assignments for you to practice Please solve the Assignments and submit them",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Draw the Flowchart to check given number is Armstrong number or not.",
+			"points":"20"
+		}
+	]
+}]

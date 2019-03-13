@@ -1,0 +1,12 @@
+[{
+	"activityType" : "assignment",
+	"title" : "We designed some Assignments for you to practice Please solve the Assignments and submit them",
+	"questions":
+	[
+		{
+			"questionType":"filesubmission",
+			"questionText":"Draw a flowchart that displays the Multiplication table of given number.",
+			"points":"20"
+		}
+	]
+}]

@@ -9,29 +9,4 @@
 			"points":"5"
 		}
 	]
-},
-{
-	"activityType":"assignment",
-	"title":"I think you completed Assignment-1, Here is the next Assignment",
-	"questions":
-	[
-		{
-			"questionType":"filesubmission",
-			"questionText":"Draw a flow chart that computes the factorial of a given number",
-			"points":"5"
-		}
-	]
-},
-{
-	"activityType":"assignment",
-	"title":"This is the last Assignment in this Unit, Here is your Assignment-3",
-	"questions":
-	[
-		{
-			"questionType":"filesubmission",
-			"questionText":"Draw a Flowchart that checks if  the even digits and odd digits sum are equal or not for a given number?",
-			"points":"10"
-		}
-	]
-}
-]
+}]

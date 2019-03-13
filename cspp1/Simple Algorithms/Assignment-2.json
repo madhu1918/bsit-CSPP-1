@@ -1,0 +1,13 @@
+[{
+	"title":"Assignment-2",
+	"activityType":"assignment",
+	"questions":
+	[
+		{
+			"questionType": "filesubmission",
+			"questionText": "Write a python program to find the square root of the given number using approximation method",
+			"points":"20"
+		}
+	]
+}
+]
